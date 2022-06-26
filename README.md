@@ -14,7 +14,7 @@ Because this software is made using E language.
 
 # Language
 
-This software only have two language:Chinese and English
+This software only have two language:Chinese and English.(Default language is English)
 
 If you want to add other languages, please write an issue.
 
