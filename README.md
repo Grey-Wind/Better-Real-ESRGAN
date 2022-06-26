@@ -8,7 +8,8 @@ I haven't written the corresponding Batch scripts for the other formats.
 
 # Virus
 
-All virus reports can be ignored.  
+All virus reports can be ignored.
+
 Because this software is made using E language.
 
 # Language
