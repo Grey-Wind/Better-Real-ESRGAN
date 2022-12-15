@@ -1,1 +1,0 @@
-realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n reaesrnet-x4plus
