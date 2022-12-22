@@ -2,3 +2,6 @@
 * text=auto
 *.e linguist-language=e
 *.bak linguist-language=e
+*.vsln linguist-language=HuoShan
+*.vbak linguist-language=HuoShan
+*.vprj linguist-language=HuoShan
