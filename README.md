@@ -1,16 +1,18 @@
 # Better Real-ESRGAN
 
-I made a GUI for Real-ESRGAN.
+A Real-ESRGAN GUI
 
-This GUI only supports JPG optimization to PNG and PNG optimization to JPG.
+This GUI supports jpg images optimized to png images
 
-I haven't written the corresponding Batch scripts for the other formats.
+The original software required batch command or powershell command to run the optimization instructions, and I don't like the command box, so instead call CMD internally to run, the only drawback is that you can't see the progress in real time, this may be improved in future versions.
 
 # Virus
 
 All virus reports can be ignored.
 
 Because this software is made using E language.
+
+If you are still worried, you can view the source code of this software under the copyright agreement.
 
 # Language
 
