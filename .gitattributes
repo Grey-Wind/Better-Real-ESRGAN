@@ -2,3 +2,4 @@
 * text=auto
 *.e linguist-language=e
 *.bak linguist-language=e
+*.md linguist-language=markdown
