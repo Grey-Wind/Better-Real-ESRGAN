@@ -17,12 +17,12 @@
    <double>1.000000000000000</double>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="Title">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>70</x>
       <y>0</y>
-      <width>281</width>
+      <width>291</width>
       <height>31</height>
      </rect>
     </property>
@@ -32,7 +32,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Better Real-ESRGAN</string>
+     <string>更好的Real-ESRGAN</string>
     </property>
    </widget>
   </widget>
@@ -45,8 +45,32 @@
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>软件信息</string>
+    </property>
+    <addaction name="actionGithub"/>
+    <addaction name="actionGitee"/>
+    <addaction name="actionHelp"/>
+   </widget>
+   <addaction name="menu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionGithub">
+   <property name="text">
+    <string>Github</string>
+   </property>
+  </action>
+  <action name="actionGitee">
+   <property name="text">
+    <string>Gitee</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
