@@ -38,6 +38,10 @@ private slots:
 
     void on_Real_ESRGAN_Gitee_clicked();
 
+    void on_Gitee_clicked();
+
+    void on_Sponsor_clicked();
+
 private:
     Ui::Better_Real_ESRGAN *ui;
 };
