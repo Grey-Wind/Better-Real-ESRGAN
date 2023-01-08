@@ -16,13 +16,9 @@ View the Chinese readme:[click here](https://github.com/Adenx0/Better-Real-ESRGA
 
 ### Command
 
-Anime JPG:
+Anime JPG:`realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus-anime`
 
-```
-realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus-anime
-```
-
-Anime PNG:
+Anime PNG:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus-anime`
 
 Default JPG:
 
