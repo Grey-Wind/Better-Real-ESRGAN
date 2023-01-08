@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
@@ -22,6 +23,7 @@ class Ui_Better_Real_ESRGAN
 {
 public:
     QWidget *centralwidget;
+    QLabel *Title;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -29,13 +31,19 @@ public:
     {
         if (Better_Real_ESRGAN->objectName().isEmpty())
             Better_Real_ESRGAN->setObjectName("Better_Real_ESRGAN");
-        Better_Real_ESRGAN->resize(378, 337);
+        Better_Real_ESRGAN->resize(330, 228);
         centralwidget = new QWidget(Better_Real_ESRGAN);
         centralwidget->setObjectName("centralwidget");
+        Title = new QLabel(centralwidget);
+        Title->setObjectName("Title");
+        Title->setGeometry(QRect(90, 0, 191, 31));
+        QFont font;
+        font.setPointSize(12);
+        Title->setFont(font);
         Better_Real_ESRGAN->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Better_Real_ESRGAN);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 378, 26));
+        menubar->setGeometry(QRect(0, 0, 330, 26));
         Better_Real_ESRGAN->setMenuBar(menubar);
         statusbar = new QStatusBar(Better_Real_ESRGAN);
         statusbar->setObjectName("statusbar");
@@ -48,7 +56,8 @@ public:
 
     void retranslateUi(QMainWindow *Better_Real_ESRGAN)
     {
-        Better_Real_ESRGAN->setWindowTitle(QCoreApplication::translate("Better_Real_ESRGAN", "Better_Real_ESRGAN", nullptr));
+        Better_Real_ESRGAN->setWindowTitle(QCoreApplication::translate("Better_Real_ESRGAN", "\346\233\264\345\245\275\347\232\204Real-ESRGAN", nullptr));
+        Title->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\346\233\264\345\245\275\347\232\204Real-ESRGAN", nullptr));
     } // retranslateUi
 
 };
