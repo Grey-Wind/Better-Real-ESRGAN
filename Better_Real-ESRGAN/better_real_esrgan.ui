@@ -32,7 +32,7 @@
      <string>更好的Real-ESRGAN</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="AnimeJPG">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -45,7 +45,7 @@
      <string>动漫JPG</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="AnimePNG">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -58,7 +58,7 @@
      <string>动漫PNG</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="DefaultJPG">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -71,7 +71,7 @@
      <string>默认JPG</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="DefaultPNG">
     <property name="geometry">
      <rect>
       <x>310</x>
