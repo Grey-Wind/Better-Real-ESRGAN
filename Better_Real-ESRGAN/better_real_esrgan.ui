@@ -60,15 +60,24 @@
    <property name="text">
     <string>Github</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+1</string>
+   </property>
   </action>
   <action name="actionGitee">
    <property name="text">
     <string>Gitee</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+2</string>
+   </property>
   </action>
   <action name="actionHelp">
    <property name="text">
     <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+3</string>
    </property>
   </action>
  </widget>
