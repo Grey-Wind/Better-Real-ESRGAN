@@ -11,9 +11,31 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Better_Real_ESRGAN</string>
+   <string>Better Real-ESRGAN</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>0</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Better Real-ESRGAN</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
