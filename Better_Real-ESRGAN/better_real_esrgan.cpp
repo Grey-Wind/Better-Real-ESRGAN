@@ -37,3 +37,21 @@ void Better_Real_ESRGAN::on_DefaultPNG_clicked()
     system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus");
 }
 
+
+void Better_Real_ESRGAN::on_Video2_clicked()
+{
+    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x2");
+}
+
+
+void Better_Real_ESRGAN::on_Video3_clicked()
+{
+    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x3");
+}
+
+
+void Better_Real_ESRGAN::on_Video4_clicked()
+{
+    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4");
+}
+
