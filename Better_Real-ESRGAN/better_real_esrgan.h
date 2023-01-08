@@ -18,6 +18,8 @@ public:
 private slots:
     void on_AnimeJPG_clicked();
 
+    void on_AnimePNG_clicked();
+
 private:
     Ui::Better_Real_ESRGAN *ui;
 };
