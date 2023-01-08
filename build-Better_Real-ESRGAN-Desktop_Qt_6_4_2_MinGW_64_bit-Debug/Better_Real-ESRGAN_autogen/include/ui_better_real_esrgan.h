@@ -14,6 +14,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
@@ -24,6 +25,10 @@ class Ui_Better_Real_ESRGAN
 public:
     QWidget *centralwidget;
     QLabel *Title;
+    QPushButton *pushButton;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton_3;
+    QPushButton *pushButton_4;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -31,19 +36,31 @@ public:
     {
         if (Better_Real_ESRGAN->objectName().isEmpty())
             Better_Real_ESRGAN->setObjectName("Better_Real_ESRGAN");
-        Better_Real_ESRGAN->resize(330, 228);
+        Better_Real_ESRGAN->resize(412, 228);
         centralwidget = new QWidget(Better_Real_ESRGAN);
         centralwidget->setObjectName("centralwidget");
         Title = new QLabel(centralwidget);
         Title->setObjectName("Title");
-        Title->setGeometry(QRect(90, 0, 191, 31));
+        Title->setGeometry(QRect(130, 0, 191, 31));
         QFont font;
         font.setPointSize(12);
         Title->setFont(font);
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(10, 30, 93, 29));
+        pushButton_2 = new QPushButton(centralwidget);
+        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setGeometry(QRect(110, 30, 93, 29));
+        pushButton_3 = new QPushButton(centralwidget);
+        pushButton_3->setObjectName("pushButton_3");
+        pushButton_3->setGeometry(QRect(210, 30, 93, 29));
+        pushButton_4 = new QPushButton(centralwidget);
+        pushButton_4->setObjectName("pushButton_4");
+        pushButton_4->setGeometry(QRect(310, 30, 93, 29));
         Better_Real_ESRGAN->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Better_Real_ESRGAN);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 330, 26));
+        menubar->setGeometry(QRect(0, 0, 412, 26));
         Better_Real_ESRGAN->setMenuBar(menubar);
         statusbar = new QStatusBar(Better_Real_ESRGAN);
         statusbar->setObjectName("statusbar");
@@ -58,6 +75,10 @@ public:
     {
         Better_Real_ESRGAN->setWindowTitle(QCoreApplication::translate("Better_Real_ESRGAN", "\346\233\264\345\245\275\347\232\204Real-ESRGAN", nullptr));
         Title->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\346\233\264\345\245\275\347\232\204Real-ESRGAN", nullptr));
+        pushButton->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\345\212\250\346\274\253JPG", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\345\212\250\346\274\253PNG", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\351\273\230\350\256\244JPG", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\351\273\230\350\256\244PNG", nullptr));
     } // retranslateUi
 
 };
