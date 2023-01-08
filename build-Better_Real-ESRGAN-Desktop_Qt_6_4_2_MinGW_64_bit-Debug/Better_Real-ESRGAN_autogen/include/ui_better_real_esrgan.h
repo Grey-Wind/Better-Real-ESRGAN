@@ -29,6 +29,10 @@ public:
     QPushButton *pushButton_2;
     QPushButton *pushButton_3;
     QPushButton *pushButton_4;
+    QPushButton *pushButton_5;
+    QPushButton *pushButton_6;
+    QPushButton *pushButton_7;
+    QPushButton *pushButton_8;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -57,6 +61,18 @@ public:
         pushButton_4 = new QPushButton(centralwidget);
         pushButton_4->setObjectName("pushButton_4");
         pushButton_4->setGeometry(QRect(310, 30, 93, 29));
+        pushButton_5 = new QPushButton(centralwidget);
+        pushButton_5->setObjectName("pushButton_5");
+        pushButton_5->setGeometry(QRect(10, 70, 120, 29));
+        pushButton_6 = new QPushButton(centralwidget);
+        pushButton_6->setObjectName("pushButton_6");
+        pushButton_6->setGeometry(QRect(139, 70, 131, 29));
+        pushButton_7 = new QPushButton(centralwidget);
+        pushButton_7->setObjectName("pushButton_7");
+        pushButton_7->setGeometry(QRect(280, 60, 120, 29));
+        pushButton_8 = new QPushButton(centralwidget);
+        pushButton_8->setObjectName("pushButton_8");
+        pushButton_8->setGeometry(QRect(240, 110, 161, 29));
         Better_Real_ESRGAN->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Better_Real_ESRGAN);
         menubar->setObjectName("menubar");
@@ -79,6 +95,10 @@ public:
         pushButton_2->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\345\212\250\346\274\253PNG", nullptr));
         pushButton_3->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\351\273\230\350\256\244JPG", nullptr));
         pushButton_4->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\351\273\230\350\256\244PNG", nullptr));
+        pushButton_5->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\345\212\250\346\274\253\350\247\206\351\242\221\346\224\276\345\244\247 x2", nullptr));
+        pushButton_6->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\345\212\250\346\274\253\350\247\206\351\242\221\346\224\276\345\244\247 x3", nullptr));
+        pushButton_7->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\345\212\250\346\274\253\350\247\206\351\242\221\346\224\276\345\244\247 x4", nullptr));
+        pushButton_8->setText(QCoreApplication::translate("Better_Real_ESRGAN", "Real ESRGAN Github", nullptr));
     } // retranslateUi
 
 };
