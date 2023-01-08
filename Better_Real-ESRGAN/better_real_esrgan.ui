@@ -84,7 +84,7 @@
      <string>默认PNG</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="Video2">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -97,7 +97,7 @@
      <string>动漫视频放大 x2</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="Video3">
     <property name="geometry">
      <rect>
       <x>139</x>
@@ -110,7 +110,7 @@
      <string>动漫视频放大 x3</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="Video4">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -123,7 +123,7 @@
      <string>动漫视频放大 x4</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
+   <widget class="QPushButton" name="Real_ESRGAN_Github">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -136,7 +136,7 @@
      <string>Real ESRGAN Github</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_9">
+   <widget class="QPushButton" name="Github">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -149,7 +149,7 @@
      <string>本软件Github</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="Real_ESRGAN_Gitee">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -162,7 +162,7 @@
      <string>Real ESRGAN Gitee</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="Gitee">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -175,7 +175,7 @@
      <string>本软件Gitee</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="Help">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -188,7 +188,7 @@
      <string>帮助</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="Sponsor">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -214,6 +214,21 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>AnimeJPG</tabstop>
+  <tabstop>AnimePNG</tabstop>
+  <tabstop>DefaultJPG</tabstop>
+  <tabstop>DefaultPNG</tabstop>
+  <tabstop>Video2</tabstop>
+  <tabstop>Video3</tabstop>
+  <tabstop>Video4</tabstop>
+  <tabstop>Real_ESRGAN_Github</tabstop>
+  <tabstop>Github</tabstop>
+  <tabstop>Help</tabstop>
+  <tabstop>Real_ESRGAN_Gitee</tabstop>
+  <tabstop>Gitee</tabstop>
+  <tabstop>Sponsor</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
