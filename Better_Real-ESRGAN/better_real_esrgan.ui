@@ -61,7 +61,7 @@
      <string>动漫PNG</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="DefaultJPG">
+   <widget class="QPushButton" name="DefaultJPG4">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -71,7 +71,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>默认JPG</string>
+     <string>默认JPG x4</string>
     </property>
    </widget>
    <widget class="QPushButton" name="DefaultPNG">
@@ -84,7 +84,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>默认PNG</string>
+     <string>默认PNG x4</string>
     </property>
    </widget>
    <widget class="QPushButton" name="AnimeVideoJPG2">
@@ -97,7 +97,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>动漫视频JPG2倍放大</string>
+     <string>动漫视频JPG x2</string>
     </property>
    </widget>
    <widget class="QPushButton" name="AnimeVideoPNG2">
@@ -110,7 +110,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>动漫视频PNG2倍放大</string>
+     <string>动漫视频PNG x2</string>
     </property>
    </widget>
   </widget>
