@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>444</width>
-    <height>411</height>
+    <width>414</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
    <widget class="QLabel" name="Title">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>100</x>
       <y>0</y>
       <width>291</width>
       <height>31</height>
@@ -35,13 +35,65 @@
      <string>更好的Real-ESRGAN</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="AnimeJPG">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>动漫JPG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimePNG">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>40</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>动漫PNG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DefaultJPG">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>默认JPG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DefaultPNG">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>40</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>默认PNG</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>444</width>
+     <width>414</width>
      <height>26</height>
     </rect>
    </property>

@@ -15,6 +15,9 @@ public:
     Better_Real_ESRGAN(QWidget *parent = nullptr);
     ~Better_Real_ESRGAN();
 
+private slots:
+    void on_AnimeJPG_clicked();
+
 private:
     Ui::Better_Real_ESRGAN *ui;
 };
