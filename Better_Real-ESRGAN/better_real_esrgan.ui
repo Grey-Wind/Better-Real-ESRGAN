@@ -87,6 +87,32 @@
      <string>默认PNG</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="AnimeVideoJPG2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>191</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>动漫视频JPG2倍放大</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeVideoPNG2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>80</y>
+      <width>191</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>动漫视频PNG2倍放大</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
