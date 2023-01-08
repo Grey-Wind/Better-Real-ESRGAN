@@ -13,3 +13,17 @@ This software only have Chinese.
 Please wait for more language support.
 
 View the Chinese readme:[click here](https://github.com/Adenx0/Better-Real-ESRGAN/blob/main/README_CN.md)
+
+### Command
+
+Anime JPG:
+
+```
+realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus-anime
+```
+
+Anime PNG:
+
+Default JPG:
+
+Default PNG:
