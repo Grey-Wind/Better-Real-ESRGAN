@@ -2,9 +2,9 @@
 
 A Real-ESRGAN GUI
 
-This GUI supports jpg images optimized to png images
+This GUI supports JPG images optimized to PNG images
 
-The original software required batch command or powershell command to run the optimization instructions, and I don't like the command box, so instead call CMD internally to run, the only drawback is that you can't see the progress in real time, this may be improved in future versions.
+The original software needs to use Batch command or Powershell command to run the optimization instruction, but I prefer automatic execution rather than manual input, so I call Batch command internally to run. In the future, I will try to move the output inside the software instead of in the dark CMD window.
 
 # Language
 
@@ -13,3 +13,13 @@ This software only have Chinese.
 Please wait for more language support.
 
 View the Chinese readme:[click here](https://github.com/Adenx0/Better-Real-ESRGAN/blob/main/README_CN.md)
+
+### Command
+
+Anime JPG:`realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus-anime`
+
+Anime PNG:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus-anime`
+
+Default JPG:`realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus`
+
+Default PNG:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus`

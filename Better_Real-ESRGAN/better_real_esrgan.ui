@@ -6,29 +6,26 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>414</width>
-    <height>300</height>
+    <width>412</width>
+    <height>228</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Better Real-ESRGAN</string>
-  </property>
-  <property name="windowOpacity">
-   <double>1.000000000000000</double>
+   <string>更好的Real-ESRGAN</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="Title">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>130</x>
       <y>0</y>
-      <width>291</width>
+      <width>191</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -39,7 +36,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>40</y>
+      <y>30</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -52,7 +49,7 @@
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>40</y>
+      <y>30</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -65,7 +62,7 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>40</y>
+      <y>30</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -78,7 +75,7 @@
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>40</y>
+      <y>30</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -87,52 +84,151 @@
      <string>默认PNG</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="Video2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>120</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>动漫视频放大 x2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Video3">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>70</y>
+      <width>131</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>动漫视频放大 x3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Video4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>70</y>
+      <width>120</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>动漫视频放大 x4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Real_ESRGAN_Github">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>161</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Real ESRGAN Github</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Github">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>110</y>
+      <width>111</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>本软件Github</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Real_ESRGAN_Gitee">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>161</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Real ESRGAN Gitee</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Gitee">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>150</y>
+      <width>111</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>本软件Gitee</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Help">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>110</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>帮助</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sponsor">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>150</y>
+      <width>101</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>赞助</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>414</width>
+     <width>412</width>
      <height>26</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menu">
-    <property name="title">
-     <string>软件信息</string>
-    </property>
-    <addaction name="actionGithub"/>
-    <addaction name="actionGitee"/>
-    <addaction name="actionHelp"/>
-   </widget>
-   <addaction name="menu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionGithub">
-   <property name="text">
-    <string>Github</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+1</string>
-   </property>
-  </action>
-  <action name="actionGitee">
-   <property name="text">
-    <string>Gitee</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+2</string>
-   </property>
-  </action>
-  <action name="actionHelp">
-   <property name="text">
-    <string>Help</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+3</string>
-   </property>
-  </action>
  </widget>
+ <tabstops>
+  <tabstop>AnimeJPG</tabstop>
+  <tabstop>AnimePNG</tabstop>
+  <tabstop>DefaultJPG</tabstop>
+  <tabstop>DefaultPNG</tabstop>
+  <tabstop>Video2</tabstop>
+  <tabstop>Video3</tabstop>
+  <tabstop>Video4</tabstop>
+  <tabstop>Real_ESRGAN_Github</tabstop>
+  <tabstop>Github</tabstop>
+  <tabstop>Help</tabstop>
+  <tabstop>Real_ESRGAN_Gitee</tabstop>
+  <tabstop>Gitee</tabstop>
+  <tabstop>Sponsor</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
