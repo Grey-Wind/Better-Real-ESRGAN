@@ -55,3 +55,37 @@ void Better_Real_ESRGAN::on_Video4_clicked()
     system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4");
 }
 
+
+void Better_Real_ESRGAN::on_Real_ESRGAN_Github_clicked()
+{
+    system("start https://github.com/xinntao/Real-ESRGAN");
+}
+
+
+void Better_Real_ESRGAN::on_Github_clicked()
+{
+    system("start https://github.com/Grey-Wind/Better-Real-ESRGAN");
+}
+
+
+void Better_Real_ESRGAN::on_Help_clicked()
+{
+}
+
+
+void Better_Real_ESRGAN::on_Real_ESRGAN_Gitee_clicked()
+{
+    system("start https://gitee.com/eeethon/Real-ESRGAN");
+}
+
+
+void Better_Real_ESRGAN::on_Gitee_clicked()
+{
+    system("start https://gitee.com/at-studio/Better-Real-ESRGAN?_from=gitee_search");
+}
+
+
+void Better_Real_ESRGAN::on_Sponsor_clicked()
+{
+}
+

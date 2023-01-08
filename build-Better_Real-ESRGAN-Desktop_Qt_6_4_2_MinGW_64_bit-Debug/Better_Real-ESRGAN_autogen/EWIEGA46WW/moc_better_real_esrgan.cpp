@@ -26,16 +26,52 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_Better_Real_ESRGAN_t {
-    uint offsetsAndSizes[2];
+    uint offsetsAndSizes[26];
     char stringdata0[19];
+    char stringdata1[20];
+    char stringdata2[1];
+    char stringdata3[20];
+    char stringdata4[22];
+    char stringdata5[22];
+    char stringdata6[18];
+    char stringdata7[18];
+    char stringdata8[18];
+    char stringdata9[30];
+    char stringdata10[18];
+    char stringdata11[16];
+    char stringdata12[29];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_Better_Real_ESRGAN_t::offsetsAndSizes) + ofs), len 
 Q_CONSTINIT static const qt_meta_stringdata_Better_Real_ESRGAN_t qt_meta_stringdata_Better_Real_ESRGAN = {
     {
-        QT_MOC_LITERAL(0, 18)   // "Better_Real_ESRGAN"
+        QT_MOC_LITERAL(0, 18),  // "Better_Real_ESRGAN"
+        QT_MOC_LITERAL(19, 19),  // "on_AnimeJPG_clicked"
+        QT_MOC_LITERAL(39, 0),  // ""
+        QT_MOC_LITERAL(40, 19),  // "on_AnimePNG_clicked"
+        QT_MOC_LITERAL(60, 21),  // "on_DefaultJPG_clicked"
+        QT_MOC_LITERAL(82, 21),  // "on_DefaultPNG_clicked"
+        QT_MOC_LITERAL(104, 17),  // "on_Video2_clicked"
+        QT_MOC_LITERAL(122, 17),  // "on_Video3_clicked"
+        QT_MOC_LITERAL(140, 17),  // "on_Video4_clicked"
+        QT_MOC_LITERAL(158, 29),  // "on_Real_ESRGAN_Github_clicked"
+        QT_MOC_LITERAL(188, 17),  // "on_Github_clicked"
+        QT_MOC_LITERAL(206, 15),  // "on_Help_clicked"
+        QT_MOC_LITERAL(222, 28)   // "on_Real_ESRGAN_Gitee_clicked"
     },
-    "Better_Real_ESRGAN"
+    "Better_Real_ESRGAN",
+    "on_AnimeJPG_clicked",
+    "",
+    "on_AnimePNG_clicked",
+    "on_DefaultJPG_clicked",
+    "on_DefaultPNG_clicked",
+    "on_Video2_clicked",
+    "on_Video3_clicked",
+    "on_Video4_clicked",
+    "on_Real_ESRGAN_Github_clicked",
+    "on_Github_clicked",
+    "on_Help_clicked",
+    "on_Real_ESRGAN_Gitee_clicked"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
@@ -46,12 +82,38 @@ Q_CONSTINIT static const uint qt_meta_data_Better_Real_ESRGAN[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       0,    0, // methods
+      11,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   80,    2, 0x08,    1 /* Private */,
+       3,    0,   81,    2, 0x08,    2 /* Private */,
+       4,    0,   82,    2, 0x08,    3 /* Private */,
+       5,    0,   83,    2, 0x08,    4 /* Private */,
+       6,    0,   84,    2, 0x08,    5 /* Private */,
+       7,    0,   85,    2, 0x08,    6 /* Private */,
+       8,    0,   86,    2, 0x08,    7 /* Private */,
+       9,    0,   87,    2, 0x08,    8 /* Private */,
+      10,    0,   88,    2, 0x08,    9 /* Private */,
+      11,    0,   89,    2, 0x08,   10 /* Private */,
+      12,    0,   90,    2, 0x08,   11 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -64,16 +126,53 @@ Q_CONSTINIT const QMetaObject Better_Real_ESRGAN::staticMetaObject = { {
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_Better_Real_ESRGAN_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<Better_Real_ESRGAN, std::true_type>
+        QtPrivate::TypeAndForceComplete<Better_Real_ESRGAN, std::true_type>,
+        // method 'on_AnimeJPG_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_AnimePNG_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_DefaultJPG_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_DefaultPNG_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_Video2_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_Video3_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_Video4_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_Real_ESRGAN_Github_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_Github_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_Help_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_Real_ESRGAN_Gitee_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
 
 void Better_Real_ESRGAN::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    (void)_o;
-    (void)_id;
-    (void)_c;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<Better_Real_ESRGAN *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->on_AnimeJPG_clicked(); break;
+        case 1: _t->on_AnimePNG_clicked(); break;
+        case 2: _t->on_DefaultJPG_clicked(); break;
+        case 3: _t->on_DefaultPNG_clicked(); break;
+        case 4: _t->on_Video2_clicked(); break;
+        case 5: _t->on_Video3_clicked(); break;
+        case 6: _t->on_Video4_clicked(); break;
+        case 7: _t->on_Real_ESRGAN_Github_clicked(); break;
+        case 8: _t->on_Github_clicked(); break;
+        case 9: _t->on_Help_clicked(); break;
+        case 10: _t->on_Real_ESRGAN_Gitee_clicked(); break;
+        default: ;
+        }
+    }
     (void)_a;
 }
 
@@ -93,6 +192,17 @@ void *Better_Real_ESRGAN::qt_metacast(const char *_clname)
 int Better_Real_ESRGAN::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QMainWindow::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 11)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 11;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 11)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 11;
+    }
     return _id;
 }
 QT_WARNING_POP
