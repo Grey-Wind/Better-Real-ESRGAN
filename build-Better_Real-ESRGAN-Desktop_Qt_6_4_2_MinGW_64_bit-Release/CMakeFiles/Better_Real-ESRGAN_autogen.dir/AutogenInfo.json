@@ -245,7 +245,8 @@
 		"D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake",
 		"D:/Qt/6.4.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake",
 		"D:/Qt/6.4.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake",
-		"D:/Qt/6.4.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake"
+		"D:/Qt/6.4.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
+		"D:/project/e/Better_Real-ESRGAN/Better_Real-ESRGAN/sponsor.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/project/e/Better_Real-ESRGAN/Better_Real-ESRGAN",
 	"DEP_FILE" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/deps",

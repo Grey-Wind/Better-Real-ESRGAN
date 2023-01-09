@@ -20,6 +20,7 @@ set(PROJECT_SOURCES
         sponsor.h
         sponsor.cpp
         sponsor.ui
+        sponsor.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

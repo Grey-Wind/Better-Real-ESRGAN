@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 26,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 58,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 48,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
@@ -372,18 +372,19 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				12
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "Better_Real-ESRGAN_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Better_Real-ESRGAN_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Better_Real-ESRGAN_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Better_Real-ESRGAN::@6890427a1f51a3e7e1df",
@@ -491,7 +492,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				12
 			]
 		},
 		{
@@ -500,8 +502,8 @@
 			[
 				3,
 				5,
-				8,
-				9
+				9,
+				10
 			]
 		},
 		{
@@ -510,14 +512,16 @@
 			[
 				4,
 				7,
-				10
+				8,
+				11
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11
+				13,
+				14
 			]
 		}
 	],
@@ -569,6 +573,11 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "sponsor.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/include/ui_better_real_esrgan.h",
@@ -588,8 +597,21 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/EWIEGA46WW/qrc_sponsor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/EWIEGA46WW/qrc_sponsor.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],
