@@ -41,3 +41,9 @@
 [解决Qt程序打包后无法运行并提示缺少库文件](https://blog.csdn.net/code_peak/article/details/118833667)
 
 [C++调用CMD命令](https://www.cnblogs.com/kex1n/p/5664948.html)
+
+[Qt creator：创建和添加资源resource](https://blog.csdn.net/qq_31672941/article/details/89340539)
+
+[windows下C/C++调用命令行不显示执行窗口的方法](https://blog.csdn.net/makenothing/article/details/12121351)
+
+[Qt--日志系统](https://blog.csdn.net/Mr_robot_strange/article/details/113182596)

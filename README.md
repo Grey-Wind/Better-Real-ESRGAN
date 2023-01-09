@@ -40,6 +40,12 @@ Anime Video x4:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr
 
 [Qt by clicking on the button pop-up window (the new pop-up window)](https://blog.csdn.net/jkjijijkv/article/details/119969325)
 
-[solve Qt program won't run after packaging and prompt the lack of libraries](https://blog.csdn.net/code_peak/article/details/118833667)
+[solve Qt program won&#39;t run after packaging and prompt the lack of libraries](https://blog.csdn.net/code_peak/article/details/118833667)
 
 [C++ call CMD command](https://www.cnblogs.com/kex1n/p/5664948.html)
+
+[Qt creator: create and add the resources](https://blog.csdn.net/qq_31672941/article/details/89340539)
+
+[C/C++ under Windows to invoke the command line does not display the execution window method](https://blog.csdn.net/makenothing/article/details/12121351)
+
+[Qt - logging system](https://blog.csdn.net/Mr_robot_strange/article/details/113182596)
