@@ -1,6 +1,7 @@
 #include "better_real_esrgan.h"
 #include "./ui_better_real_esrgan.h"
 #include "sponsor.h"
+#include <stdlib.h>
 
 Better_Real_ESRGAN::Better_Real_ESRGAN(QWidget *parent)
     : QMainWindow(parent)
@@ -57,8 +58,7 @@ void Better_Real_ESRGAN::on_Video4_clicked()
 }
 
 
-void Better_Real_ESRGAN::on_Real_ESRGAN_Github_clicked()
-{
+void Better_Real_ESRGAN::on_Real_ESRGAN_Github_clicked(){
     system("start https://github.com/xinntao/Real-ESRGAN");
 }
 
