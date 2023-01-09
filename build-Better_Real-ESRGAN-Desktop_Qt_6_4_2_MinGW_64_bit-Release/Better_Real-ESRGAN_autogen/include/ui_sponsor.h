@@ -37,7 +37,7 @@ public:
 
     void retranslateUi(QWidget *sponsor)
     {
-        sponsor->setWindowTitle(QCoreApplication::translate("sponsor", "Form", nullptr));
+        sponsor->setWindowTitle(QCoreApplication::translate("sponsor", "\350\265\236\345\212\251\344\275\234\350\200\205", nullptr));
         label->setText(QCoreApplication::translate("sponsor", "<html><head/><body><p><img src=\":/image/image/sponsor.png\"/></p></body></html>", nullptr));
     } // retranslateUi
 
