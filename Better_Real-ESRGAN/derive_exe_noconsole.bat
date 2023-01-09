@@ -1,0 +1,1 @@
+pyinstaller -F better_real_esrgan.py --noconsole
