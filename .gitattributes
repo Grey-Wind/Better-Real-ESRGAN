@@ -1,5 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.e linguist-language=e
-*.bak linguist-language=e
-*.md linguist-language=markdown
+*.bak linguist-language=batch
