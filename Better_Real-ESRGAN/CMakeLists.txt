@@ -17,6 +17,9 @@ set(PROJECT_SOURCES
         better_real_esrgan.cpp
         better_real_esrgan.h
         better_real_esrgan.ui
+        sponsor.h
+        sponsor.cpp
+        sponsor.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
