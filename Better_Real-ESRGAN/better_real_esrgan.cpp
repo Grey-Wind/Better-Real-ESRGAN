@@ -89,7 +89,7 @@ void Better_Real_ESRGAN::on_Help_clicked()
     }else{
         strInfo = "bat运行错误！";
     }*/
-    system("start /help/help.chm");
+    system("start help.chm");
 }
 
 
