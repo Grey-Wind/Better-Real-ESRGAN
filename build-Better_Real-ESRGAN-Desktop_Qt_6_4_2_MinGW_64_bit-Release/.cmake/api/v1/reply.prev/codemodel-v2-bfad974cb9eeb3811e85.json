@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-2d6a68dc5f0fa169033d.json",
+					"jsonFile" : "directory-.-Release-ffd40f570814b24b9c53.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Better_Real-ESRGAN::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Better_Real-ESRGAN-Release-30ad40c14929d87eebfb.json",
+					"jsonFile" : "target-Better_Real-ESRGAN-Release-8047f685d11cd5a8021a.json",
 					"name" : "Better_Real-ESRGAN",
 					"projectIndex" : 0
 				},

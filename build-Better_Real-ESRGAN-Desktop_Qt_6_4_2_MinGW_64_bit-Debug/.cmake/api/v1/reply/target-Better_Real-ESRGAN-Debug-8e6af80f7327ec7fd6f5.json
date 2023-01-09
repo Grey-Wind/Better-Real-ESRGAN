@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 23,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 55,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
@@ -268,7 +268,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG"
+					"fragment" : "-DQT_QML_DEBUG -g"
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -291,10 +291,6 @@
 				{
 					"backtrace" : 14,
 					"define" : "QT_NEEDS_QMAIN"
-				},
-				{
-					"backtrace" : 14,
-					"define" : "QT_NO_DEBUG"
 				},
 				{
 					"backtrace" : 6,
@@ -329,7 +325,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/include"
+					"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/Better_Real-ESRGAN_autogen/include"
 				},
 				{
 					"backtrace" : 14,
@@ -371,7 +367,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		}
 	],
@@ -405,7 +402,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-DQT_QML_DEBUG -g",
 				"role" : "flags"
 			},
 			{
@@ -489,7 +486,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		},
 		{
@@ -497,7 +495,9 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				5,
+				8,
+				9
 			]
 		},
 		{
@@ -505,14 +505,15 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				7,
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				11
 			]
 		}
 	],
@@ -522,7 +523,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/mocs_compilation.cpp",
+			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/Better_Real-ESRGAN_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -548,21 +549,43 @@
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/include/ui_better_real_esrgan.h",
+			"backtrace" : 4,
+			"path" : "sponsor.h",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/timestamp",
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "sponsor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "sponsor.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release/Better_Real-ESRGAN_autogen/timestamp.rule",
+			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/Better_Real-ESRGAN_autogen/include/ui_better_real_esrgan.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/Better_Real-ESRGAN_autogen/include/ui_sponsor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/Better_Real-ESRGAN_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/Better_Real-ESRGAN_autogen/timestamp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

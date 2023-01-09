@@ -2,6 +2,9 @@
 #define BETTER_REAL_ESRGAN_H
 
 #include <QMainWindow>
+#include <QPushButton>
+#include <QWidget>
+#include "sponsor.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Better_Real_ESRGAN; }

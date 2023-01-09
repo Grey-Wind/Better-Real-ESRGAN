@@ -26,7 +26,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_Better_Real_ESRGAN_t {
-    uint offsetsAndSizes[26];
+    uint offsetsAndSizes[30];
     char stringdata0[19];
     char stringdata1[20];
     char stringdata2[1];
@@ -40,6 +40,8 @@ struct qt_meta_stringdata_Better_Real_ESRGAN_t {
     char stringdata10[18];
     char stringdata11[16];
     char stringdata12[29];
+    char stringdata13[17];
+    char stringdata14[19];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_Better_Real_ESRGAN_t::offsetsAndSizes) + ofs), len 
@@ -57,7 +59,9 @@ Q_CONSTINIT static const qt_meta_stringdata_Better_Real_ESRGAN_t qt_meta_stringd
         QT_MOC_LITERAL(158, 29),  // "on_Real_ESRGAN_Github_clicked"
         QT_MOC_LITERAL(188, 17),  // "on_Github_clicked"
         QT_MOC_LITERAL(206, 15),  // "on_Help_clicked"
-        QT_MOC_LITERAL(222, 28)   // "on_Real_ESRGAN_Gitee_clicked"
+        QT_MOC_LITERAL(222, 28),  // "on_Real_ESRGAN_Gitee_clicked"
+        QT_MOC_LITERAL(251, 16),  // "on_Gitee_clicked"
+        QT_MOC_LITERAL(268, 18)   // "on_Sponsor_clicked"
     },
     "Better_Real_ESRGAN",
     "on_AnimeJPG_clicked",
@@ -71,7 +75,9 @@ Q_CONSTINIT static const qt_meta_stringdata_Better_Real_ESRGAN_t qt_meta_stringd
     "on_Real_ESRGAN_Github_clicked",
     "on_Github_clicked",
     "on_Help_clicked",
-    "on_Real_ESRGAN_Gitee_clicked"
+    "on_Real_ESRGAN_Gitee_clicked",
+    "on_Gitee_clicked",
+    "on_Sponsor_clicked"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
@@ -82,7 +88,7 @@ Q_CONSTINIT static const uint qt_meta_data_Better_Real_ESRGAN[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+      13,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -90,19 +96,23 @@ Q_CONSTINIT static const uint qt_meta_data_Better_Real_ESRGAN[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   80,    2, 0x08,    1 /* Private */,
-       3,    0,   81,    2, 0x08,    2 /* Private */,
-       4,    0,   82,    2, 0x08,    3 /* Private */,
-       5,    0,   83,    2, 0x08,    4 /* Private */,
-       6,    0,   84,    2, 0x08,    5 /* Private */,
-       7,    0,   85,    2, 0x08,    6 /* Private */,
-       8,    0,   86,    2, 0x08,    7 /* Private */,
-       9,    0,   87,    2, 0x08,    8 /* Private */,
-      10,    0,   88,    2, 0x08,    9 /* Private */,
-      11,    0,   89,    2, 0x08,   10 /* Private */,
-      12,    0,   90,    2, 0x08,   11 /* Private */,
+       1,    0,   92,    2, 0x08,    1 /* Private */,
+       3,    0,   93,    2, 0x08,    2 /* Private */,
+       4,    0,   94,    2, 0x08,    3 /* Private */,
+       5,    0,   95,    2, 0x08,    4 /* Private */,
+       6,    0,   96,    2, 0x08,    5 /* Private */,
+       7,    0,   97,    2, 0x08,    6 /* Private */,
+       8,    0,   98,    2, 0x08,    7 /* Private */,
+       9,    0,   99,    2, 0x08,    8 /* Private */,
+      10,    0,  100,    2, 0x08,    9 /* Private */,
+      11,    0,  101,    2, 0x08,   10 /* Private */,
+      12,    0,  102,    2, 0x08,   11 /* Private */,
+      13,    0,  103,    2, 0x08,   12 /* Private */,
+      14,    0,  104,    2, 0x08,   13 /* Private */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -148,6 +158,10 @@ Q_CONSTINIT const QMetaObject Better_Real_ESRGAN::staticMetaObject = { {
         // method 'on_Help_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_Real_ESRGAN_Gitee_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_Gitee_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_Sponsor_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -170,6 +184,8 @@ void Better_Real_ESRGAN::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         case 8: _t->on_Github_clicked(); break;
         case 9: _t->on_Help_clicked(); break;
         case 10: _t->on_Real_ESRGAN_Gitee_clicked(); break;
+        case 11: _t->on_Gitee_clicked(); break;
+        case 12: _t->on_Sponsor_clicked(); break;
         default: ;
         }
     }
@@ -195,13 +211,13 @@ int Better_Real_ESRGAN::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 13;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 13)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 11;
+        _id -= 13;
     }
     return _id;
 }

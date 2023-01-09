@@ -109,7 +109,11 @@ D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_
   D:/Qt/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
+  D:/Qt/6.4.2/mingw_64/include/QtWidgets/QPushButton \
+  D:/Qt/6.4.2/mingw_64/include/QtWidgets/QWidget \
+  D:/Qt/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
   D:/Qt/6.4.2/mingw_64/include/QtWidgets/qmainwindow.h \
+  D:/Qt/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
   D:/Qt/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Qt/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
@@ -330,4 +334,5 @@ D:/project/e/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+  D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  D:/project/e/Better_Real-ESRGAN/Better_Real-ESRGAN/sponsor.h
