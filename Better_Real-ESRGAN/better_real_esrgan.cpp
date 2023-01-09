@@ -6,6 +6,7 @@ Better_Real_ESRGAN::Better_Real_ESRGAN(QWidget *parent)
     , ui(new Ui::Better_Real_ESRGAN)
 {
     ui->setupUi(this);
+    connect(this->ui->Sponsor,SIGNAL(clicked(bool)),this,SLOT(on_Sponsor_clicked()));
 }
 
 Better_Real_ESRGAN::~Better_Real_ESRGAN()
@@ -87,5 +88,7 @@ void Better_Real_ESRGAN::on_Gitee_clicked()
 
 void Better_Real_ESRGAN::on_Sponsor_clicked()
 {
+    sponsor d = *new sponsor ;
+    d.show();
 }
 
