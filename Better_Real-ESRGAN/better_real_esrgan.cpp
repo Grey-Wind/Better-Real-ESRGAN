@@ -88,6 +88,7 @@ void Better_Real_ESRGAN::on_Gitee_clicked()
 
 void Better_Real_ESRGAN::on_Sponsor_clicked()
 {
+    //打开赞助窗口
     sponsor *configwindow=new sponsor;
     configwindow->show();
 }
