@@ -504,6 +504,7 @@ Better_Real-ESRGAN_autogen/timestamp: \
   D:/project/e/Better_Real-ESRGAN/Better_Real-ESRGAN/main.cpp \
   D:/project/e/Better_Real-ESRGAN/Better_Real-ESRGAN/sponsor.cpp \
   D:/project/e/Better_Real-ESRGAN/Better_Real-ESRGAN/sponsor.h \
+  D:/project/e/Better_Real-ESRGAN/Better_Real-ESRGAN/sponsor.qrc \
   Better_Real-ESRGAN_autogen/moc_predefs.h \
   CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
   CMakeFiles/3.24.2/CMakeRCCompiler.cmake \

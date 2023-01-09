@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -18,12 +19,16 @@ QT_BEGIN_NAMESPACE
 class Ui_sponsor
 {
 public:
+    QLabel *label;
 
     void setupUi(QWidget *sponsor)
     {
         if (sponsor->objectName().isEmpty())
             sponsor->setObjectName("sponsor");
-        sponsor->resize(400, 300);
+        sponsor->resize(922, 451);
+        label = new QLabel(sponsor);
+        label->setObjectName("label");
+        label->setGeometry(QRect(0, 0, 921, 461));
 
         retranslateUi(sponsor);
 
@@ -33,6 +38,7 @@ public:
     void retranslateUi(QWidget *sponsor)
     {
         sponsor->setWindowTitle(QCoreApplication::translate("sponsor", "Form", nullptr));
+        label->setText(QCoreApplication::translate("sponsor", "<html><head/><body><p><img src=\":/image/image/sponsor.png\"/></p></body></html>", nullptr));
     } // retranslateUi
 
 };
