@@ -1,1 +1,1 @@
-pyinstaller -F better_real_esrgan.py
+pyinstaller -D better_real_esrgan.py
