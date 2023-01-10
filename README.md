@@ -36,16 +36,20 @@ Anime Video x3:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr
 
 Anime Video x4:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4`
 
+## Use content
+
+PySide6
+
+Icon: Han Yi Shu Hun Ti Jian; 256×256; 300px; No thickened tilt; Starry sky brush for background; Background color RGB-&gt; 001 | 164 | 233, HSV - & gt; 198 | 095 | 091 (reproduced signature, commercial need to contact my)
+
 ## Reference document
-
-[Qt by clicking on the button pop-up window (the new pop-up window)](https://blog.csdn.net/jkjijijkv/article/details/119969325)
-
-[solve Qt program won&#39;t run after packaging and prompt the lack of libraries](https://blog.csdn.net/code_peak/article/details/118833667)
-
-[C++ call CMD command](https://www.cnblogs.com/kex1n/p/5664948.html)
 
 [Qt creator: create and add the resources](https://blog.csdn.net/qq_31672941/article/details/89340539)
 
-[C/C++ under Windows to invoke the command line does not display the execution window method](https://blog.csdn.net/makenothing/article/details/12121351)
+[taught you how to convert Python code to exe](https://zhuanlan.zhihu.com/p/391464546)
 
-[Qt - logging system](https://blog.csdn.net/Mr_robot_strange/article/details/113182596)
+[domestic famous mirror address, PIP download and install more efficient](https://www.jianshu.com/p/db33456d5d77)
+
+[Python call CMD](https://blog.csdn.net/leviopku/article/details/90753593)
+
+[Python call CMD](https://www.cnblogs.com/raichen/p/4930525.html)

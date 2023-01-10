@@ -34,16 +34,20 @@
 
 动漫视频放大 x4:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4`
 
+## 使用内容
+
+PySide6
+
+图标：汉仪书魂体简；256×256；300px；无加粗倾斜；背景使用星空(密)笔刷；背景颜色RGB->001|164|233，HSV->198|095|091（转载署名，商用需联系本人）
+
 ## 参考文档
-
-[Qt通过点击按钮弹出新的窗口（新建弹出式窗口）](https://blog.csdn.net/jkjijijkv/article/details/119969325)
-
-[解决Qt程序打包后无法运行并提示缺少库文件](https://blog.csdn.net/code_peak/article/details/118833667)
-
-[C++调用CMD命令](https://www.cnblogs.com/kex1n/p/5664948.html)
 
 [Qt creator：创建和添加资源resource](https://blog.csdn.net/qq_31672941/article/details/89340539)
 
-[windows下C/C++调用命令行不显示执行窗口的方法](https://blog.csdn.net/makenothing/article/details/12121351)
+[手把手教你把Python代码转成exe](https://zhuanlan.zhihu.com/p/391464546)
 
-[Qt--日志系统](https://blog.csdn.net/Mr_robot_strange/article/details/113182596)
+[国内知名镜像地址，PIP下载安装更高效](https://www.jianshu.com/p/db33456d5d77)
+
+[Python调用cmd](https://blog.csdn.net/leviopku/article/details/90753593)
+
+[python中调用cmd](https://www.cnblogs.com/raichen/p/4930525.html)
