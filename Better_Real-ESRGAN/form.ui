@@ -11,8 +11,26 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Better_Real_ESRGAN</string>
+   <string>更好的Real-ESRGAN</string>
   </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>0</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>更好的Real-ESRGAN</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
