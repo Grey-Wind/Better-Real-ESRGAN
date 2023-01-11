@@ -52,12 +52,12 @@
 <OS>65535</OS>
 <OS>65535</OS>
 <OS>65535</OS>
-<OS>0</OS>
-<OS>0</OS>
-<OS>0</OS>
-<OS>0</OS>
-<OS>65522</OS>
-<OS>0</OS>
+<OS>65535</OS>
+<OS>65535</OS>
+<OS>65535</OS>
+<OS>65535</OS>
+<OS>65535</OS>
+<OS>65535</OS>
 </OSCond>
 <RTCond/>
 <BuildConfigs>
@@ -2142,8 +2142,8 @@
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -2396,8 +2396,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -2682,8 +2682,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -4055,8 +4055,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -4440,8 +4440,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -4802,8 +4802,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -5063,8 +5063,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -5351,8 +5351,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -5720,8 +5720,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -5976,8 +5976,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -6258,8 +6258,8 @@ end
 <CDISTXT format="hex">aca899</CDISTXT>
 <CPRGRS format="hex">316ac5</CPRGRS>
 <C3DSHDK format="hex">716f64</C3DSHDK>
-<TBIMG>111_X_63_euro.jpg</TBIMG>
-<SBIMG>166_X_312_euro.jpg</SBIMG>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
 <BDIMG/>
 <BDFILL>0</BDFILL>
 <HDSEP>1</HDSEP>
@@ -6613,7 +6613,7 @@ g_HandleSystemReboot();
 <NumDaysBld>30</NumDaysBld>
 <NumDaysRun>30</NumDaysRun>
 <AbortNotWriteDFR>1</AbortNotWriteDFR>
-<ExpireDate>1676011518</ExpireDate>
+<ExpireDate>1676012207</ExpireDate>
 <TellUserDate>0</TellUserDate>
 <ExpireByUses>0</ExpireByUses>
 <UsesMethod>1</UsesMethod>
@@ -6621,7 +6621,7 @@ g_HandleSystemReboot();
 <NumUsesSystem>2</NumUsesSystem>
 <AbortNotWritable>1</AbortNotWritable>
 <TellUserUses>0</TellUserUses>
-<UniqueKey>6B951FF5-C9D5-4BD8-B018-F4964E06C0B9</UniqueKey>
+<UniqueKey>012D204E-760E-450F-865C-7602249A16B3</UniqueKey>
 <ShowContactInfo>0</ShowContactInfo>
 <ContactName>%CompanyName%</ContactName>
 <ContactURL>%CompanyURL%</ContactURL>
@@ -6634,12 +6634,12 @@ g_HandleSystemReboot();
 <OS>65535</OS>
 <OS>65535</OS>
 <OS>65535</OS>
-<OS>0</OS>
-<OS>0</OS>
-<OS>0</OS>
-<OS>0</OS>
-<OS>65522</OS>
-<OS>0</OS>
+<OS>65535</OS>
+<OS>65535</OS>
+<OS>65535</OS>
+<OS>65535</OS>
+<OS>65535</OS>
+<OS>65535</OS>
 </OSCond>
 <ScreenWidth>0</ScreenWidth>
 <ScreenHeight>0</ScreenHeight>
@@ -6649,7 +6649,7 @@ g_HandleSystemReboot();
 <Action>0</Action>
 </SetupRequirements>
 <Launcher/>
-<ProjectTheme>Euro</ProjectTheme>
+<ProjectTheme>Default</ProjectTheme>
 <ProjFileDesc>New Project</ProjFileDesc>
 <ProjFileAuthor/>
 <ProjFileCompany/>
@@ -6735,7 +6735,7 @@ g_HandleSystemReboot();
 <SUF7SessionVars>
 <SessionVar>
 <Name>%ProductName%</Name>
-<Value>TencentMeetingHelper</Value>
+<Value>Better Real-ESRGAN</Value>
 <Type>1</Type>
 </SessionVar>
 <SessionVar>
@@ -6788,7 +6788,7 @@ g_HandleSystemReboot();
 <PostBuildProg/>
 <PostBuildCmdLine/>
 <PostBuildWait>0</PostBuildWait>
-<Filename>Better-Real-ESRGAN-7.1_Setup.exe</Filename>
+<Filename>Better-Real-ESRGAN-v7.1-Setup.exe</Filename>
 <OutputFolder>C:\Users\19534\Desktop</OutputFolder>
 <SegmentSizeMode>0</SegmentSizeMode>
 <CustomSegSize>0</CustomSegSize>
@@ -6813,7 +6813,7 @@ g_HandleSystemReboot();
 <ResourceComments>Created with Setup Factory</ResourceComments>
 <ResourceInternalName>sf_rt</ResourceInternalName>
 <ResourceFileDescription>Setup Application</ResourceFileDescription>
-<ResourceCopyright>Setup Engine Copyright ?1992-2011 Indigo Rose Corporation</ResourceCopyright>
+<ResourceCopyright>Setup Engine Copyright © 1992-2011 Indigo Rose Corporation</ResourceCopyright>
 <ResourceTrademarks>Setup Factory is a trademark of Indigo Rose Corporation</ResourceTrademarks>
 <ResourcePrivateBuild/>
 <ResourceSpecialBuild/>
