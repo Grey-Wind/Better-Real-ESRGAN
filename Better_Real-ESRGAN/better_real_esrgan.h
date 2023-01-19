@@ -45,6 +45,10 @@ private slots:
 
     void on_Sponsor_clicked();
 
+    void on_GeneralX4V3_clicked();
+
+    void on_GeneralX4V3_wdn_clicked();
+
 private:
     Ui::Better_Real_ESRGAN *ui;
 };
