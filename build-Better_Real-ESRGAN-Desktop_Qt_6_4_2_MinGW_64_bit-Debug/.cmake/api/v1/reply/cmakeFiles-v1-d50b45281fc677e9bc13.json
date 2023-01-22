@@ -5,23 +5,8 @@
 			"path" : "CMakeLists.txt"
 		},
 		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystem.cmake.in"
-		},
-		{
 			"isGenerated" : true,
 			"path" : "D:/project/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake"
 		},
 		{
 			"isCMake" : true,

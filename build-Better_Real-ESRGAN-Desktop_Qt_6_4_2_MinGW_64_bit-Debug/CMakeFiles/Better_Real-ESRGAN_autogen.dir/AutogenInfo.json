@@ -7,10 +7,7 @@
 	"CMAKE_LIST_FILES" : 
 	[
 		"D:/project/Better_Real-ESRGAN/Better_Real-ESRGAN/CMakeLists.txt",
-		"D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake",
-		"D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystem.cmake.in",
 		"D:/project/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake",
-		"D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake",
 		"D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake",
 		"D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake",
 		"D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake",
