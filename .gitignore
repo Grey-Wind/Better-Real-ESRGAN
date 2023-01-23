@@ -1,0 +1,9 @@
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+input.png
+*.qm
+help_output/help.chm
+*.idx
+*.idx
+*.idx

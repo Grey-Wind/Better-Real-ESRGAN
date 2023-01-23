@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ffd40f570814b24b9c53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Better_Real-ESRGAN",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Better_Real-ESRGAN::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Better_Real-ESRGAN-Debug-266afa7c8262204eb2e9.json",
+					"name" : "Better_Real-ESRGAN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Better_Real-ESRGAN_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Better_Real-ESRGAN_autogen-Debug-2b4d5d8dee8552534d9c.json",
+					"name" : "Better_Real-ESRGAN_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Better_Real-ESRGAN_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Better_Real-ESRGAN_autogen_timestamp_deps-Debug-89b360da065e6a02d0f1.json",
+					"name" : "Better_Real-ESRGAN_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PROJECT_NAME::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PROJECT_NAME-Debug-03636a819845cb69e432.json",
+					"name" : "PROJECT_NAME",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PROJECT_NAME_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PROJECT_NAME_autogen-Debug-91606b654f7fdb0dd985.json",
+					"name" : "PROJECT_NAME_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PROJECT_NAME_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PROJECT_NAME_autogen_timestamp_deps-Debug-17422172d563f99d1e6c.json",
+					"name" : "PROJECT_NAME_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/project/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+		"source" : "D:/project/Better_Real-ESRGAN/Better_Real-ESRGAN"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
