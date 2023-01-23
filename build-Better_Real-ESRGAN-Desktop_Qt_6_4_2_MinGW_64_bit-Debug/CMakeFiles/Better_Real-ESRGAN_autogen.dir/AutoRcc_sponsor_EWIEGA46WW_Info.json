@@ -5,7 +5,12 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "D:/project/Better_Real-ESRGAN/Better_Real-ESRGAN",
 	"CMAKE_SOURCE_DIR" : "D:/project/Better_Real-ESRGAN/Better_Real-ESRGAN",
 	"INCLUDE_DIR" : "D:/project/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/Better_Real-ESRGAN_autogen/include",
-	"INPUTS" : [ "D:/project/Better_Real-ESRGAN/Better_Real-ESRGAN/image/sponsor.png" ],
+	"INPUTS" : 
+	[
+		"D:/project/Better_Real-ESRGAN/Better_Real-ESRGAN/image/icon.ico",
+		"D:/project/Better_Real-ESRGAN/Better_Real-ESRGAN/image/sponsor.png",
+		"D:/project/Better_Real-ESRGAN/Better_Real-ESRGAN/image/icon.png"
+	],
 	"LOCK_FILE" : "D:/project/Better_Real-ESRGAN/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/Better_Real-ESRGAN_autogen.dir/AutoRcc_sponsor_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "sponsor" ],
