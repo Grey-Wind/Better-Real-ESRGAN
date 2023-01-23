@@ -376,11 +376,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Better_Real-ESRGAN_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Better_Real-ESRGAN_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Better_Real-ESRGAN_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Better_Real-ESRGAN::@6890427a1f51a3e7e1df",
