@@ -42,35 +42,35 @@ void Better_Real_ESRGAN::on_DefaultJPG_clicked()
 
 void Better_Real_ESRGAN::on_DefaultPNG_clicked()
 {
-    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus");
+    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus");
 }
 
 
 void Better_Real_ESRGAN::on_Video2_clicked()
 {
-    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x2");
+    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x2");
 }
 
 
 void Better_Real_ESRGAN::on_Video3_clicked()
 {
-    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x3");
+    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x3");
 }
 
 
 void Better_Real_ESRGAN::on_Video4_clicked()
 {
-    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4");
+    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4");
 }
 
 void Better_Real_ESRGAN::on_GeneralX4V3_clicked()
 {
-    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-x4v3");
+    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-x4v3");
 }
 
 void Better_Real_ESRGAN::on_GeneralX4V3_wdn_clicked()
 {
-    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-wdn-x4v3");
+    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-wdn-x4v3");
 }
 
 void Better_Real_ESRGAN::on_Real_ESRGAN_Github_clicked(){
