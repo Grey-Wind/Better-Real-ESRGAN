@@ -1,0 +1,12 @@
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\bin\Debug\test.exe.config
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\bin\Debug\test.exe
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\bin\Debug\test.pdb
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\bin\Debug\test.xml
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\obj\Debug\test.vbproj.AssemblyReference.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\obj\Debug\test.vbproj.SuggestedBindingRedirects.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\obj\Debug\test.Resources.resources
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\obj\Debug\test.vbproj.GenerateResource.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\obj\Debug\test.vbproj.CoreCompileInputs.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\obj\Debug\test.exe
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\obj\Debug\test.xml
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\vb_test\test\obj\Debug\test.pdb
