@@ -57,12 +57,14 @@ void Better_Real_ESRGAN::on_Video2_clicked()
 void Better_Real_ESRGAN::on_Video3_clicked()
 {
     //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x3");
+    system("start Video3.exe");
 }
 
 
 void Better_Real_ESRGAN::on_Video4_clicked()
 {
     //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4");
+    system("start Video4.exe");
 }
 
 void Better_Real_ESRGAN::on_GeneralX4V3_clicked()
