@@ -50,6 +50,7 @@ void Better_Real_ESRGAN::on_DefaultPNG_clicked()
 void Better_Real_ESRGAN::on_Video2_clicked()
 {
     //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x2");
+    system("start Video2.exe");
 }
 
 
