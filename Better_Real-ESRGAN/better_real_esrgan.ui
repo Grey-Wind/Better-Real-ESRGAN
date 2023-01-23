@@ -25,6 +25,10 @@
   <property name="windowTitle">
    <string>更好的Real-ESRGAN</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="sponsor.qrc">
+    <normaloff>:/image/image/icon.png</normaloff>:/image/image/icon.png</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="Title">
     <property name="geometry">
@@ -267,6 +271,8 @@
   <tabstop>Gitee</tabstop>
   <tabstop>Sponsor</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="sponsor.qrc"/>
+ </resources>
  <connections/>
 </ui>
