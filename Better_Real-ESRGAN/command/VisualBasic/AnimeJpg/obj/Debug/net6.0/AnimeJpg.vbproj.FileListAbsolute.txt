@@ -1,0 +1,15 @@
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\bin\Debug\net6.0\AnimeJpg.exe
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\bin\Debug\net6.0\AnimeJpg.deps.json
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\bin\Debug\net6.0\AnimeJpg.runtimeconfig.json
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\bin\Debug\net6.0\AnimeJpg.dll
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\bin\Debug\net6.0\AnimeJpg.pdb
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\AnimeJpg.vbproj.AssemblyReference.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\AnimeJpg.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\AnimeJpg.AssemblyInfoInputs.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\AnimeJpg.AssemblyInfo.vb
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\AnimeJpg.vbproj.CoreCompileInputs.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\AnimeJpg.dll
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\refint\AnimeJpg.dll
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\AnimeJpg.pdb
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\AnimeJpg.genruntimeconfig.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\VisualBasic\AnimeJpg\obj\Debug\net6.0\ref\AnimeJpg.dll
