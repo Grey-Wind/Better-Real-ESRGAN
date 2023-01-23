@@ -70,11 +70,13 @@ void Better_Real_ESRGAN::on_Video4_clicked()
 void Better_Real_ESRGAN::on_GeneralX4V3_clicked()
 {
     //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-x4v3");
+    system("start GeneralX4V3.exe");
 }
 
 void Better_Real_ESRGAN::on_GeneralX4V3_wdn_clicked()
 {
     //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-wdn-x4v3");
+    system("start GeneralX4V3_wdn.exe");
 }
 
 void Better_Real_ESRGAN::on_Real_ESRGAN_Github_clicked(){
