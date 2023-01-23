@@ -35,7 +35,8 @@ void Better_Real_ESRGAN::on_AnimePNG_clicked()
 
 void Better_Real_ESRGAN::on_DefaultJPG_clicked()
 {
-    system("realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus");
+    //system("realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus");
+    system("start DefaultJpg.exe");
 }
 
 
