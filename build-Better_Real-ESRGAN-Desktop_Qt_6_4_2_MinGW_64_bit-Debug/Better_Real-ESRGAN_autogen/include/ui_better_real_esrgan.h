@@ -10,6 +10,7 @@
 #define UI_BETTER_REAL_ESRGAN_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
@@ -50,6 +51,9 @@ public:
         Better_Real_ESRGAN->resize(412, 270);
         Better_Real_ESRGAN->setMinimumSize(QSize(412, 270));
         Better_Real_ESRGAN->setMaximumSize(QSize(412, 270));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/image/image/icon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        Better_Real_ESRGAN->setWindowIcon(icon);
         centralwidget = new QWidget(Better_Real_ESRGAN);
         centralwidget->setObjectName("centralwidget");
         Title = new QLabel(centralwidget);
