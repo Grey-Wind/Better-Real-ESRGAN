@@ -1,0 +1,2 @@
+cargo check
+pause
