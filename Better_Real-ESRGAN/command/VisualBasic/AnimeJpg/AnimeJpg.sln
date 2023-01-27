@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AnimeJpg", "AnimeJpg.vbproj", "{44AA2BDB-5128-45BD-82C2-E9582F311279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44AA2BDB-5128-45BD-82C2-E9582F311279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44AA2BDB-5128-45BD-82C2-E9582F311279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44AA2BDB-5128-45BD-82C2-E9582F311279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44AA2BDB-5128-45BD-82C2-E9582F311279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2639845F-7201-4EB7-8924-7660B496466A}
+	EndGlobalSection
+EndGlobal
