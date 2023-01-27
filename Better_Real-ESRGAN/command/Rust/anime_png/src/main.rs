@@ -5,7 +5,7 @@ fn main() {
         .arg("/c")
         .arg("realesrgan-ncnn-vulkan.exe")
         .arg("-i")
-        .arg("input.jpg")
+        .arg("input.png")
         .arg("-o")
         .arg("output.png")
         .arg("-n")
