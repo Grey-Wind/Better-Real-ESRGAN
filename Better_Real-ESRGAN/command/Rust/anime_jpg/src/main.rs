@@ -11,5 +11,4 @@ fn main() {
         .arg("-n")
         .arg("realesrgan-x4plus-anime")
         .status();
-    let _ = Command::new("cmd.exe").arg("/c").arg("pause").status();
 }
