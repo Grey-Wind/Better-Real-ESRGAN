@@ -5,6 +5,9 @@
 #include <QProcess>
 #include <QDir>
 #include <QString>
+#include <QMenu>
+#include <QMenuBar>
+#include <QAction>
 
 Better_Real_ESRGAN::Better_Real_ESRGAN(QWidget *parent)
     : QMainWindow(parent)
