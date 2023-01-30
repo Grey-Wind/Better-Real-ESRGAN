@@ -253,8 +253,26 @@
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>报告问题</string>
+    </property>
+    <addaction name="actionGithub_Issue"/>
+    <addaction name="actionGitee_Issue"/>
+   </widget>
+   <addaction name="menu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionGithub_Issue">
+   <property name="text">
+    <string>Github Issue</string>
+   </property>
+  </action>
+  <action name="actionGitee_Issue">
+   <property name="text">
+    <string>Gitee Issue</string>
+   </property>
+  </action>
  </widget>
  <tabstops>
   <tabstop>AnimeJPG</tabstop>
