@@ -14,6 +14,7 @@ Better_Real_ESRGAN::Better_Real_ESRGAN(QWidget *parent)
     , ui(new Ui::Better_Real_ESRGAN)
 {
     ui->setupUi(this);
+    QMenuBar *menubar=new QMenuBar;
 }
 
 Better_Real_ESRGAN::~Better_Real_ESRGAN()

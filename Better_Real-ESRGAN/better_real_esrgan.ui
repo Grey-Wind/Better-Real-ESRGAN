@@ -276,7 +276,7 @@
     <string>Gitee Issue</string>
    </property>
    <property name="shortcut">
-    <string>F1</string>
+    <string>F2</string>
    </property>
   </action>
  </widget>
