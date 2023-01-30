@@ -10,15 +10,11 @@
 #define UI_BETTER_REAL_ESRGAN_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QAction>
 #include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenu>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -26,8 +22,6 @@ QT_BEGIN_NAMESPACE
 class Ui_Better_Real_ESRGAN
 {
 public:
-    QAction *actionGithub_Issue;
-    QAction *actionGitee_Issue;
     QWidget *centralwidget;
     QLabel *Title;
     QPushButton *AnimeJPG;
@@ -45,24 +39,17 @@ public:
     QPushButton *Sponsor;
     QPushButton *GeneralX4V3;
     QPushButton *GeneralX4V3_wdn;
-    QMenuBar *menubar;
-    QMenu *menu;
-    QStatusBar *statusbar;
 
     void setupUi(QMainWindow *Better_Real_ESRGAN)
     {
         if (Better_Real_ESRGAN->objectName().isEmpty())
             Better_Real_ESRGAN->setObjectName("Better_Real_ESRGAN");
-        Better_Real_ESRGAN->resize(412, 270);
-        Better_Real_ESRGAN->setMinimumSize(QSize(412, 270));
-        Better_Real_ESRGAN->setMaximumSize(QSize(412, 270));
+        Better_Real_ESRGAN->resize(412, 227);
+        Better_Real_ESRGAN->setMinimumSize(QSize(412, 227));
+        Better_Real_ESRGAN->setMaximumSize(QSize(412, 227));
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/image/image/icon.png"), QSize(), QIcon::Normal, QIcon::Off);
         Better_Real_ESRGAN->setWindowIcon(icon);
-        actionGithub_Issue = new QAction(Better_Real_ESRGAN);
-        actionGithub_Issue->setObjectName("actionGithub_Issue");
-        actionGitee_Issue = new QAction(Better_Real_ESRGAN);
-        actionGitee_Issue->setObjectName("actionGitee_Issue");
         centralwidget = new QWidget(Better_Real_ESRGAN);
         centralwidget->setObjectName("centralwidget");
         Title = new QLabel(centralwidget);
@@ -117,15 +104,6 @@ public:
         GeneralX4V3_wdn->setObjectName("GeneralX4V3_wdn");
         GeneralX4V3_wdn->setGeometry(QRect(210, 110, 191, 29));
         Better_Real_ESRGAN->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(Better_Real_ESRGAN);
-        menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 412, 26));
-        menu = new QMenu(menubar);
-        menu->setObjectName("menu");
-        Better_Real_ESRGAN->setMenuBar(menubar);
-        statusbar = new QStatusBar(Better_Real_ESRGAN);
-        statusbar->setObjectName("statusbar");
-        Better_Real_ESRGAN->setStatusBar(statusbar);
         QWidget::setTabOrder(AnimeJPG, AnimePNG);
         QWidget::setTabOrder(AnimePNG, DefaultJPG);
         QWidget::setTabOrder(DefaultJPG, DefaultPNG);
@@ -139,10 +117,6 @@ public:
         QWidget::setTabOrder(Real_ESRGAN_Gitee, Gitee);
         QWidget::setTabOrder(Gitee, Sponsor);
 
-        menubar->addAction(menu->menuAction());
-        menu->addAction(actionGithub_Issue);
-        menu->addAction(actionGitee_Issue);
-
         retranslateUi(Better_Real_ESRGAN);
 
         QMetaObject::connectSlotsByName(Better_Real_ESRGAN);
@@ -151,14 +125,6 @@ public:
     void retranslateUi(QMainWindow *Better_Real_ESRGAN)
     {
         Better_Real_ESRGAN->setWindowTitle(QCoreApplication::translate("Better_Real_ESRGAN", "\346\233\264\345\245\275\347\232\204Real-ESRGAN", nullptr));
-        actionGithub_Issue->setText(QCoreApplication::translate("Better_Real_ESRGAN", "Github Issue", nullptr));
-#if QT_CONFIG(shortcut)
-        actionGithub_Issue->setShortcut(QCoreApplication::translate("Better_Real_ESRGAN", "F1", nullptr));
-#endif // QT_CONFIG(shortcut)
-        actionGitee_Issue->setText(QCoreApplication::translate("Better_Real_ESRGAN", "Gitee Issue", nullptr));
-#if QT_CONFIG(shortcut)
-        actionGitee_Issue->setShortcut(QCoreApplication::translate("Better_Real_ESRGAN", "F1", nullptr));
-#endif // QT_CONFIG(shortcut)
         Title->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\346\233\264\345\245\275\347\232\204Real-ESRGAN", nullptr));
         AnimeJPG->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\345\212\250\346\274\253JPG", nullptr));
         AnimePNG->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\345\212\250\346\274\253PNG", nullptr));
@@ -175,7 +141,6 @@ public:
         Sponsor->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\350\265\236\345\212\251", nullptr));
         GeneralX4V3->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\346\231\256\351\200\232 x4 v3", nullptr));
         GeneralX4V3_wdn->setText(QCoreApplication::translate("Better_Real_ESRGAN", "\346\231\256\351\200\232 wdn x4 v3", nullptr));
-        menu->setTitle(QCoreApplication::translate("Better_Real_ESRGAN", "\346\212\245\345\221\212\351\227\256\351\242\230", nullptr));
     } // retranslateUi
 
 };
