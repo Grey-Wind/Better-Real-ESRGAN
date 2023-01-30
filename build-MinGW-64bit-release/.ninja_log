@@ -1,0 +1,13 @@
+# ninja log v5
+1	1057	6967773852848036	Better_Real-ESRGAN_autogen/timestamp	3a71495236a92668
+1	1057	6967773852848036	Better_Real-ESRGAN_autogen/mocs_compilation.cpp	3a71495236a92668
+1	1057	6967773852848036	D:/project/Better_Real-ESRGAN/build-MinGW-64bit-release/Better_Real-ESRGAN_autogen/timestamp	3a71495236a92668
+1	1057	6967773852848036	D:/project/Better_Real-ESRGAN/build-MinGW-64bit-release/Better_Real-ESRGAN_autogen/mocs_compilation.cpp	3a71495236a92668
+1058	1215	6967773856122511	Better_Real-ESRGAN_autogen/EWIEGA46WW/qrc_sponsor.cpp	e336216aca508db6
+1058	1215	6967773856122511	D:/project/Better_Real-ESRGAN/build-MinGW-64bit-release/Better_Real-ESRGAN_autogen/EWIEGA46WW/qrc_sponsor.cpp	e336216aca508db6
+1261	1809	6967773862106559	CMakeFiles/Better_Real-ESRGAN.dir/Better_Real-ESRGAN_autogen/EWIEGA46WW/qrc_sponsor.cpp.obj	ccfccf7482e71e9e
+1234	3207	6967773876089272	CMakeFiles/Better_Real-ESRGAN.dir/main.cpp.obj	8e4ab1dbd4fd1ccb
+1216	3220	6967773876218919	CMakeFiles/Better_Real-ESRGAN.dir/Better_Real-ESRGAN_autogen/mocs_compilation.cpp.obj	dc98c2131d123baf
+1225	3238	6967773876398439	CMakeFiles/Better_Real-ESRGAN.dir/sponsor.cpp.obj	ce45b661c38deda0
+1248	3669	6967773880696578	CMakeFiles/Better_Real-ESRGAN.dir/better_real_esrgan.cpp.obj	2e0251707fefe5a1
+3669	3847	6967773882418798	Better_Real-ESRGAN.exe	1b90e194df81fbf
