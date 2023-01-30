@@ -7,19 +7,19 @@
     <x>0</x>
     <y>0</y>
     <width>412</width>
-    <height>270</height>
+    <height>227</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>412</width>
-    <height>270</height>
+    <height>227</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>412</width>
-    <height>270</height>
+    <height>227</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -244,17 +244,6 @@
     </property>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>412</width>
-     <height>26</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <tabstops>
   <tabstop>AnimeJPG</tabstop>
