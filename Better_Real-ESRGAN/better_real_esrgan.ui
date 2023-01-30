@@ -267,10 +267,16 @@
    <property name="text">
     <string>Github Issue</string>
    </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
   </action>
   <action name="actionGitee_Issue">
    <property name="text">
     <string>Gitee Issue</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
    </property>
   </action>
  </widget>
