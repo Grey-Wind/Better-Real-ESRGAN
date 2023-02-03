@@ -37,6 +37,10 @@
 
 动漫视频放大 x4:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4`
 
+普通 x4 v3:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-x4v3`
+
+普通 x4 v3 wdn:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-wdn-x4v3`
+
 ## 使用内容
 
 图标：汉仪书魂体简；256×256；300px；无加粗倾斜；背景使用星空(密)笔刷；背景颜色RGB->001|164|233，HSV->198|095|091（转载署名，商用需联系本人）
