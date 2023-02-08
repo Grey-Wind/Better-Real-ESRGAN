@@ -2,4 +2,5 @@
 * text=auto
 *.rc linguist-language=Rust
 *.bat linguist-language=Batchfile
+*.cmd linguist-language=Batchfile
 *.ps1 linguist-language=Power Shell
