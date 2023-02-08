@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.rc=Rust
-*.bat=Batch
-*.ps1=Power Shell
+*.rc linguist-language=Rust
+*.bat linguist-language=Batchfile
+*.ps1 linguist-language=Power Shell
