@@ -1,18 +1,23 @@
 # This file is used to ignore files which are generated
 # ----------------------------------------------------------------------------
 
+#指定文件
 input.png
 output.png
 windeployqt.txt
 help_output/help.chm
 
+#部分后缀名
 *.qm
 *.idx
 *.vsidx
 
+#源软件输出
 /build-MinGW-64bit-debug
 /build-MinGW-64bit-release
 /Better_Real-ESRGAN/out
+
+#Visual Basic .NET
 /Better_Real-ESRGAN/command/VisualBasic.Net/AnimeJpg/bin
 /Better_Real-ESRGAN/command/VisualBasic.Net/AnimePng/bin
 /Better_Real-ESRGAN/command/VisualBasic.Net/DefaultJpg/bin
@@ -23,3 +28,8 @@ help_output/help.chm
 /Better_Real-ESRGAN/command/VisualBasic.Net/Video2/bin
 /Better_Real-ESRGAN/command/VisualBasic.Net/Video3/bin
 /Better_Real-ESRGAN/command/VisualBasic.Net/Video4/bin
+
+#C Sharp
+/Better_Real-ESRGAN/command/C#/test/bin
+/Better_Real-ESRGAN/command/C#.NET/test/bin
+
