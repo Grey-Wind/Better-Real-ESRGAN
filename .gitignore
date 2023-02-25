@@ -37,3 +37,14 @@ help_output/help.chm
 /Better_Real-ESRGAN/command/Java-Gradle-Groovy/test/out
 /Better_Real-ESRGAN/command/Java-Intellij/test/out
 /Better_Real-ESRGAN/command/Java-Maven/test/out
+
+#C
+/Better_Real-ESRGAN/command/C/AnimeJpg/x64
+/Better_Real-ESRGAN/command/C/AnimePng/x64
+/Better_Real-ESRGAN/command/C/DefaultJpg/x64
+/Better_Real-ESRGAN/command/C/DefaultPng/x64
+/Better_Real-ESRGAN/command/C/GeneralX4V3/x64
+/Better_Real-ESRGAN/command/C/GeneralX4V3_wdn/x64
+/Better_Real-ESRGAN/command/C/Video2/x64
+/Better_Real-ESRGAN/command/C/Video3/x64
+/Better_Real-ESRGAN/command/C/Video4/x64
