@@ -2,7 +2,13 @@
 # ----------------------------------------------------------------------------
 
 input.png
-*.qm
+output.png
+windeployqt.txt
 help_output/help.chm
+
+*.qm
 *.idx
 *.vsidx
+
+/build-MinGW-64bit-debug
+/build-MinGW-64bit-release

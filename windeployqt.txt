@@ -1,3 +1,0 @@
-cd /d D:\project\Better_Real-ESRGAN\build
-windeployqt Better_Real-ESRGAN.exe
-pause

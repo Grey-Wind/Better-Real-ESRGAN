@@ -4,3 +4,10 @@
 *.bat linguist-language=Batchfile
 *.cmd linguist-language=Batchfile
 *.ps1 linguist-language=Power Shell
+*.pyproj linguist-language=Python
+*.csproj linguist-language=C Sharp
+*.vcxproj linguist-language=C++
+*.filters linguist-language=C++
+*.vbproj linguist-language=Visual Basic
+Cargo.toml linguist-language=Rust
+Cargo.lock linguist-language=Rust
