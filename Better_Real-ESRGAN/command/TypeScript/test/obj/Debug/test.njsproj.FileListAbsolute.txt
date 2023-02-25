@@ -1,0 +1,3 @@
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\TypeScript\test\obj\Debug\test.njsproj.AssemblyReference.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\TypeScript\test\obj\Debug\test.njsproj.CoreCompileInputs.cache
+D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\TypeScript\test\bin\Microsoft.NodejsTools.WebRole.dll
