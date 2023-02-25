@@ -13,3 +13,13 @@ help_output/help.chm
 /build-MinGW-64bit-debug
 /build-MinGW-64bit-release
 /Better_Real-ESRGAN/out
+/Better_Real-ESRGAN/command/VisualBasic.Net/AnimeJpg/bin
+/Better_Real-ESRGAN/command/VisualBasic.Net/AnimePng/bin
+/Better_Real-ESRGAN/command/VisualBasic.Net/DefaultJpg/bin
+/Better_Real-ESRGAN/command/VisualBasic.Net/DefaultPng/bin
+/Better_Real-ESRGAN/command/VisualBasic.Net/GeneralX4V3/bin
+/Better_Real-ESRGAN/command/VisualBasic.Net/GeneralX4V3_wdn/bin
+/Better_Real-ESRGAN/command/VisualBasic.Net/test/bin
+/Better_Real-ESRGAN/command/VisualBasic.Net/Video2/bin
+/Better_Real-ESRGAN/command/VisualBasic.Net/Video3/bin
+/Better_Real-ESRGAN/command/VisualBasic.Net/Video4/bin
