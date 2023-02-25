@@ -33,3 +33,7 @@ help_output/help.chm
 /Better_Real-ESRGAN/command/C#/test/bin
 /Better_Real-ESRGAN/command/C#.NET/test/bin
 
+#Java
+/Better_Real-ESRGAN/command/Java-Gradle-Groovy/test/out
+/Better_Real-ESRGAN/command/Java-Intellij/test/out
+/Better_Real-ESRGAN/command/Java-Maven/test/out
