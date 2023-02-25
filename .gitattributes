@@ -9,5 +9,5 @@
 *.vcxproj linguist-language=C++
 *.filters linguist-language=C++
 *.vbproj linguist-language=Visual Basic
-Cargo.toml linguist-language=Rust
-Cargo.lock linguist-language=Rust
+*.toml linguist-language=Rust
+*.lock linguist-language=Rust
