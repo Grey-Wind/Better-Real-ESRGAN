@@ -33,11 +33,12 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 91);
+            this.button1.Size = new System.Drawing.Size(89, 41);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "C++";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // MainForm
