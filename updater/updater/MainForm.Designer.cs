@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.Cpp = new System.Windows.Forms.Button();
             this.C = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.Rust = new System.Windows.Forms.Button();
+            this.VisualBasic = new System.Windows.Forms.Button();
+            this.C_Sharp = new System.Windows.Forms.Button();
+            this.C_Sharp_NET = new System.Windows.Forms.Button();
+            this.Python = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -63,55 +63,55 @@
             this.C.Text = "C";
             this.C.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Rust
             // 
-            this.button1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(324, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 40);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Rust.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Rust.Location = new System.Drawing.Point(324, 12);
+            this.Rust.Name = "Rust";
+            this.Rust.Size = new System.Drawing.Size(150, 40);
+            this.Rust.TabIndex = 2;
+            this.Rust.Text = "Rust";
+            this.Rust.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // VisualBasic
             // 
-            this.button2.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(480, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 40);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.VisualBasic.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.VisualBasic.Location = new System.Drawing.Point(480, 12);
+            this.VisualBasic.Name = "VisualBasic";
+            this.VisualBasic.Size = new System.Drawing.Size(150, 40);
+            this.VisualBasic.TabIndex = 3;
+            this.VisualBasic.Text = "VisualBasic";
+            this.VisualBasic.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // C_Sharp
             // 
-            this.button3.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button3.Location = new System.Drawing.Point(12, 58);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 40);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.C_Sharp.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.C_Sharp.Location = new System.Drawing.Point(12, 58);
+            this.C_Sharp.Name = "C_Sharp";
+            this.C_Sharp.Size = new System.Drawing.Size(150, 40);
+            this.C_Sharp.TabIndex = 4;
+            this.C_Sharp.Text = "C#";
+            this.C_Sharp.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // C_Sharp_NET
             // 
-            this.button4.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button4.Location = new System.Drawing.Point(168, 58);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(150, 40);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.C_Sharp_NET.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.C_Sharp_NET.Location = new System.Drawing.Point(168, 58);
+            this.C_Sharp_NET.Name = "C_Sharp_NET";
+            this.C_Sharp_NET.Size = new System.Drawing.Size(150, 40);
+            this.C_Sharp_NET.TabIndex = 5;
+            this.C_Sharp_NET.Text = "C#.NET";
+            this.C_Sharp_NET.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // Python
             // 
-            this.button5.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.Location = new System.Drawing.Point(324, 58);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(150, 40);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Python.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Python.Location = new System.Drawing.Point(324, 58);
+            this.Python.Name = "Python";
+            this.Python.Size = new System.Drawing.Size(150, 40);
+            this.Python.TabIndex = 6;
+            this.Python.Text = "Python";
+            this.Python.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -173,14 +173,15 @@
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Python);
+            this.Controls.Add(this.C_Sharp_NET);
+            this.Controls.Add(this.C_Sharp);
+            this.Controls.Add(this.VisualBasic);
+            this.Controls.Add(this.Rust);
             this.Controls.Add(this.C);
             this.Controls.Add(this.Cpp);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Better Real-ESRGAN Updater and Downloader";
             this.ResumeLayout(false);
@@ -191,11 +192,11 @@
 
         private System.Windows.Forms.Button Cpp;
         private System.Windows.Forms.Button C;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button Rust;
+        private System.Windows.Forms.Button VisualBasic;
+        private System.Windows.Forms.Button C_Sharp;
+        private System.Windows.Forms.Button C_Sharp_NET;
+        private System.Windows.Forms.Button Python;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
