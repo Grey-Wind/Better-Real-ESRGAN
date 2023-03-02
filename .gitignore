@@ -19,6 +19,11 @@ help_output/help.chm
 /build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug
 /build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release
 
+#更新程序输出
+/updater/updater/bin
+/updater/updater/obj
+/updater/.vs
+
 #Visual Basic .NET
 /command/VisualBasic.Net/AnimeJpg/bin
 /command/VisualBasic.Net/AnimePng/bin
