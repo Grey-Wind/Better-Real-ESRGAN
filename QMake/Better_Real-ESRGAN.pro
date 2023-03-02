@@ -10,15 +10,21 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    better_real_esrgan.cpp
+    better_real_esrgan.cpp \
+    sponsor.cpp
 
 HEADERS += \
-    better_real_esrgan.h
+    better_real_esrgan.h \
+    sponsor.h
 
 FORMS += \
-    better_real_esrgan.ui
+    better_real_esrgan.ui \
+    sponsor.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    sponsor.qrc
