@@ -15,38 +15,38 @@ help_output/help.chm
 #源软件输出
 /build-MinGW-64bit-debug
 /build-MinGW-64bit-release
-/Better_Real-ESRGAN/out
+/CMake/out
 /build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug
 /build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release
 
 #Visual Basic .NET
-/Better_Real-ESRGAN/command/VisualBasic.Net/AnimeJpg/bin
-/Better_Real-ESRGAN/command/VisualBasic.Net/AnimePng/bin
-/Better_Real-ESRGAN/command/VisualBasic.Net/DefaultJpg/bin
-/Better_Real-ESRGAN/command/VisualBasic.Net/DefaultPng/bin
-/Better_Real-ESRGAN/command/VisualBasic.Net/GeneralX4V3/bin
-/Better_Real-ESRGAN/command/VisualBasic.Net/GeneralX4V3_wdn/bin
-/Better_Real-ESRGAN/command/VisualBasic.Net/test/bin
-/Better_Real-ESRGAN/command/VisualBasic.Net/Video2/bin
-/Better_Real-ESRGAN/command/VisualBasic.Net/Video3/bin
-/Better_Real-ESRGAN/command/VisualBasic.Net/Video4/bin
+/command/VisualBasic.Net/AnimeJpg/bin
+/command/VisualBasic.Net/AnimePng/bin
+/command/VisualBasic.Net/DefaultJpg/bin
+/command/VisualBasic.Net/DefaultPng/bin
+/command/VisualBasic.Net/GeneralX4V3/bin
+/command/VisualBasic.Net/GeneralX4V3_wdn/bin
+/command/VisualBasic.Net/test/bin
+/command/VisualBasic.Net/Video2/bin
+/command/VisualBasic.Net/Video3/bin
+/command/VisualBasic.Net/Video4/bin
 
 #C Sharp
-/Better_Real-ESRGAN/command/C#/test/bin
-/Better_Real-ESRGAN/command/C#.NET/test/bin
+/command/C#/test/bin
+/command/C#.NET/test/bin
 
 #Java
-/Better_Real-ESRGAN/command/Java-Gradle-Groovy/test/out
-/Better_Real-ESRGAN/command/Java-Intellij/test/out
-/Better_Real-ESRGAN/command/Java-Maven/test/out
+/command/Java-Gradle-Groovy/test/out
+/command/Java-Intellij/test/out
+/command/Java-Maven/test/out
 
 #C
-/Better_Real-ESRGAN/command/C/AnimeJpg/x64
-/Better_Real-ESRGAN/command/C/AnimePng/x64
-/Better_Real-ESRGAN/command/C/DefaultJpg/x64
-/Better_Real-ESRGAN/command/C/DefaultPng/x64
-/Better_Real-ESRGAN/command/C/GeneralX4V3/x64
-/Better_Real-ESRGAN/command/C/GeneralX4V3_wdn/x64
-/Better_Real-ESRGAN/command/C/Video2/x64
-/Better_Real-ESRGAN/command/C/Video3/x64
-/Better_Real-ESRGAN/command/C/Video4/x64
+/command/C/AnimeJpg/x64
+/command/C/AnimePng/x64
+/command/C/DefaultJpg/x64
+/command/C/DefaultPng/x64
+/command/C/GeneralX4V3/x64
+/command/C/GeneralX4V3_wdn/x64
+/command/C/Video2/x64
+/command/C/Video3/x64
+/command/C/Video4/x64
