@@ -16,6 +16,8 @@ help_output/help.chm
 /build-MinGW-64bit-debug
 /build-MinGW-64bit-release
 /Better_Real-ESRGAN/out
+/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug
+/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release
 
 #Visual Basic .NET
 /Better_Real-ESRGAN/command/VisualBasic.Net/AnimeJpg/bin
