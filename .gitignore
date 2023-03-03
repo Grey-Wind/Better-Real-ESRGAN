@@ -6,6 +6,7 @@ input.png
 output.png
 windeployqt.txt
 help_output/help.chm
+updater_build_command.txt
 
 #部分后缀名
 *.qm
@@ -54,4 +55,3 @@ help_output/help.chm
 /command/C/Video2/x64
 /command/C/Video3/x64
 /command/C/Video4/x64
-command.txt
