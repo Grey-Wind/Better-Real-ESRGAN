@@ -7,4 +7,15 @@ Window {
     height: 480
     visible: true
     title: qsTr("Update/Download")
+
+    Button {
+        id: cpp
+        x: 6
+        y: 7
+        width: 214
+        height: 39
+        text: qsTr("C++子程序")
+        font.pointSize: 17
+        display: AbstractButton.TextOnly
+    }
 }
