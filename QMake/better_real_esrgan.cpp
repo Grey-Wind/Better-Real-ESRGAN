@@ -5,6 +5,7 @@
 #include <QProcess>
 #include <QDir>
 #include <QString>
+#include <stdio.h>
 
 Better_Real_ESRGAN::Better_Real_ESRGAN(QWidget *parent)
     : QMainWindow(parent)
@@ -113,3 +114,4 @@ void Better_Real_ESRGAN::on_Sponsor_clicked()
     sponsor *configwindow=new sponsor;
     configwindow->show();
 }
+
