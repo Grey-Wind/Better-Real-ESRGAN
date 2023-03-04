@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>532</width>
-    <height>131</height>
+    <width>271</width>
+    <height>213</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -42,8 +42,8 @@
   <widget class="QPushButton" name="c_">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>10</y>
+     <x>140</x>
+     <y>90</y>
      <width>120</width>
      <height>30</height>
     </rect>
@@ -55,8 +55,8 @@
   <widget class="QPushButton" name="c_sharp">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>10</y>
+     <x>140</x>
+     <y>50</y>
      <width>120</width>
      <height>30</height>
     </rect>
@@ -81,8 +81,8 @@
   <widget class="QPushButton" name="rust">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>50</y>
+     <x>10</x>
+     <y>90</y>
      <width>120</width>
      <height>30</height>
     </rect>
@@ -94,8 +94,8 @@
   <widget class="QPushButton" name="java_maven">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>50</y>
+     <x>10</x>
+     <y>130</y>
      <width>120</width>
      <height>30</height>
     </rect>
@@ -107,8 +107,8 @@
   <widget class="QPushButton" name="java_intellij">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>50</y>
+     <x>140</x>
+     <y>130</y>
      <width>120</width>
      <height>30</height>
     </rect>
@@ -121,7 +121,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>90</y>
+     <y>170</y>
      <width>251</width>
      <height>30</height>
     </rect>
