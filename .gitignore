@@ -22,6 +22,8 @@ help_output/help.chm
 
 #更新程序输出
 develop.bat
+/updater/dist
+/updater/build
 
 #Visual Basic .NET
 /command/VisualBasic.Net/AnimeJpg/bin
