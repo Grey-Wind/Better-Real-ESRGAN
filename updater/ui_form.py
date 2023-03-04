@@ -24,7 +24,7 @@ class Ui_updater(object):
         updater.resize(800, 600)
         self.pushButton = QPushButton(updater)
         self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(80, 70, 93, 29))
+        self.pushButton.setGeometry(QRect(10, 10, 120, 30))
 
         self.retranslateUi(updater)
 
@@ -33,6 +33,6 @@ class Ui_updater(object):
 
     def retranslateUi(self, updater):
         updater.setWindowTitle(QCoreApplication.translate("updater", u"updater", None))
-        self.pushButton.setText(QCoreApplication.translate("updater", u"PushButton", None))
+        self.pushButton.setText(QCoreApplication.translate("updater", u"C++", None))
     # retranslateUi
 
