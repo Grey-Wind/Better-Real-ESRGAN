@@ -13,45 +13,6 @@
   <property name="windowTitle">
    <string>updater</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>10</y>
-     <width>93</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>C++</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>110</x>
-     <y>10</y>
-     <width>93</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Visual Basic</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_3">
-   <property name="geometry">
-    <rect>
-     <x>210</x>
-     <y>10</y>
-     <width>93</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>C++</string>
-   </property>
-  </widget>
  </widget>
  <resources/>
  <connections/>
