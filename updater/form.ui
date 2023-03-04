@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>532</width>
+    <height>131</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>updater</string>
+   <string notr="true">updater</string>
   </property>
   <widget class="QPushButton" name="cpp">
    <property name="geometry">
@@ -37,6 +37,97 @@
    </property>
    <property name="text">
     <string>Visual Basic</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c_">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c_sharp">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>10</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>C#</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c_sharp_net">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>C#.NET</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rust">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>50</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rust</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="java_maven">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>50</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Java-Maven</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="java_intellij">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>50</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Java-Intellij</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="java_gradle_groovy">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>251</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Java-Gradle-Groovy</string>
    </property>
   </widget>
  </widget>
