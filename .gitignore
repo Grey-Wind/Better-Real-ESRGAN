@@ -21,8 +21,7 @@ updater_build_command.txt
 /build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release
 
 #更新程序输出
-/build-updater-Desktop_Qt_6_4_2_MinGW_64_bit-Debug
-/build-updater-Desktop_Qt_6_4_2_MinGW_64_bit-Release
+develop.bat
 
 #Visual Basic .NET
 /command/VisualBasic.Net/AnimeJpg/bin
