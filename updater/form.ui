@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>updater</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="cpp">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -24,6 +24,19 @@
    </property>
    <property name="text">
     <string>C++</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="visual_basic">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Visual Basic</string>
    </property>
   </widget>
  </widget>
