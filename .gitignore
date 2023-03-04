@@ -6,12 +6,12 @@ input.png
 output.png
 windeployqt.txt
 help_output/help.chm
-updater_build_command.txt
 
-#部分后缀名
+#后缀名
 *.qm
 *.idx
 *.vsidx
+*.spec
 
 #源软件输出
 /build-MinGW-64bit-debug
