@@ -12,6 +12,7 @@ help_output/help.chm
 *.idx
 *.vsidx
 *.spec
+*.autosave
 
 #源软件输出
 /build-MinGW-64bit-debug
