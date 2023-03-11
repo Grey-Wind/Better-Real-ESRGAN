@@ -48,19 +48,6 @@
      <string>更好的Real-ESRGAN</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="animeJPG">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>30</y>
-      <width>93</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>动漫JPG</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="animePNG">
     <property name="geometry">
      <rect>
@@ -217,10 +204,22 @@
      <string>普通 wdn x4 v3</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="animeJPG">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>动漫JPG</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <tabstops>
-  <tabstop>animeJPG</tabstop>
   <tabstop>animePNG</tabstop>
   <tabstop>defaultJPG</tabstop>
   <tabstop>defaultPNG</tabstop>

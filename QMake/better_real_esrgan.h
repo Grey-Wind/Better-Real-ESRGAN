@@ -19,31 +19,32 @@ public:
     ~Better_Real_ESRGAN();
 
 private slots:
-    void animeJPG_clicked();
 
-    void animePNG_clicked();
+    void on_animePNG_clicked();
 
-    void defaultJPG_clicked();
+    void on_defaultJPG_clicked();
 
-    void defaultPNG_clicked();
+    void on_defaultPNG_clicked();
 
-    void video2_clicked();
+    void on_video2_clicked();
 
-    void video3_clicked();
+    void on_video3_clicked();
 
-    void video4_clicked();
+    void on_video4_clicked();
 
-    void github_clicked();
+    void on_github_clicked();
 
-    void help_clicked();
+    void on_help_clicked();
 
-    void gitee_clicked();
+    void on_gitee_clicked();
 
-    void sponsor_clicked();
+    void on_sponsor_clicked();
 
-    void generalX4V3_clicked();
+    void on_generalX4V3_clicked();
 
-    void generalX4V3_wdn_clicked();
+    void on_generalX4V3_wdn_clicked();
+
+    void on_animeJPG_clicked();
 
 private:
     Ui::Better_Real_ESRGAN *ui;

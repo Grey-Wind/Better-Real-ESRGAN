@@ -15,11 +15,11 @@ help_output/help.chm
 *.autosave
 
 #源软件输出
-/CMake/out
 /build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug
 /build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release
 /build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MSVC2019_64bit-Debug
 /build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MSVC2019_64bit-Release
+/QMake/.vs
 
 #更新程序输出
 develop.bat
