@@ -17,6 +17,8 @@ help_output/help.chm
 #源软件输出
 /build-MinGW-Debug
 /build-MSVC2019
+/CMake/.vs
+/CMake/out
 
 #更新程序输出
 develop.bat
