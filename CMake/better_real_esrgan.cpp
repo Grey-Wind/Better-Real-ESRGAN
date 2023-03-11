@@ -78,11 +78,6 @@ void Better_Real_ESRGAN::on_GeneralX4V3_wdn_clicked()
     system("start GeneralX4V3_wdn.exe");
 }
 
-void Better_Real_ESRGAN::on_Real_ESRGAN_Github_clicked(){
-    system("start https://github.com/xinntao/Real-ESRGAN");
-}
-
-
 void Better_Real_ESRGAN::on_Github_clicked()
 {
     system("start https://github.com/Grey-Wind/Better-Real-ESRGAN");
@@ -93,13 +88,6 @@ void Better_Real_ESRGAN::on_Help_clicked()
 {
     system("start help.chm");
 }
-
-
-void Better_Real_ESRGAN::on_Real_ESRGAN_Gitee_clicked()
-{
-    system("start https://gitee.com/eeethon/Real-ESRGAN");
-}
-
 
 void Better_Real_ESRGAN::on_Gitee_clicked()
 {

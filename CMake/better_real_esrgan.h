@@ -33,13 +33,9 @@ private slots:
 
     void on_Video4_clicked();
 
-    void on_Real_ESRGAN_Github_clicked();
-
     void on_Github_clicked();
 
     void on_Help_clicked();
-
-    void on_Real_ESRGAN_Gitee_clicked();
 
     void on_Gitee_clicked();
 

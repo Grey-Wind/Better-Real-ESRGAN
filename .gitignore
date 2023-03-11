@@ -7,17 +7,20 @@ output.png
 windeployqt.txt
 help_output/help.chm
 
-#部分后缀名
+#后缀名
 *.qm
 *.idx
 *.vsidx
+*.spec
+*.autosave
 
 #源软件输出
-/build-MinGW-64bit-debug
-/build-MinGW-64bit-release
-/CMake/out
-/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Debug
-/build-Better_Real-ESRGAN-Desktop_Qt_6_4_2_MinGW_64_bit-Release
+/build-MinGW-Debug
+/build-MSVC2019
+
+#更新程序输出
+develop.bat
+updater.exe
 
 #Visual Basic .NET
 /command/VisualBasic.Net/AnimeJpg/bin
