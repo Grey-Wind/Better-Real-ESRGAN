@@ -47,4 +47,3 @@ General x4 v3 wdn:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n real
 
 Icon: Han Yi Shu Hun Ti Jian; 256×256; 300px; No thickened tilt; Starry sky brush for background; Background color RGB-&gt; 001 | 164 | 233, HSV - & gt; 198 | 095 | 091 (reproduced signature, commercial need to contact my)[the downloaded file in python several methods summary](https://cloud.tencent.com/developer/article/1471279)
 
-[python Basics: exsist, os.path.isfile, exsist, os.path.isfile, try-catch)](https://blog.csdn.net/NeverLate_gogogo/article/details/109333970)
