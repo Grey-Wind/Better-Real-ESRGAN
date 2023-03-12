@@ -27,7 +27,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="sponsor.qrc">
-    <normaloff>:/image/image/icon.png</normaloff>:/image/image/icon.png</iconset>
+    <normaloff>:/image/image/icon.ico</normaloff>:/image/image/icon.ico</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="Title">
