@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(Better_Real-ESRGAN VERSION 8.7 LANGUAGES CXX)
+project(Better_Real-ESRGAN VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
