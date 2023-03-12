@@ -21,8 +21,6 @@ FORMS += \
     better_real_esrgan.ui \
     sponsor.ui
 
-TRANSLATIONS += \
-    Better_Real-ESRGAN_zh_CN.ts
 CONFIG += lrelease
 CONFIG += embed_translations
 
