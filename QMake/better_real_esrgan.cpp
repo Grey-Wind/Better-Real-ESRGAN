@@ -1,10 +1,12 @@
 #include "better_real_esrgan.h"
 #include "./ui_better_real_esrgan.h"
-#include "sponsor.h"
 #include <stdlib.h>
 #include <QProcess>
 #include <QDir>
 #include <QString>
+
+#include "sponsor.h"
+#include "anime.h"
 
 Better_Real_ESRGAN::Better_Real_ESRGAN(QWidget *parent)
     : QMainWindow(parent)
@@ -17,20 +19,6 @@ Better_Real_ESRGAN::~Better_Real_ESRGAN()
 {
     delete ui;
 }
-
-void Better_Real_ESRGAN::on_AnimeJPG_clicked()
-{
-    //system("realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus-anime");
-    system("start AnimeJpg.exe");
-}
-
-
-void Better_Real_ESRGAN::on_AnimePNG_clicked()
-{
-    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus-anime");
-    system("start AnimePng.exe");
-}
-
 
 void Better_Real_ESRGAN::on_DefaultJPG_clicked()
 {
@@ -101,3 +89,11 @@ void Better_Real_ESRGAN::on_Sponsor_clicked()
     sponsor *configwindow=new sponsor;
     configwindow->show();
 }
+
+void Better_Real_ESRGAN::on_AnimeModel_clicked()
+{
+    //打开动漫模型优化窗口
+    Anime *animewindow=new Anime;
+    animewindow->show();
+}
+

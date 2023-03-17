@@ -9,15 +9,18 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    anime.cpp \
     main.cpp \
     better_real_esrgan.cpp \
     sponsor.cpp
 
 HEADERS += \
+    anime.h \
     better_real_esrgan.h \
     sponsor.h
 
 FORMS += \
+    anime.ui \
     better_real_esrgan.ui \
     sponsor.ui
 
