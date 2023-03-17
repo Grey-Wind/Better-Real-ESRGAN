@@ -25,6 +25,10 @@
   <property name="windowTitle">
    <string>动漫模型优化</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="sponsor.qrc">
+    <normaloff>:/image/image/icon.ico</normaloff>:/image/image/icon.ico</iconset>
+  </property>
   <widget class="QPushButton" name="PNG">
    <property name="geometry">
     <rect>
@@ -65,6 +69,8 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="sponsor.qrc"/>
+ </resources>
  <connections/>
 </ui>
