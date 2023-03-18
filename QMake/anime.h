@@ -15,6 +15,13 @@ public:
     explicit Anime(QWidget *parent = nullptr);
     ~Anime();
 
+private slots:
+    void on_PNG_clicked();
+
+    void on_JPG_clicked();
+
+    void on_JPEG_clicked();
+
 private:
     Ui::Anime *ui;
 };
