@@ -1,5 +1,3 @@
-#include "better_real_esrgan.h"
-#include "./ui_better_real_esrgan.h"
 #include <stdlib.h>
 #include <QProcess>
 #include <QDir>
@@ -7,6 +5,8 @@
 #include <QApplication>
 #include <QDebug>
 
+#include "better_real_esrgan.h"
+#include "./ui_better_real_esrgan.h"
 #include "sponsor.h"
 #include "anime.h"
 
