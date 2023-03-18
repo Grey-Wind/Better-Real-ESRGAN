@@ -5,8 +5,9 @@
 input.png
 output.png
 windeployqt.txt
-help_output/help.chm
-Rust/release_build.bat
+/help_output/help.chm
+/Rust/release_build.bat
+/docs/*.bat
 
 #后缀名
 *.qm
@@ -21,9 +22,8 @@ Rust/release_build.bat
 /CMake/.vs
 /CMake/out
 
-#更新程序输出
-develop.bat
-updater.exe
+#文档输出
+/docs/output
 
 #Visual Basic .NET
 /command/VisualBasic.Net/AnimeJpg/bin
