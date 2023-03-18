@@ -89,7 +89,8 @@ void Better_Real_ESRGAN::on_Sponsor_clicked()
 {
     //打开赞助窗口
     sponsor *configwindow=new sponsor;
-    configwindow->setAttribute(Qt::WA_DeleteOnClose, true);
+    setAttribute(Qt::WA_DeleteOnClose, true);
+    setAttribute(Qt::WA_QuitOnClose,false);
     configwindow->show();
 }
 
@@ -97,7 +98,11 @@ void Better_Real_ESRGAN::on_AnimeModel_clicked()
 {
     //打开动漫模型优化窗口
     Anime *animewindow=new Anime;
-    animewindow->setAttribute(Qt::WA_DeleteOnClose, true);
+    setAttribute(Qt::WA_DeleteOnClose, true);
+    setAttribute(Qt::WA_QuitOnClose,false);
     animewindow->show();
 }
 
+//这两行可以让打开的子窗口在主窗口关闭后一同关闭
+//setAttribute(Qt::WA_DeleteOnClose, true);
+//setAttribute(Qt::WA_QuitOnClose,false);
