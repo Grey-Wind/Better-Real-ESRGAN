@@ -5,7 +5,6 @@
 input.png
 output.png
 windeployqt.txt
-/help_output/help.chm
 /Rust/release_build.bat
 /docs/*.bat
 
