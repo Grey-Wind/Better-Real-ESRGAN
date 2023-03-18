@@ -17,18 +17,17 @@ Anime::~Anime()
 
 void Anime::on_PNG_clicked()
 {
-    system("start AnimePng.exe");
+    system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus-anime");
 }
 
 
 void Anime::on_JPG_clicked()
 {
-    system("start AnimeJpg.exe");
+    system("realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus-anime");
 }
 
 void Anime::on_JPEG_clicked()
 {
-    //system("start AnimeJpeg.exe");
-    system("@echo off&&echo unsupport&&pause");
+    system("realesrgan-ncnn-vulkan.exe -i input.jpeg -o output.png -n realesrgan-x4plus-anime");
 }
 
