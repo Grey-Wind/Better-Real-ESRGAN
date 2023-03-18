@@ -26,9 +26,9 @@ void Anime::on_JPG_clicked()
     system("start AnimeJpg.exe");
 }
 
-
 void Anime::on_JPEG_clicked()
 {
-    system("start AnimeJpeg.exe");
+    //system("start AnimeJpeg.exe");
+    system("@echo off&&echo unsupport&&pause");
 }
 
