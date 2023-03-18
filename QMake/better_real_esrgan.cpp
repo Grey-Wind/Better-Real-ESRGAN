@@ -103,6 +103,7 @@ void Better_Real_ESRGAN::on_AnimeModel_clicked()
     animewindow->show();
 }
 
+
 //这两行可以让打开的子窗口在主窗口关闭后一同关闭
 //setAttribute(Qt::WA_DeleteOnClose, true);
 //setAttribute(Qt::WA_QuitOnClose,false);
