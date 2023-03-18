@@ -3,6 +3,8 @@
 
 #指定文件
 input.png
+input.jpg
+input.jpeg
 output.png
 windeployqt.txt
 /Rust/release_build.bat
