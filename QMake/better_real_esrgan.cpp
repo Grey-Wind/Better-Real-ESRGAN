@@ -4,6 +4,8 @@
 #include <QProcess>
 #include <QDir>
 #include <QString>
+#include <QApplication>
+#include <QDebug>
 
 #include "sponsor.h"
 #include "anime.h"
@@ -87,6 +89,7 @@ void Better_Real_ESRGAN::on_Sponsor_clicked()
 {
     //打开赞助窗口
     sponsor *configwindow=new sponsor;
+    configwindow->setAttribute(Qt::WA_DeleteOnClose, true);
     configwindow->show();
 }
 
@@ -94,6 +97,7 @@ void Better_Real_ESRGAN::on_AnimeModel_clicked()
 {
     //打开动漫模型优化窗口
     Anime *animewindow=new Anime;
+    animewindow->setAttribute(Qt::WA_DeleteOnClose, true);
     animewindow->show();
 }
 
