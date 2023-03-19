@@ -3,8 +3,6 @@
 
 #include <stdlib.h>
 
-#include <QApplication>
-
 Anime::Anime(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Anime)

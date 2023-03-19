@@ -2,7 +2,6 @@
 #include <QProcess>
 #include <QDir>
 #include <QString>
-#include <QApplication>
 #include <QDebug>
 
 #include "better_real_esrgan.h"

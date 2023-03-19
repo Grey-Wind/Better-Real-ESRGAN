@@ -4,19 +4,19 @@
 #include <QWidget>
 
 namespace Ui {
-class default;
+class Default;
 }
 
-class default : public QWidget
+class Default : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit default(QWidget *parent = nullptr);
-    ~default();
+    explicit Default(QWidget *parent = nullptr);
+    ~Default();
 
 private:
-    Ui::default *ui;
+    Ui::Default *ui;
 };
 
 #endif // DEFAULT_H
