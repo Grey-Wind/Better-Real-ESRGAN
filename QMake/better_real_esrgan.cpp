@@ -8,6 +8,7 @@
 #include "./ui_better_real_esrgan.h"
 #include "sponsor.h"
 #include "anime.h"
+#include "default.h"
 
 Better_Real_ESRGAN::Better_Real_ESRGAN(QWidget *parent)
     : QMainWindow(parent)
@@ -72,3 +73,12 @@ void Better_Real_ESRGAN::on_AnimeModel_clicked()
 //这两行可以让打开的子窗口在主窗口关闭后一同关闭
 //setAttribute(Qt::WA_DeleteOnClose, true);
 //setAttribute(Qt::WA_QuitOnClose,false);
+
+void Better_Real_ESRGAN::on_DefaultModel_clicked()
+{
+    Default *defaultwindow=new Default;
+    setAttribute(Qt::WA_DeleteOnClose, true);
+    setAttribute(Qt::WA_QuitOnClose,false);
+    defaultwindow->show();
+}
+
