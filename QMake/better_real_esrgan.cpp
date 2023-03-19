@@ -9,6 +9,7 @@
 #include "sponsor.h"
 #include "anime.h"
 #include "default.h"
+#include "general.h"
 
 Better_Real_ESRGAN::Better_Real_ESRGAN(QWidget *parent)
     : QMainWindow(parent)
@@ -64,6 +65,9 @@ void Better_Real_ESRGAN::on_DefaultModel_clicked()
 
 void Better_Real_ESRGAN::on_GeneralModel_clicked()
 {
-    printf("info:start general model optimize form");
+    General *generalwindow=new General;
+    setAttribute(Qt::WA_DeleteOnClose, true);
+    setAttribute(Qt::WA_QuitOnClose,false);
+    generalwindow->show();
 }
 
