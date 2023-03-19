@@ -22,27 +22,9 @@ Better_Real_ESRGAN::~Better_Real_ESRGAN()
     delete ui;
 }
 
-void Better_Real_ESRGAN::on_GeneralX4V3_clicked()
-{
-    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-x4v3");
-    system("start GeneralX4V3.exe");
-}
-
-void Better_Real_ESRGAN::on_GeneralX4V3_wdn_clicked()
-{
-    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-wdn-x4v3");
-    system("start GeneralX4V3_wdn.exe");
-}
-
 void Better_Real_ESRGAN::on_Github_clicked()
 {
     system("start https://github.com/Grey-Wind/Better-Real-ESRGAN");
-}
-
-
-void Better_Real_ESRGAN::on_Help_clicked()
-{
-    system("start help.chm");
 }
 
 void Better_Real_ESRGAN::on_Gitee_clicked()
@@ -77,5 +59,11 @@ void Better_Real_ESRGAN::on_DefaultModel_clicked()
     setAttribute(Qt::WA_DeleteOnClose, true);
     setAttribute(Qt::WA_QuitOnClose,false);
     defaultwindow->show();
+}
+
+
+void Better_Real_ESRGAN::on_GeneralModel_clicked()
+{
+    printf("info:start general model optimize form");
 }
 

@@ -22,15 +22,9 @@ private slots:
 
     void on_Github_clicked();
 
-    void on_Help_clicked();
-
     void on_Gitee_clicked();
 
     void on_Sponsor_clicked();
-
-    void on_GeneralX4V3_clicked();
-
-    void on_GeneralX4V3_wdn_clicked();
 
     void on_AnimeModel_clicked();
 

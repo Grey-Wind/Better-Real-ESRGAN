@@ -6,21 +6,9 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>412</width>
-    <height>187</height>
+    <width>312</width>
+    <height>109</height>
    </rect>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>412</width>
-    <height>187</height>
-   </size>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>412</width>
-    <height>187</height>
-   </size>
   </property>
   <property name="windowTitle">
    <string>更好的Real-ESRGAN</string>
@@ -33,7 +21,7 @@
    <widget class="QLabel" name="Title">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>80</x>
       <y>0</y>
       <width>191</width>
       <height>31</height>
@@ -65,8 +53,8 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>150</y>
-      <width>91</width>
+      <y>70</y>
+      <width>93</width>
       <height>29</height>
      </rect>
     </property>
@@ -78,8 +66,8 @@
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>150</y>
-      <width>91</width>
+      <y>70</y>
+      <width>93</width>
       <height>29</height>
      </rect>
     </property>
@@ -87,56 +75,17 @@
      <string>Gitee</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Help">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>150</y>
-      <width>91</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>帮助</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="Sponsor">
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>150</y>
-      <width>91</width>
+      <y>70</y>
+      <width>93</width>
       <height>29</height>
      </rect>
     </property>
     <property name="text">
      <string>赞助</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="GeneralX4V3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>110</y>
-      <width>191</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>普通 x4 v3</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="GeneralX4V3_wdn">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>110</y>
-      <width>191</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>普通 wdn x4 v3</string>
     </property>
    </widget>
    <widget class="QPushButton" name="DefaultModel">
@@ -152,12 +101,24 @@
      <string>默认模型</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="GeneralModel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>普通 x4 v3</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <tabstops>
   <tabstop>AnimeModel</tabstop>
   <tabstop>Github</tabstop>
-  <tabstop>Help</tabstop>
   <tabstop>Gitee</tabstop>
   <tabstop>Sponsor</tabstop>
  </tabstops>
