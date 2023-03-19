@@ -30,6 +30,8 @@ private slots:
 
     void on_DefaultModel_clicked();
 
+    void on_GeneralModel_clicked();
+
 private:
     Ui::Better_Real_ESRGAN *ui;
 };
