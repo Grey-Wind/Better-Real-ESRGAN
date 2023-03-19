@@ -20,12 +20,6 @@ public:
 
 private slots:
 
-    void on_Video2_clicked();
-
-    void on_Video3_clicked();
-
-    void on_Video4_clicked();
-
     void on_Github_clicked();
 
     void on_Help_clicked();
