@@ -10,6 +10,7 @@ CONFIG += c++17
 
 SOURCES += \
     anime.cpp \
+    default.cpp \
     main.cpp \
     better_real_esrgan.cpp \
     sponsor.cpp
@@ -17,11 +18,13 @@ SOURCES += \
 HEADERS += \
     anime.h \
     better_real_esrgan.h \
+    default.h \
     sponsor.h
 
 FORMS += \
     anime.ui \
     better_real_esrgan.ui \
+    default.ui \
     sponsor.ui
 
 CONFIG += lrelease
