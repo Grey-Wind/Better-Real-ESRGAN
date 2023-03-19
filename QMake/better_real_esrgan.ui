@@ -61,45 +61,6 @@
      <string>动漫模型</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Video2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>70</y>
-      <width>120</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>动漫视频放大 x2</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Video3">
-    <property name="geometry">
-     <rect>
-      <x>139</x>
-      <y>70</y>
-      <width>131</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>动漫视频放大 x3</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Video4">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>70</y>
-      <width>120</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>动漫视频放大 x4</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="Github">
     <property name="geometry">
      <rect>
@@ -195,9 +156,6 @@
  </widget>
  <tabstops>
   <tabstop>AnimeModel</tabstop>
-  <tabstop>Video2</tabstop>
-  <tabstop>Video3</tabstop>
-  <tabstop>Video4</tabstop>
   <tabstop>Github</tabstop>
   <tabstop>Help</tabstop>
   <tabstop>Gitee</tabstop>
