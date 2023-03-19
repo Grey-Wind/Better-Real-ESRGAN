@@ -20,10 +20,6 @@ public:
 
 private slots:
 
-    void on_DefaultJPG_clicked();
-
-    void on_DefaultPNG_clicked();
-
     void on_Video2_clicked();
 
     void on_Video3_clicked();

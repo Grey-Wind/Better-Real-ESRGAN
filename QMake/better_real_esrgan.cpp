@@ -22,20 +22,6 @@ Better_Real_ESRGAN::~Better_Real_ESRGAN()
     delete ui;
 }
 
-void Better_Real_ESRGAN::on_DefaultJPG_clicked()
-{
-    //system("realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus");
-    system("start DefaultJpg.exe");
-}
-
-
-void Better_Real_ESRGAN::on_DefaultPNG_clicked()
-{
-    //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus");
-    system("start DefaultPng.exe");
-}
-
-
 void Better_Real_ESRGAN::on_Video2_clicked()
 {
     //system("realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x2");
