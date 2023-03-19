@@ -34,6 +34,8 @@ private slots:
 
     void on_AnimeModel_clicked();
 
+    void on_DefaultModel_clicked();
+
 private:
     Ui::Better_Real_ESRGAN *ui;
 };

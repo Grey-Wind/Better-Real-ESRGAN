@@ -15,6 +15,13 @@ public:
     explicit Default(QWidget *parent = nullptr);
     ~Default();
 
+private slots:
+    void on_PNG_clicked();
+
+    void on_JPG_clicked();
+
+    void on_JPEG_clicked();
+
 private:
     Ui::Default *ui;
 };
