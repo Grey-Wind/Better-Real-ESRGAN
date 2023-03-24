@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>默认模型优化</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/image/image/icon.ico</normaloff>:/image/image/icon.ico</iconset>
   </property>
   <widget class="QPushButton" name="PNG">
    <property name="geometry">
@@ -53,6 +57,8 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>

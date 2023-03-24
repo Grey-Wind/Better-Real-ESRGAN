@@ -23,7 +23,11 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>普通模型优化</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/image/image/icon.ico</normaloff>:/image/image/icon.ico</iconset>
   </property>
   <widget class="QPushButton" name="DefaultPng">
    <property name="geometry">
@@ -35,7 +39,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>默认PNG</string>
+    <string>普通PNG</string>
    </property>
   </widget>
   <widget class="QPushButton" name="wdnPng">
@@ -61,7 +65,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>默认JPG</string>
+    <string>普通JPG</string>
    </property>
   </widget>
   <widget class="QPushButton" name="DefaultJpeg">
@@ -74,7 +78,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>默认JPEG</string>
+    <string>普通JPEG</string>
    </property>
   </widget>
   <widget class="QPushButton" name="wdnJpg">
@@ -104,6 +108,8 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>

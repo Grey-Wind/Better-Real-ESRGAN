@@ -26,7 +26,7 @@
    <string>动漫模型优化</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="sponsor.qrc">
+   <iconset resource="res.qrc">
     <normaloff>:/image/image/icon.ico</normaloff>:/image/image/icon.ico</iconset>
   </property>
   <widget class="QPushButton" name="PNG">
@@ -70,7 +70,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="sponsor.qrc"/>
+  <include location="res.qrc"/>
  </resources>
  <connections/>
 </ui>
