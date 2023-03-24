@@ -6,7 +6,7 @@ input.png
 input.jpg
 input.jpeg
 output.png
-windeployqt.txt
+find.txt
 /Rust/release_build.bat
 /docs/*.bat
 
