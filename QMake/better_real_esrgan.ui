@@ -6,34 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>412</width>
-    <height>187</height>
+    <width>312</width>
+    <height>109</height>
    </rect>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>412</width>
-    <height>187</height>
-   </size>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>412</width>
-    <height>187</height>
-   </size>
   </property>
   <property name="windowTitle">
    <string>更好的Real-ESRGAN</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="sponsor.qrc">
+   <iconset resource="res.qrc">
     <normaloff>:/image/image/icon.ico</normaloff>:/image/image/icon.ico</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="Title">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>80</x>
       <y>0</y>
       <width>191</width>
       <height>31</height>
@@ -48,7 +36,7 @@
      <string>更好的Real-ESRGAN</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="AnimeJPG">
+   <widget class="QPushButton" name="AnimeModel">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -58,93 +46,15 @@
      </rect>
     </property>
     <property name="text">
-     <string>动漫JPG</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="AnimePNG">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>30</y>
-      <width>93</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>动漫PNG</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="DefaultJPG">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>30</y>
-      <width>93</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>默认JPG</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="DefaultPNG">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>30</y>
-      <width>93</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>默认PNG</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Video2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>70</y>
-      <width>120</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>动漫视频放大 x2</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Video3">
-    <property name="geometry">
-     <rect>
-      <x>139</x>
-      <y>70</y>
-      <width>131</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>动漫视频放大 x3</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Video4">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>70</y>
-      <width>120</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>动漫视频放大 x4</string>
+     <string>动漫模型</string>
     </property>
    </widget>
    <widget class="QPushButton" name="Github">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>150</y>
-      <width>91</width>
+      <y>70</y>
+      <width>93</width>
       <height>29</height>
      </rect>
     </property>
@@ -156,8 +66,8 @@
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>150</y>
-      <width>91</width>
+      <y>70</y>
+      <width>93</width>
       <height>29</height>
      </rect>
     </property>
@@ -165,25 +75,12 @@
      <string>Gitee</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Help">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>150</y>
-      <width>91</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>帮助</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="Sponsor">
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>150</y>
-      <width>91</width>
+      <y>70</y>
+      <width>93</width>
       <height>29</height>
      </rect>
     </property>
@@ -191,12 +88,25 @@
      <string>赞助</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="GeneralX4V3">
+   <widget class="QPushButton" name="DefaultModel">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>110</y>
-      <width>191</width>
+      <x>110</x>
+      <y>30</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>默认模型</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GeneralModel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>93</width>
       <height>29</height>
      </rect>
     </property>
@@ -204,36 +114,16 @@
      <string>普通 x4 v3</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="GeneralX4V3_wdn">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>110</y>
-      <width>191</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>普通 wdn x4 v3</string>
-    </property>
-   </widget>
   </widget>
  </widget>
  <tabstops>
-  <tabstop>AnimeJPG</tabstop>
-  <tabstop>AnimePNG</tabstop>
-  <tabstop>DefaultJPG</tabstop>
-  <tabstop>DefaultPNG</tabstop>
-  <tabstop>Video2</tabstop>
-  <tabstop>Video3</tabstop>
-  <tabstop>Video4</tabstop>
+  <tabstop>AnimeModel</tabstop>
   <tabstop>Github</tabstop>
-  <tabstop>Help</tabstop>
   <tabstop>Gitee</tabstop>
   <tabstop>Sponsor</tabstop>
  </tabstops>
  <resources>
-  <include location="sponsor.qrc"/>
+  <include location="res.qrc"/>
  </resources>
  <connections/>
 </ui>

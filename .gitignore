@@ -3,9 +3,12 @@
 
 #指定文件
 input.png
+input.jpg
+input.jpeg
 output.png
-windeployqt.txt
-help_output/help.chm
+find.txt
+/Rust/release_build.bat
+/docs/*.bat
 
 #后缀名
 *.qm
@@ -13,16 +16,15 @@ help_output/help.chm
 *.vsidx
 *.spec
 *.autosave
+*.user
 
 #源软件输出
 /MinGW
 /MSVC2019
-/CMake/.vs
-/CMake/out
+/MSVC2019-ARM64
 
-#更新程序输出
-develop.bat
-updater.exe
+#文档输出
+/docs/output
 
 #Visual Basic .NET
 /command/VisualBasic.Net/AnimeJpg/bin
