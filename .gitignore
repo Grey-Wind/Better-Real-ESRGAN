@@ -16,6 +16,7 @@ windeployqt.txt
 *.vsidx
 *.spec
 *.autosave
+*.user
 
 #源软件输出
 /MinGW
