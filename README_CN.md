@@ -1,5 +1,7 @@
 # 更好的Real-ESRGAN
 
+![Alt](https://repobeats.axiom.co/api/embed/d3293db1f256b1bdb064a1e0f704fc622434e173.svg "Repobeats analytics image")
+
 一个Real-ESRGAN的GUI。
 
 这个GUI支持JPG格式图片优化为PNG格式图片。

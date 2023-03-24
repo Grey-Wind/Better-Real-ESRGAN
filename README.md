@@ -1,5 +1,7 @@
 # Better Real-ESRGAN
 
+![Alt](https://repobeats.axiom.co/api/embed/d3293db1f256b1bdb064a1e0f704fc622434e173.svg "Repobeats analytics image")
+
 A Real-ESRGAN GUI.
 
 This GUI supports JPG images optimized to PNG images.
