@@ -21,8 +21,7 @@ windeployqt.txt
 #源软件输出
 /MinGW
 /MSVC2019
-/CMake/.vs
-/CMake/out
+/MSVC2019-ARM64
 
 #文档输出
 /docs/output
