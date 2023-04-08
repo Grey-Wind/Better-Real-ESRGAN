@@ -1,2 +1,0 @@
-cargo check
-pause
