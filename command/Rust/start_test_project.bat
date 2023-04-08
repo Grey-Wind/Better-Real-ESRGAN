@@ -1,1 +1,0 @@
-cargo new test_project

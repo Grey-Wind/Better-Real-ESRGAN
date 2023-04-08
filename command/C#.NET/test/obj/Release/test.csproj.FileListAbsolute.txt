@@ -1,8 +1,0 @@
-D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\C#.NET\test\bin\Release\test.exe.config
-D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\C#.NET\test\bin\Release\test.exe
-D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\C#.NET\test\bin\Release\test.pdb
-D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\C#.NET\test\obj\Release\test.csproj.AssemblyReference.cache
-D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\C#.NET\test\obj\Release\test.csproj.SuggestedBindingRedirects.cache
-D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\C#.NET\test\obj\Release\test.csproj.CoreCompileInputs.cache
-D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\C#.NET\test\obj\Release\test.exe
-D:\project\Better_Real-ESRGAN\Better_Real-ESRGAN\command\C#.NET\test\obj\Release\test.pdb

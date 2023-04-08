@@ -1,1 +1,0 @@
-cargo new anime_jpg

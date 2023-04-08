@@ -1,1 +1,0 @@
-cargo new video2
