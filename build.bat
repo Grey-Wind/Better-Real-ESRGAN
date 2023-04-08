@@ -1,0 +1,1 @@
+mdbook.exe build -d D:\project\Better_Real-ESRGAN\output
