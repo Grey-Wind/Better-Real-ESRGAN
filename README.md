@@ -4,13 +4,17 @@
 
 A Real-ESRGAN GUI.
 
-This GUI supports JPG images optimized to PNG images.
+This GUI supports JPG(JPEG) format images optimized to PNG format images.
 
-The original software needs to use Batch command or Powershell command to run the optimization instruction, but I prefer automatic execution rather than manual input, so I call Batch command internally to run. In the future, I will try to move the output outside the software instead of in the dark CMD window.
+The original software needs to call Batch command or Powershell command to run the optimization instruction, but I don't like to manually input every time, prefer to automate the execution, so I made this software to save time.
 
-Now I write new optimization scripts using C++, Visual Basic, and Rust, respectively. Based on my tests, the theoretical fastest should be Rust, but since I use Rust less, I recommend using the Visual Basic version, but the core support should be biased towards Rust in the future.
+I've abandoned script splitting for now, but it's still supported for multiple languages.
 
 View the Chinese readme:[click here](https://github.com/Adenx0/Better-Real-ESRGAN/blob/main/README_CN.md)
+
+---
+
+This software takes into account multiple programming languages, so there is no core code in the main branch, the code of each language is in the corresponding branch, Qt6 has been improved, I will not bother to update, the follow-up will first support WPF, C# and Visual Basic, the other languages temporarily wait for me to continue learning.
 
 ## Design content
 
