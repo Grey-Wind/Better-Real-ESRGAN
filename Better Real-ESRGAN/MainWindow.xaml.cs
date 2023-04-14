@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace Better_Real_ESRGAN
 {
     /// <summary>
-    /// Window1.xaml 的交互逻辑
+    /// MainWindow.xaml 的交互逻辑
     /// </summary>
     public partial class Window1 : Window
     {
@@ -32,5 +32,6 @@ namespace Better_Real_ESRGAN
             app.StartInfo.Arguments = "-i input.jpg -o output.png -n realesrgan-x4plus-anime";
             app.Start();
         }
+
     }
 }
