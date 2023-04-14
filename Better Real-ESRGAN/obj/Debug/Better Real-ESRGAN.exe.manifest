@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Better Real-ESRGAN.exe" size="333280">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Better Real-ESRGAN.exe" size="334304">
       <assemblyIdentity name="Better Real-ESRGAN" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pCXX+VrzsfYJ+DWs93TGcGvVT5SDtbOHQfzBEPKUK8o=</dsig:DigestValue>
+        <dsig:DigestValue>lt5VugTzEZIsAuB9/mETA89W4BoeSiBCdd1pgDjx3k4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
