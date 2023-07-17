@@ -19,9 +19,8 @@ This software takes into account multiple programming languages, so there is no 
 ## Design content
 
 * [X] Multi-model optional optimization
-* [X] Independent optimization script
-* [X] Script is written in multiple languages
-* [ ] Optional file optimization (here refers to the freedom to select images in any location)
+* [x] Optional file optimization (here refers to the freedom to select images in any location)
+* [ ] Optimize videos
 
 ## Precautions
 
@@ -29,26 +28,10 @@ To use it, name the image you want to optimize as input, with a png or jpg suffi
 
 Note: Animation video optimization is video optimization to optimize the image, and only support png format.
 
-## Optimize Command
+## Use and reference items
 
-Anime JPG:`realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus-anime`
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=contre&repo=Windows-API-Code-Pack-1.1)](https://github.com/contre/Windows-API-Code-Pack-1.1)
 
-Anime PNG:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus-anime`
-
-Default JPG:`realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus`
-
-Default PNG:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus`
-
-Anime Video x2:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x2`
-
-Anime Video x3:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x3`
-
-Anime Video x4:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4`
-
-General x4 v3:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-x4v3`
-
-General x4 v3 wdn:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-wdn-x4v3`
-
-## Use content
+## Icon
 
 Icon: Han Yi Shu Hun Ti Jian; 256×256; 300px; No thickened tilt; Starry sky brush for background; Background color RGB-&gt; 001 | 164 | 233, HSV - & gt; 198 | 095 | 091 (reproduced signature, commercial need to contact my)

@@ -16,10 +16,10 @@
 
 ## 设计内容
 
-* [X] 多模型自选优化
-* [X] 独立优化脚本
-* [X] 脚本多语言编写
-* [ ] 自选文件优化（此处指自由在任何位置选择图片）
+* [x] 多模型自选优化
+* [x] 自选文件优化（此处指自由在任何位置选择图片）
+* [x] 批量优化图片
+* [ ] 优化视频
 
 ## 注意事项
 
@@ -27,26 +27,10 @@
 
 注意：动漫视频优化是以视频优化方式优化图片，且只支持png格式。
 
-## 优化指令
+## 使用及参考项目
 
-动漫JPG:`realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus-anime`
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=contre&repo=Windows-API-Code-Pack-1.1)](https://github.com/contre/Windows-API-Code-Pack-1.1)
 
-动漫PNG:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus-anime`
-
-默认JPG:`realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrgan-x4plus`
-
-默认PNG:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesrgan-x4plus`
-
-动漫视频放大 x2:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x2`
-
-动漫视频放大 x3:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x3`
-
-动漫视频放大 x4:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-animevideov3-x4`
-
-普通 x4 v3:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-x4v3`
-
-普通 x4 v3 wdn:`realesrgan-ncnn-vulkan.exe -i input.png -o output.png -n realesr-general-wdn-x4v3`
-
-## 使用内容
+## 图标
 
 图标：汉仪书魂体简；256×256；300px；无加粗倾斜；背景使用星空(密)笔刷；背景颜色RGB->001|164|233，HSV->198|095|091（转载署名，商用需联系本人）
