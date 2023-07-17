@@ -4,15 +4,11 @@
 
 一个Real-ESRGAN的GUI。
 
-这个GUI支持JPG(JPEG)格式图片优化为PNG格式图片。
-
 原软件需要调用Batch命令或Powershell命令来运行优化指令，而本人并不喜欢每次都要手动输入，更喜欢自动化执行，所以制作了本软件来节省时间。
 
 我目前放弃了脚本拆分，但是对于多语言仍然是在不断支持的。
 
----
-
-本软件由于考虑到多个编程语言，所以main分支内无核心代码，每种语言的代码都在对应的分支内，目前Qt6已经趋于完善，我也就懒得更新了，后续会先支持WPF、C#与Visual Basic，其余语言暂等我继续进修。
+[查看](https://github.com/Grey-Wind/Better-Real-ESRGAN/tree/main/License)版权许可证。
 
 ## 设计内容
 
