@@ -11,7 +11,12 @@
             <Label Content="图片路径：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
             <TextBox x:Name="ImagePathBox" HorizontalAlignment="Left" Margin="80,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564"/>
             <Button x:Name="SelectFileBtn" Content="选择文件" HorizontalAlignment="Left" Margin="649,13,0,0" VerticalAlignment="Top" Click="SelectFileBtn_Click"/>
-            <Button x:Name="SelectFolderBtn" Content="选择文件夹" HorizontalAlignment="Left" Margin="706,13,0,0" VerticalAlignment="Top" Click="SelectFolderBtn_Click"/>
+            <Button x:Name="SelectInputFolderBtn" Content="选择文件夹" HorizontalAlignment="Left" Margin="706,13,0,0" VerticalAlignment="Top" Click="SelectInputFolderBtn_Click"/>
+        </Grid>
+        <Grid>
+            <Label Content="输出路径：" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="OutputPathBox" HorizontalAlignment="Left" Margin="80,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
+            <Button x:Name="SelectOutputFolderBtn" Content="选择文件夹" HorizontalAlignment="Left" Margin="706,43,0,0" VerticalAlignment="Top" Click="SelectOutputFolderBtn_Click"/>
         </Grid>
 
     </Grid>

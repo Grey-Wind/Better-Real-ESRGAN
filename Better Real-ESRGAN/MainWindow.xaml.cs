@@ -25,7 +25,7 @@ namespace Better_Real_ESRGAN
             }
         }
 
-        private void SelectFolderBtn_Click(object sender, RoutedEventArgs e)
+        private void SelectInputFolderBtn_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new CommonOpenFileDialog
             {
@@ -36,6 +36,20 @@ namespace Better_Real_ESRGAN
             {
                 string selectedFolder = dialog.FileName;
                 ImagePathBox.Text = selectedFolder;
+            }
+        }
+
+        private void SelectOutputFolderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new CommonOpenFileDialog
+            {
+                IsFolderPicker = true
+            };
+
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                string selectedFolder = dialog.FileName;
+                OutputPathBox.Text = selectedFolder;
             }
         }
     }
