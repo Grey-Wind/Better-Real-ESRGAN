@@ -1,18 +1,6 @@
 ﻿using Microsoft.Win32;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace Better_Real_ESRGAN
 {
@@ -34,6 +22,20 @@ namespace Better_Real_ESRGAN
                 string selectedFile = openFileDialog.FileName;
                 // 处理选择的文件
                 ImagePathBox.Text = selectedFile;
+            }
+        }
+
+        private void SelectFolderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new CommonOpenFileDialog
+            {
+                IsFolderPicker = true
+            };
+
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                string selectedFolder = dialog.FileName;
+                ImagePathBox.Text = selectedFolder;
             }
         }
     }
