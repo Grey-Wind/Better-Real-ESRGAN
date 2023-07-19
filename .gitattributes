@@ -1,13 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.rc linguist-language=Rust
-*.bat linguist-language=Batchfile
-*.cmd linguist-language=Batchfile
-*.ps1 linguist-language=Power Shell
-*.pyproj linguist-language=Python
-*.csproj linguist-language=C Sharp
-*.vcxproj linguist-language=C++
-*.filters linguist-language=C++
-*.vbproj linguist-language=Visual Basic
-*.toml linguist-language=Rust
-*.lock linguist-language=Rust
+*.pth linguist-language=Python
+*.bin linguist-language=Python
+*.param linguist-language=Python
