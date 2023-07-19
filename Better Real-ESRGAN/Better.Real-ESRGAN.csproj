@@ -214,12 +214,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="License\Better Real-ESRGAN_CN.txt">
+    <None Include="License\Better Real-ESRGAN_CN.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="License\Better Real-ESRGAN_EN.txt">
+    </None>
+    <None Include="License\Better Real-ESRGAN_EN.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    </None>
     <Content Include="realesrgan-ncnn-vulkan.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -1,8 +1,6 @@
 ﻿using Microsoft.Win32;
 using System.Windows;
 using Microsoft.WindowsAPICodePack.Dialogs;
-using System.Security.Cryptography;
-using System;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
