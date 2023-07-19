@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Better_Real_ESRGAN"
         mc:Ignorable="d"
-        Title="Better Real-ESRGAN" Height="450" Width="800">
+        Title="Better Real-ESRGAN" Height="335" Width="800">
     <Grid>
         <Grid>
             <Label Content="图片路径：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
@@ -26,7 +26,10 @@
                 <ComboBoxItem Content="realesr-general-wdn-x4v3"/>
                 <ComboBoxItem Content="realesr-general-x4v3"/>
             </ComboBox>
-
+        </Grid>
+        <Grid>
+            <Button x:Name="RunBtn" Content="运行" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" Width="760"/>
+            <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="10,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="760" Height="172" IsReadOnly="True"/>
         </Grid>
     </Grid>
 </Window>
