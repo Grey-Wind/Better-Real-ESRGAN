@@ -1,0 +1,19 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Updater"
+        mc:Ignorable="d"
+        Title="Better Real-ESRGAN更新下载器" Height="130" Width="365">
+    <Grid>
+        <Button Content="软件本体更新" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="下载模型" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="下载启动器" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="版权声明更新" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="动态链接库更新" HorizontalAlignment="Left" Margin="115,34,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="一键更新下载" HorizontalAlignment="Left" Margin="115,58,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="建议使用一键更新&#xA;下载，省事而且简&#xD;&#xA;单" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

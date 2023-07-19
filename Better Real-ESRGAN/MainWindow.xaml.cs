@@ -141,7 +141,7 @@ namespace Better_Real_ESRGAN
             Process process = new Process();
 
             // 启动更新器
-            process.StartInfo.FileName = "path_to_executable";
+            process.StartInfo.FileName = "updater.exe";
 
             // 关闭本体
             Application.Current.Shutdown();
