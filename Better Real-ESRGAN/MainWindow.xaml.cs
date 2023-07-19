@@ -35,6 +35,7 @@ namespace Better_Real_ESRGAN
             if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
             {
                 string selectedFolder = dialog.FileName;
+                // 处理选择的文件夹
                 ImagePathBox.Text = selectedFolder;
             }
         }
@@ -49,6 +50,7 @@ namespace Better_Real_ESRGAN
             if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
             {
                 string selectedFolder = dialog.FileName;
+                // 处理选择的文件夹
                 OutputPathBox.Text = selectedFolder;
             }
         }
