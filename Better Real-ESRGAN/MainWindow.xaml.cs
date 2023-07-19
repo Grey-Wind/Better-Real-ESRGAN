@@ -134,5 +134,17 @@ namespace Better_Real_ESRGAN
             });
 
         }
+
+        private void UpdateBtn_Click(object sender, RoutedEventArgs e) // 启动更新程序
+        {
+            // 创建新的进程实例
+            Process process = new Process();
+
+            // 启动更新器
+            process.StartInfo.FileName = "path_to_executable";
+
+            // 关闭本体
+            Application.Current.Shutdown();
+        }
     }
 }
