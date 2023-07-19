@@ -1,6 +1,8 @@
 ﻿using Microsoft.Win32;
 using System.Windows;
 using Microsoft.WindowsAPICodePack.Dialogs;
+using System.Security.Cryptography;
+using System;
 
 namespace Better_Real_ESRGAN
 {
@@ -53,6 +55,18 @@ namespace Better_Real_ESRGAN
                 // 处理选择的文件夹
                 OutputPathBox.Text = selectedFolder;
             }
+        }
+
+        private void RunBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SetParameters();
+        }
+
+        private void SetParameters()
+        {
+            string imagePath = ImagePathBox.Text;
+            string outputPath = OutputPathBox.Text;
+            string model = SelectModel.Text;
         }
     }
 }

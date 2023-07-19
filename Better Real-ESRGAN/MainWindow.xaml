@@ -20,7 +20,7 @@
         </Grid>
         <Grid>
             <Label Content="选择模型：" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top"/>
-            <ComboBox HorizontalAlignment="Left" Margin="80,69,0,0" VerticalAlignment="Top" Width="690">
+            <ComboBox x:Name="SelectModel" HorizontalAlignment="Left" Margin="80,69,0,0" VerticalAlignment="Top" Width="690">
                 <ComboBoxItem Content="realesrgan-x4plus"/>
                 <ComboBoxItem Content="realesrgan-x4plus-anime"/>
                 <ComboBoxItem Content="realesr-general-wdn-x4v3"/>
@@ -28,7 +28,7 @@
             </ComboBox>
         </Grid>
         <Grid>
-            <Button x:Name="RunBtn" Content="运行" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" Width="760"/>
+            <Button x:Name="RunBtn" Content="运行" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" Width="760" Click="RunBtn_Click"/>
             <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="10,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="760" Height="172" IsReadOnly="True"/>
         </Grid>
     </Grid>
