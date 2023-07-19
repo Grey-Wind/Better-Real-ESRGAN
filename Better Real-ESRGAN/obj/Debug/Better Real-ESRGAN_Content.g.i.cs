@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("realesrgan-ncnn-vulkan.exe")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("vcomp140.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("vcomp140d.dll")]
 
 
