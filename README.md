@@ -26,7 +26,11 @@ Note: Animation video optimization is video optimization to optimize the image, 
 
 ## Use and reference items
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=contre&repo=Windows-API-Code-Pack-1.1)](https://github.com/contre/Windows-API-Code-Pack-1.1)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=contre&repo=Windows-API-Code-Pack-1.1)](https://github.com/contre/Windows-API-Code-Pack-1.1/)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=xinntao&repo=Real-ESRGAN)](https://github.com/xinntao/Real-ESRGAN/)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=xinntao&repo=Real-ESRGAN-ncnn-vulkan)](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
 
 ## Icon
 
