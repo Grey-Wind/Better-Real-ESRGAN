@@ -2,6 +2,7 @@
 Imports FileDownloader
 
 Public Class AllUpdate
+
     Private Sub GitHubBtnClick(sender As Object, e As RoutedEventArgs) Handles GitHubBtn.Click
 
         ' 创建目录
@@ -65,4 +66,5 @@ Public Class AllUpdate
 
         downloader.DownloadFiles(urls, savePaths)
     End Sub
+
 End Class
