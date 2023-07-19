@@ -8,6 +8,11 @@
         Title="AllUpdate" Height="225" Width="400">
     <Grid>
         <Label Content="更新主程序" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label Content="官方站点" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="GitHubBtn" Content="GitHub" HorizontalAlignment="Left" Margin="17,70,0,0" VerticalAlignment="Top" Width="45" Height="16.7" FontSize="10"/>
+        <Button x:Name="GiteeBtn" Content="Gitee" HorizontalAlignment="Left" Margin="17,92,0,0" VerticalAlignment="Top" Width="45" Height="16.7" FontSize="10"/>
+        <Button x:Name="BlogBtn" Content="作者博客" HorizontalAlignment="Left" Margin="17,114,0,0" VerticalAlignment="Top" Width="45" Height="16.7" FontSize="10"/>
+        <Button x:Name="DownloadSiteBtn" Content="下载站" HorizontalAlignment="Left" Margin="17,136,0,0" VerticalAlignment="Top" Width="45" Height="16" FontSize="10"/>
 
     </Grid>
 </Window>

@@ -1,3 +1,27 @@
-﻿Public Class AllUpdate
+﻿Imports System.IO
+Imports FileDownloader
 
+Public Class AllUpdate
+    Private Sub GitHubBtnClick(sender As Object, e As RoutedEventArgs) Handles GitHubBtn.Click
+
+        ' 创建目录
+        Directory.CreateDirectory("./models")
+
+        ' 下载
+        Dim downloader As New Downloader()
+
+        Dim urls As String() = {
+            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
+            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
+            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll" ' 软件本体
+        }
+
+        Dim savePaths As String() = {
+            "./Better.Real-ESRGAN.exe", ' 软件本体
+            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
+            "./Microsoft.WindowsAPICodePack.dll" ' 软件本体
+        }
+
+        downloader.DownloadFiles(urls, savePaths)
+    End Sub
 End Class
