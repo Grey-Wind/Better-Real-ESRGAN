@@ -1,0 +1,19 @@
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\bin\Debug\Better Real-ESRGAN.exe.config
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\bin\Debug\Better Real-ESRGAN.exe
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\bin\Debug\Better Real-ESRGAN.pdb
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN.csproj.AssemblyReference.cache
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\MainWindow.g.cs
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\App.g.cs
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN_MarkupCompile.cache
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN_MarkupCompile.lref
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\MainWindow.baml
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN.g.resources
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better_Real_ESRGAN.Properties.Resources.resources
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN.csproj.GenerateResource.cache
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN.csproj.CoreCompileInputs.cache
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN.exe
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN.pdb
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\bin\Debug\Better Real-ESRGAN.exe.manifest
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\bin\Debug\Better Real-ESRGAN.application
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN.exe.manifest
+D:\project\Better_Real-ESRGAN\Better Real-ESRGAN\obj\Debug\Better Real-ESRGAN.application
