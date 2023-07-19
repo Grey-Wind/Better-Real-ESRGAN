@@ -13,13 +13,19 @@ Public Class AllUpdate
         Dim urls As String() = {
             "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
             "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll" ' 软件本体
+            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
+            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
+            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
+            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140d.dll" ' 启动器
         }
 
         Dim savePaths As String() = {
             "./Better.Real-ESRGAN.exe", ' 软件本体
             "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll" ' 软件本体
+            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
+            "./realesrgan-ncnn-vulkan.exe", ' 启动器
+            "./vcomp140.dll", ' 启动器
+            "./vcomp140d.dll" ' 启动器
         }
 
         downloader.DownloadFiles(urls, savePaths)
