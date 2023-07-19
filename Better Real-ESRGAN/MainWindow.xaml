@@ -18,6 +18,15 @@
             <TextBox x:Name="OutputPathBox" HorizontalAlignment="Left" Margin="80,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
             <Button x:Name="SelectOutputFolderBtn" Content="选择文件夹" HorizontalAlignment="Left" Margin="706,43,0,0" VerticalAlignment="Top" Click="SelectOutputFolderBtn_Click"/>
         </Grid>
+        <Grid>
+            <Label Content="选择模型：" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top"/>
+            <ComboBox HorizontalAlignment="Left" Margin="80,69,0,0" VerticalAlignment="Top" Width="690">
+                <ComboBoxItem Content="realesrgan-x4plus"/>
+                <ComboBoxItem Content="realesrgan-x4plus-anime"/>
+                <ComboBoxItem Content="realesr-general-wdn-x4v3"/>
+                <ComboBoxItem Content="realesr-general-x4v3"/>
+            </ComboBox>
 
+        </Grid>
     </Grid>
 </Window>
