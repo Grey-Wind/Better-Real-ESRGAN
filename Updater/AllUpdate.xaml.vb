@@ -1,6 +1,6 @@
 ﻿Imports System.IO
 Imports System.Windows.Shell
-Imports System.Windows.Input
+Imports System.Net.Http
 Imports FileDownloader
 
 Public Class AllUpdate
@@ -31,11 +31,11 @@ Public Class AllUpdate
                                         End Sub
     End Sub
 
-    Private Sub GitHubBtnClick(sender As Object, e As RoutedEventArgs) Handles GitHubBtn.Click
+    Private Sub CloseBtn_Click(sender As Object, e As RoutedEventArgs) Handles CloseBtn.Click
+        Close()
+    End Sub
 
-        ' 创建目录
-        Directory.CreateDirectory("./models")
-        Directory.CreateDirectory("./License")
+    Private Sub GitHubBtnClick(sender As Object, e As RoutedEventArgs) Handles GitHubBtn.Click
 
         ' 下载
         Dim downloader As New Downloader()
@@ -92,13 +92,40 @@ Public Class AllUpdate
             "./models/realesr-general-x4v3.pth" ' 模型文件
         }
 
-        downloader.DownloadFiles(urls, savePaths)
+        Dim url As String = "https://github.com/"
+
+        Try
+            Dim client As New HttpClient()
+            Dim response As HttpResponseMessage = client.GetAsync(url).Result
+
+            If response.IsSuccessStatusCode Then ' 正常访问代码
+                ' 创建目录
+                Directory.CreateDirectory("./models")
+                Directory.CreateDirectory("./License")
+
+                ' 开始下载
+                downloader.DownloadFiles(urls, savePaths)
+            Else
+                ' 弹出提示框等待响应
+                Dim result As MessageBoxResult = MessageBox.Show("无法访问GitHub，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
+
+                If result = MessageBoxResult.Yes Then
+                    ' 创建目录
+                    Directory.CreateDirectory("./models")
+                    Directory.CreateDirectory("./License")
+
+                    ' 开始下载
+                    downloader.DownloadFiles(urls, savePaths)
+                Else
+                    ' 点击No后的代码
+                End If
+            End If
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Private Sub GiteeBtn_Click(sender As Object, e As RoutedEventArgs) Handles GiteeBtn.Click
-        ' 创建目录
-        Directory.CreateDirectory("./models")
-        Directory.CreateDirectory("./License")
 
         ' 下载
         Dim downloader As New Downloader()
@@ -155,13 +182,40 @@ Public Class AllUpdate
             "./models/realesr-general-x4v3.pth" ' 模型文件
         }
 
-        downloader.DownloadFiles(urls, savePaths)
+        Dim url As String = "https://gitee.com/"
+
+        Try
+            Dim client As New HttpClient()
+            Dim response As HttpResponseMessage = client.GetAsync(url).Result
+
+            If response.IsSuccessStatusCode Then ' 正常访问代码
+                ' 创建目录
+                Directory.CreateDirectory("./models")
+                Directory.CreateDirectory("./License")
+
+                ' 开始下载
+                downloader.DownloadFiles(urls, savePaths)
+            Else
+                ' 弹出提示框等待响应
+                Dim result As MessageBoxResult = MessageBox.Show("无法访问Gitee，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
+
+                If result = MessageBoxResult.Yes Then
+                    ' 创建目录
+                    Directory.CreateDirectory("./models")
+                    Directory.CreateDirectory("./License")
+
+                    ' 开始下载
+                    downloader.DownloadFiles(urls, savePaths)
+                Else
+                    ' 点击No后的代码
+                End If
+            End If
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Private Sub BlogBtn_Click(sender As Object, e As RoutedEventArgs) Handles BlogBtn.Click
-        ' 创建目录
-        Directory.CreateDirectory("./models")
-        Directory.CreateDirectory("./License")
 
         ' 下载
         Dim downloader As New Downloader()
@@ -218,13 +272,40 @@ Public Class AllUpdate
             "./models/realesr-general-x4v3.pth" ' 模型文件
         }
 
-        downloader.DownloadFiles(urls, savePaths)
+        Dim url As String = "https://grey-wind.github.io/"
+
+        Try
+            Dim client As New HttpClient()
+            Dim response As HttpResponseMessage = client.GetAsync(url).Result
+
+            If response.IsSuccessStatusCode Then ' 正常访问代码
+                ' 创建目录
+                Directory.CreateDirectory("./models")
+                Directory.CreateDirectory("./License")
+
+                ' 开始下载
+                downloader.DownloadFiles(urls, savePaths)
+            Else
+                ' 弹出提示框等待响应
+                Dim result As MessageBoxResult = MessageBox.Show("无法访问作者的博客，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
+
+                If result = MessageBoxResult.Yes Then
+                    ' 创建目录
+                    Directory.CreateDirectory("./models")
+                    Directory.CreateDirectory("./License")
+
+                    ' 开始下载
+                    downloader.DownloadFiles(urls, savePaths)
+                Else
+                    ' 点击No后的代码
+                End If
+            End If
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Private Sub DownloadSiteBtn_Click(sender As Object, e As RoutedEventArgs) Handles DownloadSiteBtn.Click
-        ' 创建目录
-        Directory.CreateDirectory("./models")
-        Directory.CreateDirectory("./License")
 
         ' 下载
         Dim downloader As New Downloader()
@@ -281,10 +362,37 @@ Public Class AllUpdate
             "./models/realesr-general-x4v3.pth" ' 模型文件
         }
 
-        downloader.DownloadFiles(urls, savePaths)
+        Dim url As String = "https://sunrise-studio.gitee.io/"
+
+        Try
+            Dim client As New HttpClient()
+            Dim response As HttpResponseMessage = client.GetAsync(url).Result
+
+            If response.IsSuccessStatusCode Then ' 正常访问代码
+                ' 创建目录
+                Directory.CreateDirectory("./models")
+                Directory.CreateDirectory("./License")
+
+                ' 开始下载
+                downloader.DownloadFiles(urls, savePaths)
+            Else
+                ' 弹出提示框等待响应
+                Dim result As MessageBoxResult = MessageBox.Show("无法访问官方下载站，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
+
+                If result = MessageBoxResult.Yes Then
+                    ' 创建目录
+                    Directory.CreateDirectory("./models")
+                    Directory.CreateDirectory("./License")
+
+                    ' 开始下载
+                    downloader.DownloadFiles(urls, savePaths)
+                Else
+                    ' 点击No后的代码
+                End If
+            End If
+        Catch ex As Exception
+
+        End Try
     End Sub
 
-    Private Sub CloseBtn_Click(sender As Object, e As RoutedEventArgs) Handles CloseBtn.Click
-        Close()
-    End Sub
 End Class
