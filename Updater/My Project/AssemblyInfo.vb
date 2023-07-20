@@ -11,8 +11,8 @@ Imports System.Windows
 
 '查看程序集特性的值
 
-<Assembly: AssemblyTitle("Updater")>
-<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyTitle("Better Reak-ESRGAN Updater")>
+<Assembly: AssemblyDescription("Better Reak-ESRGAN 更新器")>
 <Assembly: AssemblyCompany("Sunrise Studio")>
 <Assembly: AssemblyProduct("Better Reak-ESRGAN Updater")>
 <Assembly: AssemblyCopyright("版权所有 © 2023 Sunrise Studio")>
