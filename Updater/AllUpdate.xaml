@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Updater"
         mc:Ignorable="d"
-        Title="AllUpdate" Height="225" Width="400">
+        Title="AllUpdate" Height="215" Width="170">
     <Grid>
         <Label Content="更新主程序" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <Label Content="官方站点" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
@@ -13,6 +13,12 @@
         <Button x:Name="GiteeBtn" Content="Gitee" HorizontalAlignment="Left" Margin="17,92,0,0" VerticalAlignment="Top" Width="45" Height="16.7" FontSize="10"/>
         <Button x:Name="BlogBtn" Content="作者博客" HorizontalAlignment="Left" Margin="17,114,0,0" VerticalAlignment="Top" Width="45" Height="16.7" FontSize="10"/>
         <Button x:Name="DownloadSiteBtn" Content="下载站" HorizontalAlignment="Left" Margin="17,136,0,0" VerticalAlignment="Top" Width="45" Height="16" FontSize="10"/>
+        <Label Content="镜像站点" HorizontalAlignment="Left" Margin="73,40,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="GitHubBtn_Copy" Content="hub.ggo.icu" HorizontalAlignment="Left" Margin="80,70,0,0" VerticalAlignment="Top" Width="65" Height="17" FontSize="10"/>
+        <Button x:Name="GitHubBtn_Copy1" Content="hub.njuu.cf" HorizontalAlignment="Left" Margin="80,92,0,0" VerticalAlignment="Top" Width="65" Height="17" FontSize="10"/>
+        <Button x:Name="GitHubBtn_Copy2" Content="hub.yzuu.cf" HorizontalAlignment="Left" Margin="80,114,0,0" VerticalAlignment="Top" Width="65" Height="17" FontSize="10"/>
+        <Button x:Name="GitHubBtn_Copy3" Content="hub.nuaa.cf" HorizontalAlignment="Left" Margin="80,136,0,0" VerticalAlignment="Top" Width="65" Height="16" FontSize="10"/>
+        <Button x:Name="GitHubBtn_Copy4" Content="kgithub.com" HorizontalAlignment="Left" Margin="80,157,0,0" VerticalAlignment="Top" Width="65" Height="16" FontSize="10"/>
 
     </Grid>
 </Window>
