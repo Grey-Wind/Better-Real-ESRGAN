@@ -13,9 +13,9 @@ Imports System.Windows
 
 <Assembly: AssemblyTitle("Updater")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Updater")>
-<Assembly: AssemblyCopyright("Copyright ©  2023")>
+<Assembly: AssemblyCompany("Sunrise Studio")>
+<Assembly: AssemblyProduct("Better Reak-ESRGAN Updater")>
+<Assembly: AssemblyCopyright("版权所有 © 2023 Sunrise Studio")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: ComVisible(false)>
 
