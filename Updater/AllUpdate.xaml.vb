@@ -1,7 +1,35 @@
 ﻿Imports System.IO
+Imports System.Windows.Shell
+Imports System.Windows.Input
 Imports FileDownloader
 
 Public Class AllUpdate
+
+    Inherits Window
+
+    Public Sub New()
+        InitializeComponent()
+        SetWindowStyle()
+        EnableWindowDrag()
+    End Sub
+
+    Private Sub SetWindowStyle() ' 禁用窗口标题栏
+        Dim chrome As New WindowChrome With {
+            .CaptionHeight = 0,
+            .ResizeBorderThickness = New Thickness(1),
+            .UseAeroCaptionButtons = False
+        }
+        WindowChrome.SetWindowChrome(Me, chrome)
+        WindowChrome.SetIsHitTestVisibleInChrome(Me, True)
+    End Sub
+
+    Private Sub EnableWindowDrag() ' 允许窗口拖动
+        AddHandler MouseLeftButtonDown, Sub(sender, e)
+                                            If e.ButtonState = MouseButtonState.Pressed Then
+                                                DragMove()
+                                            End If
+                                        End Sub
+    End Sub
 
     Private Sub GitHubBtnClick(sender As Object, e As RoutedEventArgs) Handles GitHubBtn.Click
 
@@ -256,4 +284,7 @@ Public Class AllUpdate
         downloader.DownloadFiles(urls, savePaths)
     End Sub
 
+    Private Sub CloseBtn_Click(sender As Object, e As RoutedEventArgs) Handles CloseBtn.Click
+        Close()
+    End Sub
 End Class
