@@ -63,7 +63,7 @@ Public Class AllUpdate
             "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
             "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
             "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/" ' 模型文件
+            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
         }
 
         Dim savePaths As String() = {
@@ -153,7 +153,7 @@ Public Class AllUpdate
             "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
             "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
             "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/" ' 模型文件
+            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
         }
 
         Dim savePaths As String() = {
@@ -243,7 +243,7 @@ Public Class AllUpdate
             "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
             "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
             "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/" ' 模型文件
+            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
         }
 
         Dim savePaths As String() = {
@@ -333,7 +333,7 @@ Public Class AllUpdate
             "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
             "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
             "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/" ' 模型文件
+            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
         }
 
         Dim savePaths As String() = {
