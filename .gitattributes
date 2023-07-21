@@ -3,4 +3,4 @@
 # *.pth linguist-language=Python
 # *.bin linguist-language=Python
 # *.param linguist-language=Python
-*.dll linguist-language=CSharp
+FileDownloader.dll linguist-language=CSharp
