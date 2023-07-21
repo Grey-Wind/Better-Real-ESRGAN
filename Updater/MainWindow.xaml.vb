@@ -1,4 +1,7 @@
 ﻿Imports System.ComponentModel
+Imports System.IO
+Imports System.Net.Http
+Imports System.Reflection
 
 Class MainWindow
 
@@ -10,8 +13,20 @@ Class MainWindow
         InitializeComponent()
         ' Me.ResizeMode = ResizeMode.NoResize ' 禁止最小化
         Me.ResizeMode = ResizeMode.CanMinimize ' 允许最小化，但有最大化按钮
-        Me.WindowStartupLocation = WindowStartupLocation.CenterScreen
+        Me.WindowStartupLocation = WindowStartupLocation.CenterScreen ' 屏幕居中显示
+
+        ' 版本检测
+        LocalVersion.Text = GetLocalFileVersion("./Better Real-ESRGAN.exe")
     End Sub
+
+    Private Function GetLocalFileVersion(filePath As String) As String
+        If File.Exists(filePath) Then
+            Dim versionInfo As FileVersionInfo = FileVersionInfo.GetVersionInfo(filePath)
+            Return versionInfo?.FileVersion
+        Else
+            Return "N/A" ' 文件未找到时返回一个默认的版本号，例如"N/A"
+        End If
+    End Function
 
     Private Sub MainWindow_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing ' 主窗口关闭事件，循环遍历子窗口列表并关闭每个子窗口
         For Each childWindow As Window In childWindows
