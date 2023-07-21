@@ -17,11 +17,11 @@
         <Button x:Name="BlogBtn" Content="作者博客" HorizontalAlignment="Left" Margin="17,114,0,0" VerticalAlignment="Top" Width="45" Height="16.7" FontSize="10"/>
         <Button x:Name="DownloadSiteBtn" Content="下载站" HorizontalAlignment="Left" Margin="17,136,0,0" VerticalAlignment="Top" Width="45" Height="16" FontSize="10"/>
         <Label Content="镜像站点" HorizontalAlignment="Left" Margin="73,40,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Button x:Name="GitHubBtn_Copy" Content="hub.ggo.icu" HorizontalAlignment="Left" Margin="80,70,0,0" VerticalAlignment="Top" Width="65" Height="17" FontSize="10"/>
-        <Button x:Name="GitHubBtn_Copy1" Content="hub.njuu.cf" HorizontalAlignment="Left" Margin="80,92,0,0" VerticalAlignment="Top" Width="65" Height="17" FontSize="10"/>
-        <Button x:Name="GitHubBtn_Copy2" Content="hub.yzuu.cf" HorizontalAlignment="Left" Margin="80,114,0,0" VerticalAlignment="Top" Width="65" Height="17" FontSize="10"/>
-        <Button x:Name="GitHubBtn_Copy3" Content="hub.nuaa.cf" HorizontalAlignment="Left" Margin="80,136,0,0" VerticalAlignment="Top" Width="65" Height="16" FontSize="10"/>
-        <Button x:Name="GitHubBtn_Copy4" Content="kgithub.com" HorizontalAlignment="Left" Margin="80,157,0,0" VerticalAlignment="Top" Width="65" Height="16" FontSize="10"/>
+        <Button x:Name="Mirror1Btn" Content="hub.ggo.icu" HorizontalAlignment="Left" Margin="80,70,0,0" VerticalAlignment="Top" Width="65" Height="17" FontSize="10"/>
+        <Button x:Name="Mirror2Btn" Content="hub.njuu.cf" HorizontalAlignment="Left" Margin="80,92,0,0" VerticalAlignment="Top" Width="65" Height="17" FontSize="10"/>
+        <Button x:Name="Mirror3Btn" Content="hub.yzuu.cf" HorizontalAlignment="Left" Margin="80,114,0,0" VerticalAlignment="Top" Width="65" Height="17" FontSize="10"/>
+        <Button x:Name="Mirror4Btn" Content="hub.nuaa.cf" HorizontalAlignment="Left" Margin="80,136,0,0" VerticalAlignment="Top" Width="65" Height="16" FontSize="10"/>
+        <Button x:Name="Mirror5Btn" Content="kgithub.com" HorizontalAlignment="Left" Margin="80,157,0,0" VerticalAlignment="Top" Width="65" Height="16" FontSize="10"/>
         <Button x:Name="CloseBtn" HorizontalAlignment="Left" Margin="129,17,0,0" VerticalAlignment="Top" Width="16" Height="16" IsTabStop="False" Content="×" FontStretch="Medium" FontWeight="Bold" FontSize="11" Background="#FFE0B1B1">
             <!-- <Image Source="resources/image/Close.png"/> -->
         </Button>
