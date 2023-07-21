@@ -18,12 +18,6 @@ View the Chinese readme: [click here](./README_CN.md)
 * [x] Optional file optimization (here refers to the freedom to select images in any location)
 * [ ] Optimize videos
 
-## Precautions
-
-To use it, name the image you want to optimize as input, with a png or jpg suffix (jpeg is not currently supported), and then choose the type you want to optimize. The output image is output.png
-
-Note: Animation video optimization is video optimization to optimize the image, and only support png format.
-
 ## Use and reference items
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=contre&repo=Windows-API-Code-Pack-1.1)](https://github.com/contre/Windows-API-Code-Pack-1.1/)

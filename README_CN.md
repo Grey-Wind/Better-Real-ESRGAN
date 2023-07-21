@@ -17,12 +17,6 @@
 * [x] 批量优化图片
 * [ ] 优化视频
 
-## 注意事项
-
-在使用时，请先将您想要优化的图片命名为input，后缀名为png或jpg(jpeg目前不支持)，然后选自己需要的类型进行优化。输出图片为output.png
-
-注意：动漫视频优化是以视频优化方式优化图片，且只支持png格式。
-
 ## 使用及参考项目
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=contre&repo=Windows-API-Code-Pack-1.1)](https://github.com/contre/Windows-API-Code-Pack-1.1/)
