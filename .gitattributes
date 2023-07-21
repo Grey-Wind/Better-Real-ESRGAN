@@ -3,5 +3,4 @@
 # *.pth linguist-language=Python
 # *.bin linguist-language=Python
 # *.param linguist-language=Python
-*.cs linguist-language=CSharp
-*.csproj linguist-language=CSharp
+*.dll linguist-language=CSharp
