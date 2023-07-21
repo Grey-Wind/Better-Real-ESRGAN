@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Updater"
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="MainWindow"
         mc:Ignorable="d"
-        Title="Better Real-ESRGAN更新下载器"
+        Title="Better Real-ESRGAN下载器"
         Height="200"
         Width="347"
         Background="#FFE0D6F6">
@@ -19,11 +19,12 @@
         <Button x:Name="AllUpdateBtn" Content="一键更新下载" HorizontalAlignment="Left" Margin="115,58,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" Background="#FFFC9F9F"/>
         <Label Content="建议使用一键更新&#xA;下载，省事而且简&#xA;单&#xA;这个更新器不更新" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top"/>
         <Label Content="当前安装版本：" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="109,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="zh-cn" Text="检测版本中"/></TextBlock>
+        <TextBlock x:Name="LocalVersion" HorizontalAlignment="Left" Margin="109,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="zh-cn" Text="检测版本中"/></TextBlock>
         <Label Content="GitHub版本：" HorizontalAlignment="Left" Margin="10,107,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="109,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="zh-cn" Text="检测版本中"/></TextBlock>
+        <TextBlock x:Name="GitHubVersion" HorizontalAlignment="Left" Margin="109,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="zh-cn" Text="检测版本中"/></TextBlock>
         <Label Content="Gitee版本：" HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="109,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="zh-cn" Text="检测版本中"/></TextBlock>
+        <TextBlock x:Name="GiteeVersion" HorizontalAlignment="Left" Margin="109,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="zh-cn" Text="检测版本中"/></TextBlock>
+        <Label Content="版本检测是线上&#xD;&#xA;检测，网速不好&#xD;&#xA;可能会慢，正常&#xD;&#xA;现象" HorizontalAlignment="Left" Margin="220,84,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

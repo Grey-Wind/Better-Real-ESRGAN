@@ -1,5 +1,4 @@
 ﻿Imports System.ComponentModel
-Imports MahApps.Metro.Controls
 
 Class MainWindow
 
@@ -12,13 +11,6 @@ Class MainWindow
         ' Me.ResizeMode = ResizeMode.NoResize ' 禁止最小化
         Me.ResizeMode = ResizeMode.CanMinimize ' 允许最小化，但有最大化按钮
         Me.WindowStartupLocation = WindowStartupLocation.CenterScreen
-        ' HideMaximizeButton(Me)
-    End Sub
-
-    Private Sub HideMaximizeButton(window As MetroWindow)
-        window.UseNoneWindowStyle = True
-        window.IgnoreTaskbarOnMaximize = True
-        window.ShowMaxRestoreButton = False
     End Sub
 
     Private Sub MainWindow_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing ' 主窗口关闭事件，循环遍历子窗口列表并关闭每个子窗口
