@@ -5,14 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Updater"
         mc:Ignorable="d"
-        Title="Better Real-ESRGAN更新下载器" Height="130" Width="365">
+        Title="Better Real-ESRGAN更新下载器"
+        Height="130"
+        Width="365"
+        Background="#FFE0D6F6">
     <Grid>
         <Button Content="软件本体更新" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="下载模型" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="下载启动器" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="版权声明更新" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="动态链接库更新" HorizontalAlignment="Left" Margin="115,34,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="一键更新下载" HorizontalAlignment="Left" Margin="115,58,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" Background="#FFFC9F9F" Click="Button_Click"/>
+        <Button x:Name="AllUpdateBtn" Content="一键更新下载" HorizontalAlignment="Left" Margin="115,58,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" Background="#FFFC9F9F"/>
         <Label Content="建议使用一键更新&#xA;下载，省事而且简&#xA;单&#xD;&#xA;这个更新器不更新" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top"/>
 
     </Grid>
