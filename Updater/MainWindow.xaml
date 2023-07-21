@@ -1,13 +1,14 @@
-﻿<Window x:Class="MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Updater"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="MainWindow"
         mc:Ignorable="d"
         Title="Better Real-ESRGAN更新下载器"
-        Height="130"
-        Width="365"
+        Height="200"
+        Width="347"
         Background="#FFE0D6F6">
     <Grid>
         <Button Content="软件本体更新" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
@@ -16,7 +17,13 @@
         <Button Content="版权声明更新" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="动态链接库更新" HorizontalAlignment="Left" Margin="115,34,0,0" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="AllUpdateBtn" Content="一键更新下载" HorizontalAlignment="Left" Margin="115,58,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" Background="#FFFC9F9F"/>
-        <Label Content="建议使用一键更新&#xA;下载，省事而且简&#xA;单&#xD;&#xA;这个更新器不更新" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="建议使用一键更新&#xA;下载，省事而且简&#xA;单&#xA;这个更新器不更新" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="当前安装版本：" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="109,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="zh-cn" Text="检测版本中"/></TextBlock>
+        <Label Content="GitHub版本：" HorizontalAlignment="Left" Margin="10,107,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="109,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="zh-cn" Text="检测版本中"/></TextBlock>
+        <Label Content="Gitee版本：" HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="109,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"><Run Language="zh-cn" Text="检测版本中"/></TextBlock>
 
     </Grid>
 </Window>
