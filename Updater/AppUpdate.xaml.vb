@@ -284,4 +284,127 @@ Public Class AppUpdate
 
         End Try
     End Sub
+
+    Private Sub Mirror3Btn_Click(sender As Object, e As RoutedEventArgs) Handles Mirror3Btn.Click
+        ' 下载
+        Dim downloader As New Downloader()
+
+        Dim urls As String() = {
+            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
+            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
+            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll" ' 软件本体
+        }
+
+        Dim savePaths As String() = {
+            "./Better.Real-ESRGAN.exe", ' 软件本体
+            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
+            "./Microsoft.WindowsAPICodePack.dll" ' 软件本体
+        }
+
+        Dim url As String = "https://hub.yzuu.cf/"
+
+        Try
+            Dim client As New HttpClient()
+            Dim response As HttpResponseMessage = client.GetAsync(url).Result
+
+            If response.IsSuccessStatusCode Then ' 正常访问代码
+                ' 开始下载
+                downloader.DownloadFiles(urls, savePaths)
+            Else
+                ' 弹出提示框等待响应
+                Dim result As MessageBoxResult = MessageBox.Show("无法访问hub.yzuu.cf，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
+
+                If result = MessageBoxResult.Yes Then
+                    ' 开始下载
+                    downloader.DownloadFiles(urls, savePaths)
+                Else
+                    ' 点击No后的代码
+                End If
+            End If
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Mirror4Btn_Click(sender As Object, e As RoutedEventArgs) Handles Mirror4Btn.Click
+        ' 下载
+        Dim downloader As New Downloader()
+
+        Dim urls As String() = {
+            "https://hub.buaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
+            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
+            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll" ' 软件本体
+        }
+
+        Dim savePaths As String() = {
+            "./Better.Real-ESRGAN.exe", ' 软件本体
+            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
+            "./Microsoft.WindowsAPICodePack.dll" ' 软件本体
+        }
+
+        Dim url As String = "https://hub.nuaa.cf/"
+
+        Try
+            Dim client As New HttpClient()
+            Dim response As HttpResponseMessage = client.GetAsync(url).Result
+
+            If response.IsSuccessStatusCode Then ' 正常访问代码
+                ' 开始下载
+                downloader.DownloadFiles(urls, savePaths)
+            Else
+                ' 弹出提示框等待响应
+                Dim result As MessageBoxResult = MessageBox.Show("无法访问hub.nuaa.cf，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
+
+                If result = MessageBoxResult.Yes Then
+                    ' 开始下载
+                    downloader.DownloadFiles(urls, savePaths)
+                Else
+                    ' 点击No后的代码
+                End If
+            End If
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Mirror5Btn_Click(sender As Object, e As RoutedEventArgs) Handles Mirror5Btn.Click
+        ' 下载
+        Dim downloader As New Downloader()
+
+        Dim urls As String() = {
+            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
+            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
+            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll" ' 软件本体
+        }
+
+        Dim savePaths As String() = {
+            "./Better.Real-ESRGAN.exe", ' 软件本体
+            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
+            "./Microsoft.WindowsAPICodePack.dll" ' 软件本体
+        }
+
+        Dim url As String = "https://kgithub.com/"
+
+        Try
+            Dim client As New HttpClient()
+            Dim response As HttpResponseMessage = client.GetAsync(url).Result
+
+            If response.IsSuccessStatusCode Then ' 正常访问代码
+                ' 开始下载
+                downloader.DownloadFiles(urls, savePaths)
+            Else
+                ' 弹出提示框等待响应
+                Dim result As MessageBoxResult = MessageBox.Show("无法访问kgithub.com，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
+
+                If result = MessageBoxResult.Yes Then
+                    ' 开始下载
+                    downloader.DownloadFiles(urls, savePaths)
+                Else
+                    ' 点击No后的代码
+                End If
+            End If
+        Catch ex As Exception
+
+        End Try
+    End Sub
 End Class
