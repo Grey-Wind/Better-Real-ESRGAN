@@ -1,7 +1,5 @@
 ﻿Imports System.ComponentModel
 Imports System.IO
-Imports System.Net.Http
-Imports System.Reflection
 
 Class MainWindow
 
