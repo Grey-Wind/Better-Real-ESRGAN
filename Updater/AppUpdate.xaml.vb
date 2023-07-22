@@ -59,10 +59,6 @@ Public Class AppUpdate
             Dim response As HttpResponseMessage = client.GetAsync(url).Result
 
             If response.IsSuccessStatusCode Then ' 正常访问代码
-                ' 创建目录
-                Directory.CreateDirectory("./models")
-                Directory.CreateDirectory("./License")
-
                 ' 开始下载
                 downloader.DownloadFiles(urls, savePaths)
             Else
@@ -70,10 +66,6 @@ Public Class AppUpdate
                 Dim result As MessageBoxResult = MessageBox.Show("无法访问GitHub，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
 
                 If result = MessageBoxResult.Yes Then
-                    ' 创建目录
-                    Directory.CreateDirectory("./models")
-                    Directory.CreateDirectory("./License")
-
                     ' 开始下载
                     downloader.DownloadFiles(urls, savePaths)
                 Else
@@ -109,10 +101,6 @@ Public Class AppUpdate
             Dim response As HttpResponseMessage = client.GetAsync(url).Result
 
             If response.IsSuccessStatusCode Then ' 正常访问代码
-                ' 创建目录
-                Directory.CreateDirectory("./models")
-                Directory.CreateDirectory("./License")
-
                 ' 开始下载
                 downloader.DownloadFiles(urls, savePaths)
             Else
@@ -120,10 +108,6 @@ Public Class AppUpdate
                 Dim result As MessageBoxResult = MessageBox.Show("无法访问Gitee，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
 
                 If result = MessageBoxResult.Yes Then
-                    ' 创建目录
-                    Directory.CreateDirectory("./models")
-                    Directory.CreateDirectory("./License")
-
                     ' 开始下载
                     downloader.DownloadFiles(urls, savePaths)
                 Else
@@ -159,10 +143,6 @@ Public Class AppUpdate
             Dim response As HttpResponseMessage = client.GetAsync(url).Result
 
             If response.IsSuccessStatusCode Then ' 正常访问代码
-                ' 创建目录
-                Directory.CreateDirectory("./models")
-                Directory.CreateDirectory("./License")
-
                 ' 开始下载
                 downloader.DownloadFiles(urls, savePaths)
             Else
@@ -170,10 +150,6 @@ Public Class AppUpdate
                 Dim result As MessageBoxResult = MessageBox.Show("无法访问作者的博客，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
 
                 If result = MessageBoxResult.Yes Then
-                    ' 创建目录
-                    Directory.CreateDirectory("./models")
-                    Directory.CreateDirectory("./License")
-
                     ' 开始下载
                     downloader.DownloadFiles(urls, savePaths)
                 Else
@@ -209,10 +185,6 @@ Public Class AppUpdate
             Dim response As HttpResponseMessage = client.GetAsync(url).Result
 
             If response.IsSuccessStatusCode Then ' 正常访问代码
-                ' 创建目录
-                Directory.CreateDirectory("./models")
-                Directory.CreateDirectory("./License")
-
                 ' 开始下载
                 downloader.DownloadFiles(urls, savePaths)
             Else
@@ -220,10 +192,6 @@ Public Class AppUpdate
                 Dim result As MessageBoxResult = MessageBox.Show("无法访问官方下载站，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
 
                 If result = MessageBoxResult.Yes Then
-                    ' 创建目录
-                    Directory.CreateDirectory("./models")
-                    Directory.CreateDirectory("./License")
-
                     ' 开始下载
                     downloader.DownloadFiles(urls, savePaths)
                 Else
@@ -258,10 +226,6 @@ Public Class AppUpdate
             Dim response As HttpResponseMessage = client.GetAsync(url).Result
 
             If response.IsSuccessStatusCode Then ' 正常访问代码
-                ' 创建目录
-                Directory.CreateDirectory("./models")
-                Directory.CreateDirectory("./License")
-
                 ' 开始下载
                 downloader.DownloadFiles(urls, savePaths)
             Else
@@ -269,10 +233,6 @@ Public Class AppUpdate
                 Dim result As MessageBoxResult = MessageBox.Show("无法访问hub.ggo.icu，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
 
                 If result = MessageBoxResult.Yes Then
-                    ' 创建目录
-                    Directory.CreateDirectory("./models")
-                    Directory.CreateDirectory("./License")
-
                     ' 开始下载
                     downloader.DownloadFiles(urls, savePaths)
                 Else
@@ -307,10 +267,6 @@ Public Class AppUpdate
             Dim response As HttpResponseMessage = client.GetAsync(url).Result
 
             If response.IsSuccessStatusCode Then ' 正常访问代码
-                ' 创建目录
-                Directory.CreateDirectory("./models")
-                Directory.CreateDirectory("./License")
-
                 ' 开始下载
                 downloader.DownloadFiles(urls, savePaths)
             Else
@@ -318,10 +274,6 @@ Public Class AppUpdate
                 Dim result As MessageBoxResult = MessageBox.Show("无法访问hub.ggo.icu，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
 
                 If result = MessageBoxResult.Yes Then
-                    ' 创建目录
-                    Directory.CreateDirectory("./models")
-                    Directory.CreateDirectory("./License")
-
                     ' 开始下载
                     downloader.DownloadFiles(urls, savePaths)
                 Else
