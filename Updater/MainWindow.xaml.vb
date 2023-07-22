@@ -17,6 +17,10 @@ Class MainWindow
 
         ' 版本检测
         LocalVersion.Text = GetLocalFileVersion("./Better Real-ESRGAN.exe")
+
+        ' 暂时禁用检测
+        GitHubVersion.Text = "功能未制作"
+        GiteeVersion.Text = "功能未制作"
     End Sub
 
     Private Function GetLocalFileVersion(filePath As String) As String
