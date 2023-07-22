@@ -41,4 +41,10 @@ Class MainWindow
         childWindows.Add(Allupdate)
         Allupdate.Show()
     End Sub
+
+    Private Sub AppUpdateBtn_Click(sender As Object, e As RoutedEventArgs) Handles AppUpdateBtn.Click
+        Dim AppUpdate As New AppUpdate()
+        childWindows.Add(AppUpdate)
+        AppUpdate.Show()
+    End Sub
 End Class

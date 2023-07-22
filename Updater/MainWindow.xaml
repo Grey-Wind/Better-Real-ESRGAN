@@ -11,7 +11,7 @@
         Width="347"
         Background="#FFE0D6F6">
     <Grid>
-        <Button Content="软件本体更新" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="AppUpdateBtn" Content="软件本体更新" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="下载模型" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="下载启动器" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="版权声明更新" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="100"/>
