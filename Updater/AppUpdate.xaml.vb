@@ -271,7 +271,7 @@ Public Class AppUpdate
                 downloader.DownloadFiles(urls, savePaths)
             Else
                 ' 弹出提示框等待响应
-                Dim result As MessageBoxResult = MessageBox.Show("无法访问hub.ggo.icu，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
+                Dim result As MessageBoxResult = MessageBox.Show("无法访问hub.njuu.cf，请更换下载方式或启动加速器" & vbCrLf & "点击是将继续下载，但是不保证正常运行" & vbCrLf & "点击否将取消下载", "警告", MessageBoxButton.YesNo)
 
                 If result = MessageBoxResult.Yes Then
                     ' 开始下载
