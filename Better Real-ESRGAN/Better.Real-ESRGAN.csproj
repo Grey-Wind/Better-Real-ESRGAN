@@ -214,6 +214,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="version.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="License\Better Real-ESRGAN_CN.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
