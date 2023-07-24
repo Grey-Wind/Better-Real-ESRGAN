@@ -1,9 +1,12 @@
-﻿using Microsoft.Win32;
-using System.Windows;
+﻿using System.Windows;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
+using System.Windows.Media.Imaging;
+using System;
+using System.Windows.Media;
 
 namespace Better_Real_ESRGAN
 {
@@ -15,17 +18,6 @@ namespace Better_Real_ESRGAN
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void SelectFileBtn_Click(object sender, RoutedEventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            if (openFileDialog.ShowDialog() == true)
-            {
-                string selectedFile = openFileDialog.FileName;
-                // 处理选择的文件
-                ImagePathBox.Text = selectedFile;
-            }
         }
 
         private void SelectInputFolderBtn_Click(object sender, RoutedEventArgs e)

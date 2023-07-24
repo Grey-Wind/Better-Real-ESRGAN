@@ -25,11 +25,7 @@
             <ComboBoxItem Content="realesr-general-x4v3"/>
         </ComboBox>
         <Button x:Name="RunBtn" Content="运行" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" Width="380" Click="RunBtn_Click"/>
-            <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="10,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="760" Height="311" IsReadOnly="True" FontWeight="Bold">
-            <TextBox.Background>
-                <ImageBrush ImageSource="/resources/image/back.jpg"/>
-            </TextBox.Background>
-        </TextBox>
+        <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="10,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="760" Height="311" IsReadOnly="True" FontWeight="Bold"/>
         <Button x:Name="UpdateBtn" Content="修改/更新/模型下载" HorizontalAlignment="Left" Margin="395,95,0,0" VerticalAlignment="Top" Width="375" Click="UpdateBtn_Click"/>
     </Grid>
 </Window>
