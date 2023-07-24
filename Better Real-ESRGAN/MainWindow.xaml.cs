@@ -134,5 +134,16 @@ namespace Better_Real_ESRGAN
             // 关闭本体
             Application.Current.Shutdown();
         }
+
+        private void AdvancedModeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("本功能正在制作，所有功能均在测试，谨慎使用！！！", "警告！！！");
+
+            // 启动高级模式
+            Process.Start(new ProcessStartInfo { FileName = "cmd.exe", Arguments = "/C start AdvancedMode.exe", CreateNoWindow = true, UseShellExecute = true });
+
+            // 关闭本体
+            Application.Current.Shutdown();
+        }
     }
 }

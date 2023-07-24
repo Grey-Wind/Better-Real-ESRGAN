@@ -235,9 +235,6 @@
     <Content Include="realesrgan-ncnn-vulkan.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="resources\image\back.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <Content Include="vcomp140.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
