@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Better_Real_ESRGAN"
         mc:Ignorable="d"
-        Title="Better Real-ESRGAN" Height="335" Width="800">
+        Title="Better Real-ESRGAN" Height="480" Width="800">
     <Grid>
-        <Label Content="图片路径：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="ImagePathBox" HorizontalAlignment="Left" Margin="80,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
+        <Label Content="图片路径：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top">
+            <Label.Background>
+                <ImageBrush/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="ImagePathBox" HorizontalAlignment="Left" Margin="80,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
             <Button x:Name="SelectInputFolderBtn" Content="选择文件夹" HorizontalAlignment="Left" Margin="706,13,0,0" VerticalAlignment="Top" Click="SelectInputFolderBtn_Click"/>
             <Label Content="输出路径：" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
             <TextBox x:Name="OutputPathBox" HorizontalAlignment="Left" Margin="80,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
@@ -21,7 +25,11 @@
             <ComboBoxItem Content="realesr-general-x4v3"/>
         </ComboBox>
         <Button x:Name="RunBtn" Content="运行" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" Width="380" Click="RunBtn_Click"/>
-            <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="10,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="760" Height="167" IsReadOnly="True" FontSize="10"/>
+            <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="10,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="760" Height="311" IsReadOnly="True" FontWeight="Bold">
+            <TextBox.Background>
+                <ImageBrush ImageSource="/resources/image/back.jpg"/>
+            </TextBox.Background>
+        </TextBox>
         <Button x:Name="UpdateBtn" Content="修改/更新/模型下载" HorizontalAlignment="Left" Margin="395,95,0,0" VerticalAlignment="Top" Width="375" Click="UpdateBtn_Click"/>
     </Grid>
 </Window>
