@@ -19,9 +19,6 @@ Class MainWindow
         ' 本地版本检测
         LocalVersion.Text = GetLocalFileVersion("./Better Real-ESRGAN.exe")
 
-        ' 线上版本检测
-        AddHandler Application.Current.Startup, AddressOf Version
-
         ' GitHubVersion.Text = OnlineVersion("https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/version.txt")
         ' GiteeVersion.Text = OnlineVersion("https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/version.txt")
 
@@ -29,7 +26,7 @@ Class MainWindow
         ' GitHubVersion.Text = "功能未制作"
         ' GiteeVersion.Text = "功能未制作"
 
-        ' 创建新线程
+        ' 线上版本检测创建新线程
         Dim thread As New Thread(AddressOf Version)
         thread.Start()
     End Sub
