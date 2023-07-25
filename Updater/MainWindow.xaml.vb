@@ -2,6 +2,7 @@
 Imports System.IO
 Imports System.Net
 Imports System.Text.RegularExpressions
+Imports System.Threading
 
 Class MainWindow
 
@@ -44,33 +45,46 @@ Class MainWindow
             ' 创建 WebRequest 对象
             Dim request As WebRequest = WebRequest.Create(onlineFileUrl)
 
+            ' 在发起请求前记录当前时间
+            Dim startTime As DateTime = DateTime.Now
+
             ' 发起 GET 请求
             Using response As WebResponse = request.GetResponse()
+                ' 获取请求完成后的时间
+                Dim endTime As DateTime = DateTime.Now
+
+                ' 计算请求所需的时间差
+                Dim elapsedTime As TimeSpan = endTime - startTime
+
+                ' 判断时间差是否超过500ms
+                If elapsedTime.TotalMilliseconds > 500 Then
+                    Return "请求超时"
+                End If
+
+                ' 保存文件到本地
+                Dim filePath As String = "temp.txt"
                 Using stream As Stream = response.GetResponseStream()
-                    ' 保存文件到本地
-                    Dim filePath As String = "temp.txt"
                     Using fileStream As New FileStream(filePath, FileMode.Create)
                         stream.CopyTo(fileStream)
                     End Using
-
-                    ' 读取文件内容
-                    Using reader As New StreamReader(filePath)
-                        versionInfo = reader.ReadToEnd()
-                    End Using
-
-                    ' 删除临时文件
-                    File.Delete(filePath)
                 End Using
+
+                ' 读取文件内容
+                Using reader As New StreamReader(filePath)
+                    versionInfo = reader.ReadToEnd()
+                End Using
+
+                ' 删除临时文件
+                File.Delete(filePath)
             End Using
         Catch ex As Exception
             ' 处理异常情况
-            MessageBox.Show("无法获取文件：" & ex.Message)
+            ' MessageBox.Show("无法获取文件：" & ex.Message)
+            Return ex.Message
         End Try
 
         Return versionInfo
     End Function
-
-
 
     Private Sub MainWindow_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing ' 主窗口关闭事件，循环遍历子窗口列表并关闭每个子窗口
         For Each childWindow As Window In childWindows
@@ -82,11 +96,5 @@ Class MainWindow
         Dim Allupdate As New AllUpdate()
         childWindows.Add(Allupdate)
         Allupdate.Show()
-    End Sub
-
-    Private Sub AppUpdateBtn_Click(sender As Object, e As RoutedEventArgs) Handles AppUpdateBtn.Click
-        Dim AppUpdate As New AppUpdate()
-        childWindows.Add(AppUpdate)
-        AppUpdate.Show()
     End Sub
 End Class
