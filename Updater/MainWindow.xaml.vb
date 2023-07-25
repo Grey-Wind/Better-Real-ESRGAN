@@ -19,6 +19,7 @@ Class MainWindow
         ' 本地版本检测
         LocalVersion.Text = GetLocalFileVersion("./Better Real-ESRGAN.exe")
 
+        ' 调用获取版本函数
         ' GitHubVersion.Text = OnlineVersion("https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/version.txt")
         ' GiteeVersion.Text = OnlineVersion("https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/version.txt")
 
