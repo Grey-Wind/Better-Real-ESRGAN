@@ -3,10 +3,6 @@ using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
-using System.Globalization;
-using System.Windows.Media.Imaging;
-using System;
-using System.Windows.Media;
 
 namespace Better_Real_ESRGAN
 {
