@@ -56,8 +56,10 @@ namespace AdvancedMode
             string outputPath = OutputPathBox.Text;
             string modelArgument = "-n";
             string model = SelectModel.Text;
+            string scaleArgument = "-s";
+            string scale = Scale.Text;
 
-            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model}";
+            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale}";
 
             ProcessStartInfo processInfo = new ProcessStartInfo();
             processInfo.FileName = command;
