@@ -58,8 +58,10 @@ namespace AdvancedMode
             string model = SelectModel.Text;
             string scaleArgument = "-s";
             string scale = Scale.Text;
+            string gpu_id_Argument = "-g";
+            string gpu_id = GPU_ID.Text;
 
-            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale}";
+            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale} {gpu_id_Argument} {gpu_id}";
 
             ProcessStartInfo processInfo = new ProcessStartInfo();
             processInfo.FileName = command;
