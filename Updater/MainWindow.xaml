@@ -1,14 +1,13 @@
 ﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     x:Name="window" x:Class="MainWindow"
         Title="Better Real-ESRGAN下载器"
         Height="175"
         Width="375" Icon="/icon.ico">
     <Grid>
-        <Button x:Name="AllUpdateBtn" Content="一键更新下载" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="170"/>
-        <Button Content="下载高级模式" HorizontalAlignment="Left" Margin="185,10,0,0" VerticalAlignment="Top" Width="170"/>
+        <Button x:Name="AllUpdateBtn" Content="一键更新下载" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="170" Click="AllUpdateBtn_Click"/>
+        <Button x:Name="AdvancedModeBtn" Content="下载高级模式" HorizontalAlignment="Left" Margin="185,10,0,0" VerticalAlignment="Top" Width="170" Click="AdvancedModeBtn_Click"/>
         <Label Content="当前安装版本：" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="LocalVersion" HorizontalAlignment="Left" Margin="108,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中"/>
         <Label Content="GitHub版本：" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.799"/>

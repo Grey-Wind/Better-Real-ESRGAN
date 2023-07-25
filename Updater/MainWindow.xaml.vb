@@ -123,4 +123,10 @@ Class MainWindow
         childWindows.Add(Allupdate)
         Allupdate.Show()
     End Sub
+
+    Private Sub AdvancedModeBtn_Click(sender As Object, e As RoutedEventArgs) Handles AdvancedModeBtn.Click
+        Dim AdvancedMode As New AdvancedMode()
+        childWindows.Add(AdvancedMode)
+        AdvancedMode.Show()
+    End Sub
 End Class

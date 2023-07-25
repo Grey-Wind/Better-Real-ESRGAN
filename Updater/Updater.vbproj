@@ -106,6 +106,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Windows\AdvancedMode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\AllUpdate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -114,6 +118,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Windows\AdvancedMode.xaml.vb">
+      <DependentUpon>AdvancedMode.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\AllUpdate.xaml.vb">
       <DependentUpon>AllUpdate.xaml</DependentUpon>
     </Compile>
