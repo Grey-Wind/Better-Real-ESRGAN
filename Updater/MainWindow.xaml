@@ -4,21 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Updater"
-        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="MainWindow"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Name="window" x:Class="MainWindow"
         mc:Ignorable="d"
         Title="Better Real-ESRGAN下载器"
         Height="175"
-        Width="375"
-        Background="#FFE0D6F6">
-    <Grid>
-        <Button x:Name="AllUpdateBtn" Content="一键更新下载" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="150"/>
-        <Button Content="下载高级模式" HorizontalAlignment="Left" Margin="192,10,0,0" VerticalAlignment="Top" Width="150"/>
-        <Label Content="当前安装版本：" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="LocalVersion" HorizontalAlignment="Left" Margin="108,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中"/>
-        <Label Content="GitHub版本：" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.799"/>
-        <TextBlock x:Name="GitHubVersion" HorizontalAlignment="Left" Margin="108,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中"/>
-        <Label Content="Gitee版本：" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="GiteeVersion" HorizontalAlignment="Left" Margin="108,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中"/>
-        <Label Content="版本检测是线上检测，&#xD;&#xA;网速不好，可能会慢&#xA;N/A为没有检测到&#xA;正在优化启动速度" HorizontalAlignment="Left" Margin="225,35,0,0" VerticalAlignment="Top" Width="140"/>
+        Width="375" Icon="/icon.ico">
+    <Grid d:IsHidden="True">
+        <Button x:Name="AllUpdateBtn" Content="一键更新下载" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="170" d:IsHidden="True"/>
+        <Button Content="下载高级模式" HorizontalAlignment="Left" Margin="185,10,0,0" VerticalAlignment="Top" Width="170" d:IsHidden="True"/>
+        <Label Content="当前安装版本：" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" d:IsHidden="True"/>
+        <TextBlock x:Name="LocalVersion" HorizontalAlignment="Left" Margin="108,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中" d:IsHidden="True"/>
+        <Label Content="GitHub版本：" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.799" d:IsHidden="True"/>
+        <TextBlock x:Name="GitHubVersion" HorizontalAlignment="Left" Margin="108,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中" d:IsHidden="True"/>
+        <Label Content="Gitee版本：" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" d:IsHidden="True"/>
+        <TextBlock x:Name="GiteeVersion" HorizontalAlignment="Left" Margin="108,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中" d:IsHidden="True"/>
+        <Label Content="版本检测是线上检测，&#xD;&#xA;网速不好，可能会慢&#xA;N/A为没有检测到&#xA;正在优化启动速度" HorizontalAlignment="Left" Margin="225,35,0,0" VerticalAlignment="Top" Width="140" d:IsHidden="True"/>
     </Grid>
 </Window>

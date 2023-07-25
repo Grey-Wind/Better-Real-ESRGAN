@@ -20,12 +20,40 @@ Class MainWindow
         LocalVersion.Text = GetLocalFileVersion("./Better Real-ESRGAN.exe")
 
         ' 线上版本检测
-        GitHubVersion.Text = OnlineVersion("https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/version.txt")
-        GiteeVersion.Text = OnlineVersion("https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/version.txt")
+        AddHandler Application.Current.Startup, AddressOf Version
+
+        ' GitHubVersion.Text = OnlineVersion("https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/version.txt")
+        ' GiteeVersion.Text = OnlineVersion("https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/version.txt")
 
         ' 暂时禁用线上检测
         ' GitHubVersion.Text = "功能未制作"
         ' GiteeVersion.Text = "功能未制作"
+
+        ' 创建新线程
+        Dim thread As New Thread(AddressOf Version)
+        thread.Start()
+    End Sub
+
+    Private Sub Version()
+        ' 调用获取版本函数
+        ' GitHubVersion.Text = OnlineVersion("https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/version.txt")
+        ' GiteeVersion.Text = OnlineVersion("https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/version.txt")
+
+        ' 获取 GitHub 版本
+        Dim gitHubVersionText As String = OnlineVersion("https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/version.txt")
+
+        ' 使用 Dispatcher 修改 UI
+        Dispatcher.Invoke(Sub()
+                              GitHubVersion.Text = gitHubVersionText
+                          End Sub)
+
+        ' 获取 Gitee 版本
+        Dim giteeVersionText As String = OnlineVersion("https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/version.txt")
+
+        ' 使用 Dispatcher 修改 UI
+        Dispatcher.Invoke(Sub()
+                              GiteeVersion.Text = giteeVersionText
+                          End Sub)
     End Sub
 
     Private Function GetLocalFileVersion(filePath As String) As String
