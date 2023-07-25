@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Better Real-ESRGAN" Height="370" Width="1275">
+        Title="Better Real-ESRGAN 图片优化高级模式" Height="370" Width="1275">
     <Grid>
         <Label Content="图片路径：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top">
             <Label.Background>
@@ -25,5 +25,11 @@
         </ComboBox>
         <Button x:Name="RunBtn" Content="运行" HorizontalAlignment="Left" Margin="10,306,0,0" VerticalAlignment="Top" Width="539" Click="RunBtn_Click"/>
         <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="555,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="697" Height="311" IsReadOnly="True" FontWeight="Bold"/>
+        <Label Content="高比特率：" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="80,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="4"/>
+        <Label Content="使用GPU：" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="80,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0"/>
+        <Label Content="需要是2、3、4中的一个，使用其它数字后果自负" HorizontalAlignment="Left" Margin="145,95,0,0" VerticalAlignment="Top"/>
+        <Label Content="使用任务管理器的性能页面查看需要使用的GPU号" HorizontalAlignment="Left" Margin="145,125,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
