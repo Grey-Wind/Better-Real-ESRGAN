@@ -108,19 +108,19 @@ Class MainWindow
         Return versionInfo
     End Function
 
-    Private Sub MainWindow_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing ' 主窗口关闭事件，循环遍历子窗口列表并关闭每个子窗口
+    Private Sub MainWindow_Closing(sender As Object, e As CancelEventArgs) ' 主窗口关闭事件，循环遍历子窗口列表并关闭每个子窗口
         For Each childWindow As Window In childWindows
             childWindow.Close()
         Next
     End Sub
 
-    Private Sub AllUpdateBtn_Click(sender As Object, e As RoutedEventArgs) Handles AllUpdateBtn.Click
+    Private Sub AllUpdateBtn_Click(sender As Object, e As RoutedEventArgs)
         Dim Allupdate As New AllUpdate()
         childWindows.Add(Allupdate)
         Allupdate.Show()
     End Sub
 
-    Private Sub AdvancedModeBtn_Click(sender As Object, e As RoutedEventArgs) Handles AdvancedModeBtn.Click
+    Private Sub AdvancedModeBtn_Click(sender As Object, e As RoutedEventArgs)
         Dim AdvancedMode As New AdvancedMode()
         childWindows.Add(AdvancedMode)
         AdvancedMode.Show()

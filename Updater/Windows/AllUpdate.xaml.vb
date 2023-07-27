@@ -31,11 +31,11 @@ Public Class AllUpdate
                                         End Sub
     End Sub
 
-    Private Sub CloseBtn_Click(sender As Object, e As RoutedEventArgs) Handles CloseBtn.Click
+    Private Sub CloseBtn_Click(sender As Object, e As RoutedEventArgs)
         Close()
     End Sub
 
-    Private Sub GitHubBtnClick(sender As Object, e As RoutedEventArgs) Handles GitHubBtn.Click
+    Private Sub GitHubBtnClick(sender As Object, e As RoutedEventArgs)
         ' 下载
         Dim downloader As New Downloader()
 
@@ -124,7 +124,7 @@ Public Class AllUpdate
         End Try
     End Sub
 
-    Private Sub GiteeBtn_Click(sender As Object, e As RoutedEventArgs) Handles GiteeBtn.Click
+    Private Sub GiteeBtn_Click(sender As Object, e As RoutedEventArgs)
         ' 下载
         Dim downloader As New Downloader()
 
@@ -213,7 +213,7 @@ Public Class AllUpdate
         End Try
     End Sub
 
-    Private Sub BlogBtn_Click(sender As Object, e As RoutedEventArgs) Handles BlogBtn.Click
+    Private Sub BlogBtn_Click(sender As Object, e As RoutedEventArgs)
         ' 下载
         Dim downloader As New Downloader()
 
@@ -302,7 +302,7 @@ Public Class AllUpdate
         End Try
     End Sub
 
-    Private Sub DownloadSiteBtn_Click(sender As Object, e As RoutedEventArgs) Handles DownloadSiteBtn.Click
+    Private Sub DownloadSiteBtn_Click(sender As Object, e As RoutedEventArgs)
         ' 下载
         Dim downloader As New Downloader()
 
@@ -391,7 +391,7 @@ Public Class AllUpdate
         End Try
     End Sub
 
-    Private Sub Mirror1Btn_Click(sender As Object, e As RoutedEventArgs) Handles Mirror1Btn.Click
+    Private Sub Mirror1Btn_Click(sender As Object, e As RoutedEventArgs)
         ' 下载
         Dim downloader As New Downloader()
 
@@ -480,7 +480,7 @@ Public Class AllUpdate
         End Try
     End Sub
 
-    Private Sub Mirror2Btn_Click(sender As Object, e As RoutedEventArgs) Handles Mirror2Btn.Click
+    Private Sub Mirror2Btn_Click(sender As Object, e As RoutedEventArgs)
         ' 下载
         Dim downloader As New Downloader()
 
@@ -569,7 +569,7 @@ Public Class AllUpdate
         End Try
     End Sub
 
-    Private Sub Mirror3Btn_Click(sender As Object, e As RoutedEventArgs) Handles Mirror3Btn.Click
+    Private Sub Mirror3Btn_Click(sender As Object, e As RoutedEventArgs)
         ' 下载
         Dim downloader As New Downloader()
 
@@ -658,7 +658,7 @@ Public Class AllUpdate
         End Try
     End Sub
 
-    Private Sub Mirror4Btn_Click(sender As Object, e As RoutedEventArgs) Handles Mirror4Btn.Click
+    Private Sub Mirror4Btn_Click(sender As Object, e As RoutedEventArgs)
         ' 下载
         Dim downloader As New Downloader()
 
@@ -747,7 +747,7 @@ Public Class AllUpdate
         End Try
     End Sub
 
-    Private Sub Mirror5Btn_Click(sender As Object, e As RoutedEventArgs) Handles Mirror5Btn.Click
+    Private Sub Mirror5Btn_Click(sender As Object, e As RoutedEventArgs)
         ' 下载
         Dim downloader As New Downloader()
 
