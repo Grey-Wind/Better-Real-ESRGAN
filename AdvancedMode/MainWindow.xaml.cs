@@ -70,8 +70,11 @@ namespace AdvancedMode
             string tileSize = TileSize.Text;
             string threadAllocationArgument = "-j";
             string threadAllocation = ThreadAllocation.Text;
+            string outputFormatArgument = "-f";
+            string outputFormat = OutputFormat.Text;
 
-            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale} {gpu_id_Argument} {gpu_id} {tileSizeArgument} {tileSize} {threadAllocationArgument} {threadAllocation}";
+            // 拼接参数
+            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale} {gpu_id_Argument} {gpu_id} {tileSizeArgument} {tileSize} {threadAllocationArgument} {threadAllocation} {outputFormatArgument} {outputFormat}";
 
             ProcessStartInfo processInfo = new ProcessStartInfo();
             processInfo.FileName = command;
