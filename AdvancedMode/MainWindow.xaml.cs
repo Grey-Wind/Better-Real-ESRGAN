@@ -60,8 +60,10 @@ namespace AdvancedMode
             string scale = Scale.Text;
             string gpu_id_Argument = "-g";
             string gpu_id = GPU_ID.Text;
+            string tileSizeArgument = "-t";
+            string tileSize = TileSize.Text;
 
-            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale} {gpu_id_Argument} {gpu_id}";
+            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale} {gpu_id_Argument} {gpu_id} {tileSizeArgument} {tileSize}";
 
             ProcessStartInfo processInfo = new ProcessStartInfo();
             processInfo.FileName = command;

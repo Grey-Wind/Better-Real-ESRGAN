@@ -74,9 +74,6 @@
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="FileDownloader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8d7e1223c0de06e5, processorArchitecture=MSIL">
       <HintPath>.\FileDownloader.dll</HintPath>

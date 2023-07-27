@@ -31,5 +31,8 @@
         <TextBox x:Name="GPU_ID" HorizontalAlignment="Left" Margin="80,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0"/>
         <Label Content="需要是2、3、4中的一个，使用其它数字后果自负" HorizontalAlignment="Left" Margin="145,95,0,0" VerticalAlignment="Top"/>
         <Label Content="使用任务管理器的性能页面查看需要使用的GPU号" HorizontalAlignment="Left" Margin="145,125,0,0" VerticalAlignment="Top"/>
+        <Label Content="贴图大小：" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TileSize" HorizontalAlignment="Left" Margin="80,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0:0:0"/>
+        <Button x:Name="TileSizeDoc" Content="查看详细说明" HorizontalAlignment="Left" Margin="152,154,0,0" VerticalAlignment="Top" Width="80"/>
     </Grid>
 </Window>
