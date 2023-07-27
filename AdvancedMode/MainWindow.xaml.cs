@@ -3,6 +3,8 @@ using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
+using AdvancedMode.explanatory_document;
+using System.Collections.Generic;
 
 namespace AdvancedMode
 {
@@ -11,9 +13,13 @@ namespace AdvancedMode
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<Window> childWindows = new List<Window>();
+
         public MainWindow()
         {
             InitializeComponent();
+
+            Closing += MainWindow_Closing; // 绑定closing事件
         }
 
         private void SelectInputFolderBtn_Click(object sender, RoutedEventArgs e)
@@ -124,6 +130,32 @@ namespace AdvancedMode
                     CommandOutput.ScrollToEnd(); // 将滚动条滚动到最下方
                 });
             });
+        }
+
+        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            foreach (Window window in childWindows)
+            {
+                window.Close();
+            }
+
+            // 清空子窗口列表
+            childWindows.Clear();
+        }
+
+        private void TileSizeDoc_Click(object sender, RoutedEventArgs e)
+        {
+            // 创建另一个窗口的实例
+            TileSize tileSizeWindow = new TileSize();
+
+            // 将子窗口添加到列表中
+            childWindows.Add(tileSizeWindow);
+
+            // 显示窗口
+            tileSizeWindow.Show();
+
+            // 或者以对话框形式展示窗口
+            // tileSizeWindow.ShowDialog();
         }
     }
 }
