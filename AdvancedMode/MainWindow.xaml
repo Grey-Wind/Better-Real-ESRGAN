@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Better Real-ESRGAN 图片优化高级模式" Height="370" Width="1235" DragEnter="RunBtn_Click">
+        Title="Better Real-ESRGAN 图片优化高级模式" Height="320" Width="1040" DragEnter="RunBtn_Click">
     <Grid>
         <Label Content="图片路径：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="ImagePathBox" HorizontalAlignment="Left" Margin="80,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400"/>
@@ -19,8 +19,8 @@
             <ComboBoxItem Content="realesr-general-wdn-x4v3"/>
             <ComboBoxItem Content="realesr-general-x4v3"/>
         </ComboBox>
-        <Button x:Name="RunBtn" Content="运行" HorizontalAlignment="Left" Margin="10,306,0,0" VerticalAlignment="Top" Width="539" Click="RunBtn_Click"/>
-        <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="555,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="655" Height="310" IsReadOnly="True" FontWeight="Bold"/>
+        <Button x:Name="RunBtn" Content="运行" HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top" Width="539" Click="RunBtn_Click" DragEnter="RunBtn_Click"/>
+        <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="555,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Height="254" IsReadOnly="True" FontWeight="Bold"/>
         <Label Content="高比特率：" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="Scale" HorizontalAlignment="Left" Margin="80,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="4"/>
         <Label Content="使用GPU：" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top"/>
@@ -36,5 +36,7 @@
         <Label Content="导出格式" HorizontalAlignment="Left" Margin="10,199,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="OutputFormat" HorizontalAlignment="Left" Margin="80,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="png"/>
         <Label Content="输出图像格式(jpg/png/webp，默认=ext/png)，别搞幺蛾子啊" HorizontalAlignment="Left" Margin="145,199,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="VerboseOutput" Content="启用详细输出" HorizontalAlignment="Left" Margin="15,229,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="TtaMode" Content="启用tta模式" HorizontalAlignment="Left" Margin="112,229,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

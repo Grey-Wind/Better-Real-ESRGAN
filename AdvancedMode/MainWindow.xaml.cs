@@ -56,25 +56,39 @@ namespace AdvancedMode
         {
             // 设置命令参数
             string command = "realesrgan-ncnn-vulkan.exe";
-            string inputArgument = "-i";
+            string inputArgument = " -i ";
             string imagePath = ImagePathBox.Text;
-            string outputArgument = "-o";
+            string outputArgument = " -o ";
             string outputPath = OutputPathBox.Text;
-            string modelArgument = "-n";
+            string modelArgument = " -n ";
             string model = SelectModel.Text;
-            string scaleArgument = "-s";
+            string scaleArgument = " -s ";
             string scale = Scale.Text;
-            string gpu_id_Argument = "-g";
+            string gpu_id_Argument = " -g ";
             string gpu_id = GPU_ID.Text;
-            string tileSizeArgument = "-t";
+            string tileSizeArgument = " -t ";
             string tileSize = TileSize.Text;
-            string threadAllocationArgument = "-j";
+            string threadAllocationArgument = " -j ";
             string threadAllocation = ThreadAllocation.Text;
-            string outputFormatArgument = "-f";
+            string outputFormatArgument = " -f ";
             string outputFormat = OutputFormat.Text;
 
             // 拼接参数
             string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale} {gpu_id_Argument} {gpu_id} {tileSizeArgument} {tileSize} {threadAllocationArgument} {threadAllocation} {outputFormatArgument} {outputFormat}";
+
+            // 检测启用详细输出是否被选中
+            if (VerboseOutput.IsChecked == true)
+            {
+                // 如果 CheckBox 被选中，则在 argument 字符串末尾添加 "-x"
+                arguments += " -v";
+            }
+
+            // 检测启用tta模式是否被选中
+            if (VerboseOutput.IsChecked == true)
+            {
+                // 如果 CheckBox 被选中，则在 argument 字符串末尾添加 "-x"
+                arguments += " -x";
+            }
 
             ProcessStartInfo processInfo = new ProcessStartInfo();
             processInfo.FileName = command;
