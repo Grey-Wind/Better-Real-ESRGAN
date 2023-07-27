@@ -10,10 +10,11 @@
         <Button x:Name="AdvancedModeBtn" Content="下载高级模式" HorizontalAlignment="Left" Margin="185,10,0,0" VerticalAlignment="Top" Width="170" Click="AdvancedModeBtn_Click"/>
         <Label Content="当前安装版本：" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="LocalVersion" HorizontalAlignment="Left" Margin="108,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中"/>
-        <Label Content="GitHub版本：" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.799"/>
-        <TextBlock x:Name="GitHubVersion" HorizontalAlignment="Left" Margin="108,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中"/>
-        <Label Content="Gitee版本：" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="GiteeVersion" HorizontalAlignment="Left" Margin="108,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中"/>
-        <Label Content="版本检测是线上检测，&#xD;&#xA;网速不好，可能会慢&#xA;N/A为没有检测到&#xA;正在优化启动速度" HorizontalAlignment="Left" Margin="225,35,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label Content="GitHub版本：" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.799"/>
+        <TextBlock x:Name="GitHubVersion" HorizontalAlignment="Left" Margin="108,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中"/>
+        <Label Content="Gitee版本：" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="GiteeVersion" HorizontalAlignment="Left" Margin="108,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="检测版本中"/>
+        <Label Content="版本检测是线上检测，&#xD;&#xA;网速不好，可能会慢&#xA;N/A为没有检测到&#xA;正在优化启动速度" HorizontalAlignment="Left" Margin="225,29,0,0" VerticalAlignment="Top" Width="130"/>
+        <Button x:Name="RetestBtn" Content="重新检测" HorizontalAlignment="Left" Margin="14,108,0,0" VerticalAlignment="Top" Width="166"/>
     </Grid>
 </Window>

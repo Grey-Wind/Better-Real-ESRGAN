@@ -3,7 +3,7 @@ Imports System.Windows.Shell
 Imports System.Net.Http
 Imports FileDownloader
 
-Public Class AllUpdate
+Public Class AdvancedMode
 
     Inherits Window
 

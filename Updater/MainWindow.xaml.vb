@@ -125,4 +125,12 @@ Class MainWindow
         childWindows.Add(AdvancedMode)
         AdvancedMode.Show()
     End Sub
+
+    Private Sub RetestBtn_Click(sender As Object, e As RoutedEventArgs) Handles RetestBtn.Click
+        GitHubVersion.Text = "重新检测中"
+        GiteeVersion.Text = "重新检测中"
+        ' 线上版本检测创建新线程
+        Dim thread As New Thread(AddressOf Version)
+        thread.Start()
+    End Sub
 End Class
