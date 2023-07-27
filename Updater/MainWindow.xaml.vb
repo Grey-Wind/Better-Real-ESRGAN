@@ -33,10 +33,6 @@ Class MainWindow
     End Sub
 
     Private Sub Version()
-        ' 调用获取版本函数
-        ' GitHubVersion.Text = OnlineVersion("https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/version.txt")
-        ' GiteeVersion.Text = OnlineVersion("https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/version.txt")
-
         ' 获取 GitHub 版本
         Dim gitHubVersionText As String = OnlineVersion("https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/version.txt")
 
