@@ -65,6 +65,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="explanatory_document\ThreadAllocation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="explanatory_document\TileSize.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -76,6 +80,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="explanatory_document\ThreadAllocation.xaml.cs">
+      <DependentUpon>ThreadAllocation.xaml</DependentUpon>
     </Compile>
     <Compile Include="explanatory_document\TileSize.xaml.cs">
       <DependentUpon>TileSize.xaml</DependentUpon>
@@ -112,7 +119,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="docs\ThreadAllocation.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <None Include="docs\example.html" />
     <None Include="docs\TileSize.html">

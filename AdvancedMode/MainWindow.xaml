@@ -34,5 +34,8 @@
         <Label Content="贴图大小：" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="TileSize" HorizontalAlignment="Left" Margin="80,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0:0:0"/>
         <Button x:Name="TileSizeDoc" Content="查看详细说明" HorizontalAlignment="Left" Margin="152,154,0,0" VerticalAlignment="Top" Width="80" Click="TileSizeDoc_Click"/>
+        <Label Content="线程分配：" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ThreadAllocation" HorizontalAlignment="Left" Margin="80,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="1:2:2"/>
+        <Button x:Name="ThreadAllocationDoc" Content="查看详细说明" HorizontalAlignment="Left" Margin="152,178,0,0" VerticalAlignment="Top" Width="80" Click="ThreadAllocationDoc_Click"/>
     </Grid>
 </Window>

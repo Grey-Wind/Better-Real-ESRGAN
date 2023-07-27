@@ -68,8 +68,10 @@ namespace AdvancedMode
             string gpu_id = GPU_ID.Text;
             string tileSizeArgument = "-t";
             string tileSize = TileSize.Text;
+            string threadAllocationArgument = "-j";
+            string threadAllocation = ThreadAllocation.Text;
 
-            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale} {gpu_id_Argument} {gpu_id} {tileSizeArgument} {tileSize}";
+            string arguments = $"{inputArgument} {imagePath} {outputArgument} {outputPath} {modelArgument} {model} {scaleArgument} {scale} {gpu_id_Argument} {gpu_id} {tileSizeArgument} {tileSize} {threadAllocationArgument} {threadAllocation}";
 
             ProcessStartInfo processInfo = new ProcessStartInfo();
             processInfo.FileName = command;
@@ -156,6 +158,18 @@ namespace AdvancedMode
 
             // 或者以对话框形式展示窗口
             // tileSizeWindow.ShowDialog();
+        }
+
+        private void ThreadAllocationDoc_Click(object sender, RoutedEventArgs e)
+        {
+            // 创建另一个窗口的实例
+            ThreadAllocation threadAllocationWindow = new ThreadAllocation();
+
+            // 将子窗口添加到列表中
+            childWindows.Add(threadAllocationWindow);
+
+            // 显示窗口
+            threadAllocationWindow.Show();;
         }
     }
 }
