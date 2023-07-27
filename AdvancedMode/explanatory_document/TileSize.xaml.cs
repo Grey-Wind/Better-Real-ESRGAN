@@ -31,9 +31,9 @@ namespace AdvancedMode.explanatory_document
             // 加载HTML内容
             //webBrowser.NavigateToString(htmlContent);
 
-            string currentDirectory = Environment.CurrentDirectory;
-            string htmlFilePath = Path.Combine(currentDirectory, "docs", "TileSize.html");
-            webBrowser.Navigate(new Uri(htmlFilePath));
+            string currentDirectory = Environment.CurrentDirectory; // 获取当前目录
+            string htmlFilePath = Path.Combine(currentDirectory, "docs", "TileSize.html"); // 拼接路径
+            webBrowser.Navigate(new Uri(htmlFilePath)); // 加载HTML内容
         }
     }
 }
