@@ -1,10 +1,10 @@
 You are looking at the first version of the Better Real ESRGAN software copyright notice and license
 You are free to use my code and software subject to the following conditions, which are in no particular order and must be observed at the same time
 1. Comply with the AGPL-3.0 open source agreement on the basis of complying with all the following conditions
-2. Do not distribute content that violates local laws
+2. Do not distribute or use content that violates local laws
 3. The commercial use of the code needs the consent of the studio. You can send an email to Gray-Wind@outlook.com or send an issue to negotiate with me
-4. All code and any version built are protected by copyright, and any modification in violation of regulations, injection of viruses, and distribution without attribution of the original author will be legally liable
-5. The reprint software needs to indicate the author and give the project link
-6. You are free to distribute the official version of the software
+4. All code and any version built (including the version before this license declaration) is copyrighted under this license, and any modification in violation of the provisions, virus injection, and distribution without attribution to the original author (by writing the original GitHub link) are subject to legal liability
+5. The reprint software needs to indicate the author and give the project link (indicate the way to write the original GitHub link)
+6. You are free to distribute the official version of the software [please be sure to follow Rule 2!!!]
 7. You can modify the source code of the software, but you need to use the same license (i.e. AGPL-3.0 protocol and this license), and open source on a public platform (such as GitHub or GitLab, etc.).
 8. To be determined
