@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Better Real-ESRGAN" Height="375" Width="1152">
+        Title="Better Real-ESRGAN" Height="375" Width="558">
     <Grid>
         <Label Content="图片路径：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top">
             <Label.Background>
@@ -25,8 +25,7 @@
         </ComboBox>
         <Button x:Name="RunBtn" Content="图片模式运行" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" Width="260" Click="RunBtn_Click"/>
         <TextBox x:Name="CommandOutput" HorizontalAlignment="Left" Margin="10,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="524" Height="186" IsReadOnly="True" FontWeight="Bold"/>
-        <Button x:Name="UpdateBtn" Content="修改/更新/模型下载" HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top" Width="250" Click="UpdateBtn_Click"/>
+        <Button x:Name="UpdateBtn" Content="修改/更新/模型下载" HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top" Width="524" Click="UpdateBtn_Click"/>
         <Button x:Name="AdvancedModeBtn" Content="图片高级模式" HorizontalAlignment="Left" Margin="274,95,0,0" VerticalAlignment="Top" Width="260" Click="AdvancedModeBtn_Click"/>
-        <Label Content="|&#xA;|&#xA;|&#xA;|&#xA;|&#xA;|&#xA;|&#xA;|&#xA;|&#xA;|&#xA;|&#xA;|&#xA;|&#xD;&#xA;|&#xD;&#xA;|&#xD;&#xA;|&#xD;&#xA;|&#xD;&#xA;|&#xD;&#xA;|" HorizontalAlignment="Left" Margin="534,5,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
