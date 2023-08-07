@@ -1,7 +1,6 @@
 ﻿Imports System.ComponentModel
 Imports System.IO
 Imports System.Net
-Imports System.Text.RegularExpressions
 Imports System.Threading
 
 Class MainWindow

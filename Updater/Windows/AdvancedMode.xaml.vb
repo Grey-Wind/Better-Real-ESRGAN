@@ -40,55 +40,11 @@ Public Class AdvancedMode
         Dim downloader As New Downloader()
 
         Dim urls As String() = {
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140d.dll", ' 启动器
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/LICENSE", ' 版权信息
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_EN.txt", ' 版权信息
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_CN.txt", ' 版权信息
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.bin", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.param", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.bin", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.param", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.bin", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.param", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.bin", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.param", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
+            "https://github.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/AdvancedMode.exe" ' 软件本体
         }
 
         Dim savePaths As String() = {
-            "./Better.Real-ESRGAN.exe", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "./realesrgan-ncnn-vulkan.exe", ' 启动器
-            "./vcomp140.dll", ' 启动器
-            "./vcomp140d.dll", ' 启动器
-            "./License/LICENSE", ' 版权信息
-            "./License/Better.Real-ESRGAN_EN.txt", ' 版权信息
-            "./License/Better.Real-ESRGAN_CN.txt", ' 版权信息 
-            "./models/realesr-animevideov3-x2.bin", ' 模型文件
-            "./models/realesr-animevideov3-x2.param", ' 模型文件
-            "./models/realesr-animevideov3-x3.bin", ' 模型文件
-            "./models/realesr-animevideov3-x3.param", ' 模型文件
-            "./models/realesr-animevideov3-x4.bin", ' 模型文件
-            "./models/realesr-animevideov3-x4.param", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "./models/realesrgan-x4plus.bin", ' 模型文件
-            "./models/realesrgan-x4plus.param", ' 模型文件
-            "./models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "./models/realesrgan-x4plus-anime.param", ' 模型文件
-            "./models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "./models/realesr-general-x4v3.pth" ' 模型文件
+            "./AdvancedMode.exe" ' 软件本体
         }
 
         Dim url As String = "https://github.com/"
@@ -129,55 +85,11 @@ Public Class AdvancedMode
         Dim downloader As New Downloader()
 
         Dim urls As String() = {
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/vcomp140d.dll", ' 启动器
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/License/LICENSE", ' 版权信息
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_EN.txt", ' 版权信息
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_CN.txt", ' 版权信息
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.bin", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.param", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.bin", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.param", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.bin", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.param", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.bin", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.param", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
+            "https://gitee.com/sunrise-studio/File/raw/main/Better.Real-ESRGAN/AdvancedMode.exe" ' 软件本体
         }
 
         Dim savePaths As String() = {
-            "./Better.Real-ESRGAN.exe", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "./realesrgan-ncnn-vulkan.exe", ' 启动器
-            "./vcomp140.dll", ' 启动器
-            "./vcomp140d.dll", ' 启动器
-            "./License/LICENSE", ' 版权信息
-            "./License/Better.Real-ESRGAN_EN.txt", ' 版权信息
-            "./License/Better.Real-ESRGAN_CN.txt", ' 版权信息 
-            "./models/realesr-animevideov3-x2.bin", ' 模型文件
-            "./models/realesr-animevideov3-x2.param", ' 模型文件
-            "./models/realesr-animevideov3-x3.bin", ' 模型文件
-            "./models/realesr-animevideov3-x3.param", ' 模型文件
-            "./models/realesr-animevideov3-x4.bin", ' 模型文件
-            "./models/realesr-animevideov3-x4.param", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "./models/realesrgan-x4plus.bin", ' 模型文件
-            "./models/realesrgan-x4plus.param", ' 模型文件
-            "./models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "./models/realesrgan-x4plus-anime.param", ' 模型文件
-            "./models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "./models/realesr-general-x4v3.pth" ' 模型文件
+            "./AdvancedMode.exe" ' 软件本体
         }
 
         Dim url As String = "https://gitee.com/"
@@ -218,55 +130,11 @@ Public Class AdvancedMode
         Dim downloader As New Downloader()
 
         Dim urls As String() = {
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/vcomp140d.dll", ' 启动器
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/License/LICENSE", ' 版权信息
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_EN.txt", ' 版权信息
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_CN.txt", ' 版权信息
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.bin", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.param", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.bin", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.param", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.bin", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.param", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.bin", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.param", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
+            "https://grey-wind.github.io/File/raw/main/Better.Real-ESRGAN/AdvancedMode.exe" ' 软件本体
         }
 
         Dim savePaths As String() = {
-            "./Better.Real-ESRGAN.exe", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "./realesrgan-ncnn-vulkan.exe", ' 启动器
-            "./vcomp140.dll", ' 启动器
-            "./vcomp140d.dll", ' 启动器
-            "./License/LICENSE", ' 版权信息
-            "./License/Better.Real-ESRGAN_EN.txt", ' 版权信息
-            "./License/Better.Real-ESRGAN_CN.txt", ' 版权信息 
-            "./models/realesr-animevideov3-x2.bin", ' 模型文件
-            "./models/realesr-animevideov3-x2.param", ' 模型文件
-            "./models/realesr-animevideov3-x3.bin", ' 模型文件
-            "./models/realesr-animevideov3-x3.param", ' 模型文件
-            "./models/realesr-animevideov3-x4.bin", ' 模型文件
-            "./models/realesr-animevideov3-x4.param", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "./models/realesrgan-x4plus.bin", ' 模型文件
-            "./models/realesrgan-x4plus.param", ' 模型文件
-            "./models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "./models/realesrgan-x4plus-anime.param", ' 模型文件
-            "./models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "./models/realesr-general-x4v3.pth" ' 模型文件
+            "./AdvancedMode.exe" ' 软件本体
         }
 
         Dim url As String = "https://grey-wind.github.io/"
@@ -307,55 +175,11 @@ Public Class AdvancedMode
         Dim downloader As New Downloader()
 
         Dim urls As String() = {
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/vcomp140d.dll", ' 启动器
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/License/LICENSE", ' 版权信息
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_EN.txt", ' 版权信息
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_CN.txt", ' 版权信息
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-animevideov3-x2.bin", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-animevideov3-x2.param", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-animevideov3-x3.bin", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-animevideov3-x3.param", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-animevideov3-x4.bin", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-animevideov3-x4.param", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesrgan-x4plus.bin", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesrgan-x4plus.param", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
+            "https://sunrise-studio.gitee.io/file/Better.Real-ESRGAN/AdvancedMode.exe" ' 软件本体
         }
 
         Dim savePaths As String() = {
-            "./Better.Real-ESRGAN.exe", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "./realesrgan-ncnn-vulkan.exe", ' 启动器
-            "./vcomp140.dll", ' 启动器
-            "./vcomp140d.dll", ' 启动器
-            "./License/LICENSE", ' 版权信息
-            "./License/Better.Real-ESRGAN_EN.txt", ' 版权信息
-            "./License/Better.Real-ESRGAN_CN.txt", ' 版权信息 
-            "./models/realesr-animevideov3-x2.bin", ' 模型文件
-            "./models/realesr-animevideov3-x2.param", ' 模型文件
-            "./models/realesr-animevideov3-x3.bin", ' 模型文件
-            "./models/realesr-animevideov3-x3.param", ' 模型文件
-            "./models/realesr-animevideov3-x4.bin", ' 模型文件
-            "./models/realesr-animevideov3-x4.param", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "./models/realesrgan-x4plus.bin", ' 模型文件
-            "./models/realesrgan-x4plus.param", ' 模型文件
-            "./models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "./models/realesrgan-x4plus-anime.param", ' 模型文件
-            "./models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "./models/realesr-general-x4v3.pth" ' 模型文件
+            "./AdvancedMode.exe" ' 软件本体
         }
 
         Dim url As String = "https://sunrise-studio.gitee.io/"
@@ -396,55 +220,11 @@ Public Class AdvancedMode
         Dim downloader As New Downloader()
 
         Dim urls As String() = {
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140d.dll", ' 启动器
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/LICENSE", ' 版权信息
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_EN.txt", ' 版权信息
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_CN.txt", ' 版权信息
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.bin", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.param", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.bin", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.param", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.bin", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.param", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.bin", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.param", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
+            "https://hub.ggo.icu/Grey-Wind/File/raw/main/Better.Real-ESRGAN/AdvancedMode.exe" ' 软件本体
         }
 
         Dim savePaths As String() = {
-            "./Better.Real-ESRGAN.exe", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "./realesrgan-ncnn-vulkan.exe", ' 启动器
-            "./vcomp140.dll", ' 启动器
-            "./vcomp140d.dll", ' 启动器
-            "./License/LICENSE", ' 版权信息
-            "./License/Better.Real-ESRGAN_EN.txt", ' 版权信息
-            "./License/Better.Real-ESRGAN_CN.txt", ' 版权信息 
-            "./models/realesr-animevideov3-x2.bin", ' 模型文件
-            "./models/realesr-animevideov3-x2.param", ' 模型文件
-            "./models/realesr-animevideov3-x3.bin", ' 模型文件
-            "./models/realesr-animevideov3-x3.param", ' 模型文件
-            "./models/realesr-animevideov3-x4.bin", ' 模型文件
-            "./models/realesr-animevideov3-x4.param", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "./models/realesrgan-x4plus.bin", ' 模型文件
-            "./models/realesrgan-x4plus.param", ' 模型文件
-            "./models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "./models/realesrgan-x4plus-anime.param", ' 模型文件
-            "./models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "./models/realesr-general-x4v3.pth" ' 模型文件
+            "./AdvancedMode.exe" ' 软件本体
         }
 
         Dim url As String = "https://hub.ggo.icu/"
@@ -485,55 +265,11 @@ Public Class AdvancedMode
         Dim downloader As New Downloader()
 
         Dim urls As String() = {
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140d.dll", ' 启动器
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/LICENSE", ' 版权信息
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_EN.txt", ' 版权信息
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_CN.txt", ' 版权信息
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.bin", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.param", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.bin", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.param", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.bin", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.param", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.bin", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.param", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
+            "https://hub.njuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/AdvancedMode.exe" ' 软件本体
         }
 
         Dim savePaths As String() = {
-            "./Better.Real-ESRGAN.exe", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "./realesrgan-ncnn-vulkan.exe", ' 启动器
-            "./vcomp140.dll", ' 启动器
-            "./vcomp140d.dll", ' 启动器
-            "./License/LICENSE", ' 版权信息
-            "./License/Better.Real-ESRGAN_EN.txt", ' 版权信息
-            "./License/Better.Real-ESRGAN_CN.txt", ' 版权信息 
-            "./models/realesr-animevideov3-x2.bin", ' 模型文件
-            "./models/realesr-animevideov3-x2.param", ' 模型文件
-            "./models/realesr-animevideov3-x3.bin", ' 模型文件
-            "./models/realesr-animevideov3-x3.param", ' 模型文件
-            "./models/realesr-animevideov3-x4.bin", ' 模型文件
-            "./models/realesr-animevideov3-x4.param", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "./models/realesrgan-x4plus.bin", ' 模型文件
-            "./models/realesrgan-x4plus.param", ' 模型文件
-            "./models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "./models/realesrgan-x4plus-anime.param", ' 模型文件
-            "./models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "./models/realesr-general-x4v3.pth" ' 模型文件
+            "./AdvancedMode.exe" ' 软件本体
         }
 
         Dim url As String = "https://hub.njuu.cf/"
@@ -574,55 +310,11 @@ Public Class AdvancedMode
         Dim downloader As New Downloader()
 
         Dim urls As String() = {
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "https://hub.uzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140d.dll", ' 启动器
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/LICENSE", ' 版权信息
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_EN.txt", ' 版权信息
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_CN.txt", ' 版权信息
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.bin", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.param", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.bin", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.param", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.bin", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.param", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.bin", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.param", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
+            "https://hub.yzuu.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/AdvancedMode.exe" ' 软件本体
         }
 
         Dim savePaths As String() = {
-            "./Better.Real-ESRGAN.exe", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "./realesrgan-ncnn-vulkan.exe", ' 启动器
-            "./vcomp140.dll", ' 启动器
-            "./vcomp140d.dll", ' 启动器
-            "./License/LICENSE", ' 版权信息
-            "./License/Better.Real-ESRGAN_EN.txt", ' 版权信息
-            "./License/Better.Real-ESRGAN_CN.txt", ' 版权信息 
-            "./models/realesr-animevideov3-x2.bin", ' 模型文件
-            "./models/realesr-animevideov3-x2.param", ' 模型文件
-            "./models/realesr-animevideov3-x3.bin", ' 模型文件
-            "./models/realesr-animevideov3-x3.param", ' 模型文件
-            "./models/realesr-animevideov3-x4.bin", ' 模型文件
-            "./models/realesr-animevideov3-x4.param", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "./models/realesrgan-x4plus.bin", ' 模型文件
-            "./models/realesrgan-x4plus.param", ' 模型文件
-            "./models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "./models/realesrgan-x4plus-anime.param", ' 模型文件
-            "./models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "./models/realesr-general-x4v3.pth" ' 模型文件
+            "./AdvancedMode.exe" ' 软件本体
         }
 
         Dim url As String = "https://hub.yzuu.cf/"
@@ -663,55 +355,11 @@ Public Class AdvancedMode
         Dim downloader As New Downloader()
 
         Dim urls As String() = {
-            "https://hub.buaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140d.dll", ' 启动器
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/LICENSE", ' 版权信息
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_EN.txt", ' 版权信息
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_CN.txt", ' 版权信息
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.bin", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.param", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.bin", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.param", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.bin", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.param", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.bin", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.param", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
+            "https://hub.nuaa.cf/Grey-Wind/File/raw/main/Better.Real-ESRGAN/AdvancedMode.exe" ' 软件本体
         }
 
         Dim savePaths As String() = {
-            "./Better.Real-ESRGAN.exe", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "./realesrgan-ncnn-vulkan.exe", ' 启动器
-            "./vcomp140.dll", ' 启动器
-            "./vcomp140d.dll", ' 启动器
-            "./License/LICENSE", ' 版权信息
-            "./License/Better.Real-ESRGAN_EN.txt", ' 版权信息
-            "./License/Better.Real-ESRGAN_CN.txt", ' 版权信息 
-            "./models/realesr-animevideov3-x2.bin", ' 模型文件
-            "./models/realesr-animevideov3-x2.param", ' 模型文件
-            "./models/realesr-animevideov3-x3.bin", ' 模型文件
-            "./models/realesr-animevideov3-x3.param", ' 模型文件
-            "./models/realesr-animevideov3-x4.bin", ' 模型文件
-            "./models/realesr-animevideov3-x4.param", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "./models/realesrgan-x4plus.bin", ' 模型文件
-            "./models/realesrgan-x4plus.param", ' 模型文件
-            "./models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "./models/realesrgan-x4plus-anime.param", ' 模型文件
-            "./models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "./models/realesr-general-x4v3.pth" ' 模型文件
+            "./AdvancedMode.exe" ' 软件本体
         }
 
         Dim url As String = "https://hub.nuaa.cf/"
@@ -752,55 +400,11 @@ Public Class AdvancedMode
         Dim downloader As New Downloader()
 
         Dim urls As String() = {
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Better%20Real-ESRGAN.exe", ' 软件本体
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/realesrgan-ncnn-vulkan.exe", ' 启动器
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140.dll", ' 启动器
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/vcomp140d.dll", ' 启动器
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/LICENSE", ' 版权信息
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_EN.txt", ' 版权信息
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/License/Better%20Real-ESRGAN_CN.txt", ' 版权信息
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.bin", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x2.param", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.bin", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x3.param", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.bin", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-animevideov3-x4.param", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.bin", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus.param", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesrgan-x4plus-anime.param", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/models/realesr-general-x4v3.pth" ' 模型文件
+            "https://kgithub.com/Grey-Wind/File/raw/main/Better.Real-ESRGAN/AdvancedMode.exe" ' 软件本体
         }
 
         Dim savePaths As String() = {
-            "./Better.Real-ESRGAN.exe", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.Shell.dll", ' 软件本体
-            "./Microsoft.WindowsAPICodePack.dll", ' 软件本体
-            "./realesrgan-ncnn-vulkan.exe", ' 启动器
-            "./vcomp140.dll", ' 启动器
-            "./vcomp140d.dll", ' 启动器
-            "./License/LICENSE", ' 版权信息
-            "./License/Better.Real-ESRGAN_EN.txt", ' 版权信息
-            "./License/Better.Real-ESRGAN_CN.txt", ' 版权信息 
-            "./models/realesr-animevideov3-x2.bin", ' 模型文件
-            "./models/realesr-animevideov3-x2.param", ' 模型文件
-            "./models/realesr-animevideov3-x3.bin", ' 模型文件
-            "./models/realesr-animevideov3-x3.param", ' 模型文件
-            "./models/realesr-animevideov3-x4.bin", ' 模型文件
-            "./models/realesr-animevideov3-x4.param", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx2.pth", ' 模型文件
-            "./models/RealESRGANv2-animevideo-xsx4.pth", ' 模型文件
-            "./models/realesrgan-x4plus.bin", ' 模型文件
-            "./models/realesrgan-x4plus.param", ' 模型文件
-            "./models/realesrgan-x4plus-anime.bin", ' 模型文件
-            "./models/realesrgan-x4plus-anime.param", ' 模型文件
-            "./models/realesr-general-wdn-x4v3.pth", ' 模型文件
-            "./models/realesr-general-x4v3.pth" ' 模型文件
+            "./AdvancedMode.exe" ' 软件本体
         }
 
         Dim url As String = "https://kgithub.com/"
