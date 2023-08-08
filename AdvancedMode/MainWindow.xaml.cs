@@ -57,9 +57,9 @@ namespace AdvancedMode
             // 设置命令参数
             string command = "realesrgan-ncnn-vulkan.exe";
             string inputArgument = " -i ";
-            string imagePath = ImagePathBox.Text;
-            string outputArgument = " -o ";
-            string outputPath = OutputPathBox.Text;
+            string imagePath = $"\"{ImagePathBox.Text}\""; // 在ImagePathBox的路径前后添加双引号
+            string outputArgument = "-o";
+            string outputPath = $"\"{OutputPathBox.Text}\""; // 在OutputPathBox的路径前后添加双引号
             string modelArgument = " -n ";
             string model = SelectModel.Text;
             string scaleArgument = " -s ";
