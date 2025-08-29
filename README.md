@@ -1,5 +1,7 @@
 # Better Real-ESRGAN
 
+  **Warning! This software is no longer under maintenance. If you wish to continue using this function, please refer to ![Imger](https://github.com/QingYi-Studio/Imger).**
+
 ![Alt](https://repobeats.axiom.co/api/embed/d3293db1f256b1bdb064a1e0f704fc622434e173.svg "Repobeats analytics image")
 
 A Real-ESRGAN GUI.
